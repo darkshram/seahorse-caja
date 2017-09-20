@@ -211,82 +211,82 @@ msgstr "Verificar la robla"
 msgid "Progress Title"
 msgstr "Títulu Progresu"
 
-#: ../tool/seahorse-tool.c:61
+#: ../tool/mate-seahorse-tool.c:61
 msgid "Import keys from the file"
 msgstr "Importar claves dende'l ficheru"
 
-#: ../tool/seahorse-tool.c:63
+#: ../tool/mate-seahorse-tool.c:63
 msgid "Encrypt file"
 msgstr "Cifrar un ficheru"
 
-#: ../tool/seahorse-tool.c:65
+#: ../tool/mate-seahorse-tool.c:65
 msgid "Sign file with default key"
 msgstr "Roblar el ficheru cola clave predeterminada"
 
-#: ../tool/seahorse-tool.c:67
+#: ../tool/mate-seahorse-tool.c:67
 msgid "Encrypt and sign file with default key"
 msgstr "Cifrar y roblar el ficheru cola claver predeterminada"
 
-#: ../tool/seahorse-tool.c:69
+#: ../tool/mate-seahorse-tool.c:69
 msgid "Decrypt encrypted file"
 msgstr "Descifrar un ficheru cifráu"
 
-#: ../tool/seahorse-tool.c:71
+#: ../tool/mate-seahorse-tool.c:71
 msgid "Verify signature file"
 msgstr "Verificar robla del ficheru"
 
-#: ../tool/seahorse-tool.c:73
+#: ../tool/mate-seahorse-tool.c:73
 msgid "Read list of URIs on standard in"
 msgstr "Lleer llista d'URI estándar en"
 
-#: ../tool/seahorse-tool.c:75
+#: ../tool/mate-seahorse-tool.c:75
 msgid "file..."
 msgstr "ficheru..."
 
-#: ../tool/seahorse-tool.c:169
+#: ../tool/mate-seahorse-tool.c:169
 msgid "Choose Recipients"
 msgstr "Escueyi los destinatarios"
 
-#: ../tool/seahorse-tool.c:234 ../tool/seahorse-tool.c:347
+#: ../tool/mate-seahorse-tool.c:234 ../tool/mate-seahorse-tool.c:347
 msgid "Couldn't load keys"
 msgstr "Nun se pueden cargar les claves"
 
-#: ../tool/seahorse-tool.c:252
+#: ../tool/mate-seahorse-tool.c:252
 #, c-format
 msgid "Choose Encrypted File Name for '%s'"
 msgstr "Escueyi un nome de ficheru cifráu pa «%s»"
 
-#: ../tool/seahorse-tool.c:325
+#: ../tool/mate-seahorse-tool.c:325
 msgid "Choose Signer"
 msgstr "Escueyi clave de robla"
 
-#: ../tool/seahorse-tool.c:367
+#: ../tool/mate-seahorse-tool.c:367
 #, c-format
 msgid "Choose Signature File Name for '%s'"
 msgstr "Escueyi un nome pal ficheru de robla de «%s»"
 
-#: ../tool/seahorse-tool.c:407
+#: ../tool/mate-seahorse-tool.c:407
 msgid "Import is complete"
 msgstr "La importación perfinó"
 
-#: ../tool/seahorse-tool.c:440
+#: ../tool/mate-seahorse-tool.c:440
 msgid "Importing keys ..."
 msgstr "Importando claves…"
 
-#: ../tool/seahorse-tool.c:470
+#: ../tool/mate-seahorse-tool.c:470
 msgid "Import Failed"
 msgstr "Falló la importación"
 
-#: ../tool/seahorse-tool.c:471
+#: ../tool/mate-seahorse-tool.c:471
 msgid "Keys were found but not imported."
 msgstr "Atopáronse claves, pero nun s'importaron."
 
-#: ../tool/seahorse-tool.c:494
+#: ../tool/mate-seahorse-tool.c:494
 #, c-format
 msgid "Imported key"
 msgstr "Clave importada"
 
-#: ../tool/seahorse-tool.c:496
+#: ../tool/mate-seahorse-tool.c:496
 #, c-format
 msgid "Imported %d key"
 msgid_plural "Imported %d keys"
@@ -294,12 +294,12 @@ msgstr[0] "%d clave importada"
 msgstr[1] "%d claves importaes"
 
 #. File to decrypt to
-#: ../tool/seahorse-tool.c:518
+#: ../tool/mate-seahorse-tool.c:518
 #, c-format
 msgid "Choose Decrypted File Name for '%s'"
 msgstr "Escueyi un nome de ficheru descifráu pa «%s»"
 
-#: ../tool/seahorse-tool.c:575
+#: ../tool/mate-seahorse-tool.c:575
 #, c-format
 msgid "Choose Original File for '%s'"
 msgstr "Escueyi'l ficheru orixinal pa «%s»"
@@ -309,135 +309,135 @@ msgstr "Escueyi'l ficheru orixinal pa «%s»"
 #. * The last thing we want to do is cascade a big pile of error
 #. * dialogs at the user.
 #.
-#: ../tool/seahorse-tool.c:648
+#: ../tool/mate-seahorse-tool.c:648
 #, c-format
 msgid "No valid signatures found"
 msgstr "Nun s'atoparon robles que valgan"
 
-#: ../tool/seahorse-tool.c:697
+#: ../tool/mate-seahorse-tool.c:697
 msgid "File Encryption Tool"
 msgstr "Erbía de cifráu de ficheros"
 
-#: ../tool/seahorse-tool.c:713
+#: ../tool/mate-seahorse-tool.c:713
 msgid "Encrypting"
 msgstr "Cifrando"
 
-#: ../tool/seahorse-tool.c:714
+#: ../tool/mate-seahorse-tool.c:714
 #, c-format
 msgid "Couldn't encrypt file: %s"
 msgstr "Nun se pudo cifrar el ficheru: «%s»"
 
-#: ../tool/seahorse-tool.c:722
+#: ../tool/mate-seahorse-tool.c:722
 msgid "Signing"
 msgstr "Roblando"
 
-#: ../tool/seahorse-tool.c:723
+#: ../tool/mate-seahorse-tool.c:723
 #, c-format
 msgid "Couldn't sign file: %s"
 msgstr "Nun se pudo roblar el ficheru: «%s»"
 
-#: ../tool/seahorse-tool.c:728
+#: ../tool/mate-seahorse-tool.c:728
 msgid "Importing"
 msgstr "Importando"
 
-#: ../tool/seahorse-tool.c:729
+#: ../tool/mate-seahorse-tool.c:729
 #, c-format
 msgid "Couldn't import keys from file: %s"
 msgstr "Nun se pudieron importar les claves del ficheru: «%s»"
 
-#: ../tool/seahorse-tool.c:735
+#: ../tool/mate-seahorse-tool.c:735
 msgid "Decrypting"
 msgstr "Descifrando"
 
-#: ../tool/seahorse-tool.c:736
+#: ../tool/mate-seahorse-tool.c:736
 #, c-format
 msgid "Couldn't decrypt file: %s"
 msgstr "Nun se pudo descifrar el ficheru: «%s»"
 
-#: ../tool/seahorse-tool.c:741
+#: ../tool/mate-seahorse-tool.c:741
 msgid "Verifying"
 msgstr "Verificando"
 
-#: ../tool/seahorse-tool.c:742
+#: ../tool/mate-seahorse-tool.c:742
 #, c-format
 msgid "Couldn't verify file: %s"
 msgstr "Nun se pudo verificar el ficheru: «%s»"
 
-#: ../tool/seahorse-tool-files.c:120
+#: ../tool/mate-seahorse-tool-files.c:120
 msgid "Ace (.ace)"
 msgstr "Ace (.ace)"
 
-#: ../tool/seahorse-tool-files.c:121
+#: ../tool/mate-seahorse-tool-files.c:121
 msgid "Ar (.ar)"
 msgstr "Ar (.ar)"
 
-#: ../tool/seahorse-tool-files.c:122
+#: ../tool/mate-seahorse-tool-files.c:122
 msgid "Arj (.arj)"
 msgstr "Arj (.arj)"
 
-#: ../tool/seahorse-tool-files.c:129
+#: ../tool/mate-seahorse-tool-files.c:129
 msgid "Ear (.ear)"
 msgstr "Ear (.ear)"
 
-#: ../tool/seahorse-tool-files.c:130
+#: ../tool/mate-seahorse-tool-files.c:130
 msgid "Self-extracting zip (.exe)"
 msgstr "Zip autoestrayíble (.exe)"
 
-#: ../tool/seahorse-tool-files.c:132
+#: ../tool/mate-seahorse-tool-files.c:132
 msgid "Jar (.jar)"
 msgstr "Jar (.jar)"
 
-#: ../tool/seahorse-tool-files.c:133
+#: ../tool/mate-seahorse-tool-files.c:133
 msgid "Lha (.lzh)"
 msgstr "Lha (.lzh)"
 
-#: ../tool/seahorse-tool-files.c:135
+#: ../tool/mate-seahorse-tool-files.c:135
 msgid "Rar (.rar)"
 msgstr "Rar (.rar)"
 
-#: ../tool/seahorse-tool-files.c:137
+#: ../tool/mate-seahorse-tool-files.c:137
 msgid "Tar uncompressed (.tar)"
 msgstr "Tar ensin compresión (.tar)"
 
-#: ../tool/seahorse-tool-files.c:138
+#: ../tool/mate-seahorse-tool-files.c:138
 msgid "Tar compressed with bzip (.tar.bz)"
 msgstr "Tar comprimíu con bzip (.tar.bz)"
 
-#: ../tool/seahorse-tool-files.c:139
+#: ../tool/mate-seahorse-tool-files.c:139
 msgid "Tar compressed with bzip2 (.tar.bz2)"
 msgstr "Tar comprimíu con bzip2 (.tar.bz2)"
 
-#: ../tool/seahorse-tool-files.c:140
+#: ../tool/mate-seahorse-tool-files.c:140
 msgid "Tar compressed with gzip (.tar.gz)"
 msgstr "Tar comprimíu con gzip (.tar.gz)"
 
-#: ../tool/seahorse-tool-files.c:141
+#: ../tool/mate-seahorse-tool-files.c:141
 msgid "Tar compressed with lzop (.tar.lzo)"
 msgstr "Tar comprimíu con lzop (.tar.lzo)"
 
-#: ../tool/seahorse-tool-files.c:142
+#: ../tool/mate-seahorse-tool-files.c:142
 msgid "Tar compressed with compress (.tar.Z)"
 msgstr "Tar comprimíu con compress (.tar.Z)"
 
-#: ../tool/seahorse-tool-files.c:144
+#: ../tool/mate-seahorse-tool-files.c:144
 msgid "War (.war)"
 msgstr "War (.war)"
 
-#: ../tool/seahorse-tool-files.c:145
+#: ../tool/mate-seahorse-tool-files.c:145
 msgid "Zip (.zip)"
 msgstr "Zip (.zip)"
 
-#: ../tool/seahorse-tool-files.c:146
+#: ../tool/mate-seahorse-tool-files.c:146
 msgid "Zoo (.zoo)"
 msgstr "Zoo (.zoo)"
 
-#: ../tool/seahorse-tool-files.c:147
+#: ../tool/mate-seahorse-tool-files.c:147
 msgid "7-Zip (.7z)"
 msgstr "7-Zip (.7z)"
 
 #. TRANSLATOR: This string will become
 #. * "You have selected %d files and %d folders"
-#: ../tool/seahorse-tool-files.c:327
+#: ../tool/mate-seahorse-tool-files.c:327
 #, c-format
 msgid "You have selected %d file "
 msgid_plural "You have selected %d files "
@@ -446,7 +446,7 @@ msgstr[1] "Escoyisti %d ficheros "
 
 #. TRANSLATOR: This string will become
 #. * "You have selected %d files and %d folders"
-#: ../tool/seahorse-tool-files.c:332
+#: ../tool/mate-seahorse-tool-files.c:332
 #, c-format
 msgid "and %d folder"
 msgid_plural "and %d folders"
@@ -455,34 +455,34 @@ msgstr[1] "y %d carpetes"
 
 #. TRANSLATOR: "%s%s" are "You have selected %d files and %d folders"
 #. * Swap order with "%2$s%1$s" if needed
-#: ../tool/seahorse-tool-files.c:337
+#: ../tool/mate-seahorse-tool-files.c:337
 #, c-format
 msgid "<b>%s%s</b>"
 msgstr "<b>%s%s</b>"
 
-#: ../tool/seahorse-tool-files.c:345
+#: ../tool/mate-seahorse-tool-files.c:345
 #, fuzzy, c-format
 msgid "You have selected %d file"
 msgid_plural "You have selected %d files"
 msgstr[0] "Escoyisti %d ficheru "
 msgstr[1] "Escoyisti %d ficheros "
 
-#: ../tool/seahorse-tool-files.c:350
+#: ../tool/mate-seahorse-tool-files.c:350
 #, c-format
 msgid "You have selected %d folder"
 msgid_plural "You have selected %d folders"
 msgstr[0] "Escoyisti %d carpeta"
 msgstr[1] "Escoyisti %d carpetes"
 
-#: ../tool/seahorse-tool-files.c:868
+#: ../tool/mate-seahorse-tool-files.c:868
 msgid "Preparing..."
 msgstr "Tresnando…"
 
-#: ../tool/seahorse-tool-files.c:877 ../tool/seahorse-tool-files.c:900
+#: ../tool/mate-seahorse-tool-files.c:877 ../tool/mate-seahorse-tool-files.c:900
 msgid "Couldn't list files"
 msgstr "Nun pudieron tresnase los ficheros"
 
-#: ../tool/seahorse-tool-files.c:887 ../tool/seahorse-util.c:647
+#: ../tool/mate-seahorse-tool-files.c:887 ../tool/seahorse-util.c:647
 msgid "Couldn't package files"
 msgstr "Nun pueden empaquetase ficheros"
 

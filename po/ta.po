@@ -211,82 +211,82 @@ msgstr "கையொப்பத்தை சரி பார்க்கவு�
 msgid "Progress Title"
 msgstr "முன்னேற்ற தலைப்பு"
 
-#: ../tool/seahorse-tool.c:61
+#: ../tool/mate-seahorse-tool.c:61
 msgid "Import keys from the file"
 msgstr "கோப்பிலிருந்து விசைகளை இறக்குமதி செய்க"
 
-#: ../tool/seahorse-tool.c:63
+#: ../tool/mate-seahorse-tool.c:63
 msgid "Encrypt file"
 msgstr "கோப்பை மறையாக்கு"
 
-#: ../tool/seahorse-tool.c:65
+#: ../tool/mate-seahorse-tool.c:65
 msgid "Sign file with default key"
 msgstr "முன்னிருப்பு விசையால் கோப்பை கையெழுத்திடு"
 
-#: ../tool/seahorse-tool.c:67
+#: ../tool/mate-seahorse-tool.c:67
 msgid "Encrypt and sign file with default key"
 msgstr "மறையாக்கி முன்னிருப்பு விசையால் கோப்பை கையெழுத்திடு"
 
-#: ../tool/seahorse-tool.c:69
+#: ../tool/mate-seahorse-tool.c:69
 msgid "Decrypt encrypted file"
 msgstr "மறையாக்கிய கோப்பை மறைவிலக்கு"
 
-#: ../tool/seahorse-tool.c:71
+#: ../tool/mate-seahorse-tool.c:71
 msgid "Verify signature file"
 msgstr "கையெழுத்து கோப்பை சரிபார்"
 
-#: ../tool/seahorse-tool.c:73
+#: ../tool/mate-seahorse-tool.c:73
 msgid "Read list of URIs on standard in"
 msgstr "செந்தர உள் பாதையில் யூஆர்ஐ பட்டியலை படி"
 
-#: ../tool/seahorse-tool.c:75
+#: ../tool/mate-seahorse-tool.c:75
 msgid "file..."
 msgstr "கோப்பு..."
 
-#: ../tool/seahorse-tool.c:169
+#: ../tool/mate-seahorse-tool.c:169
 msgid "Choose Recipients"
 msgstr "பெறுனர்களை தேர்வுச் செய்க"
 
-#: ../tool/seahorse-tool.c:234 ../tool/seahorse-tool.c:347
+#: ../tool/mate-seahorse-tool.c:234 ../tool/mate-seahorse-tool.c:347
 msgid "Couldn't load keys"
 msgstr "விசைகளை ஏற்ற முடியவில்லை"
 
-#: ../tool/seahorse-tool.c:252
+#: ../tool/mate-seahorse-tool.c:252
 #, c-format
 msgid "Choose Encrypted File Name for '%s'"
 msgstr "'%s க்கு மறையாக்கிய கோப்பு பெயரை தேர்வு செய்"
 
-#: ../tool/seahorse-tool.c:325
+#: ../tool/mate-seahorse-tool.c:325
 msgid "Choose Signer"
 msgstr "கையொப்பமிடுபவரை தேர்வு செய்"
 
-#: ../tool/seahorse-tool.c:367
+#: ../tool/mate-seahorse-tool.c:367
 #, c-format
 msgid "Choose Signature File Name for '%s'"
 msgstr "'%s க்கு கையொப்ப கோப்பு பெயரை தேர்வு செய்"
 
-#: ../tool/seahorse-tool.c:407
+#: ../tool/mate-seahorse-tool.c:407
 msgid "Import is complete"
 msgstr "ஏற்றுமதி பூர்த்தி ஆனது"
 
-#: ../tool/seahorse-tool.c:440
+#: ../tool/mate-seahorse-tool.c:440
 msgid "Importing keys ..."
 msgstr "விசைகளை இறக்குமதி செய்கிறது..."
 
-#: ../tool/seahorse-tool.c:470
+#: ../tool/mate-seahorse-tool.c:470
 msgid "Import Failed"
 msgstr "இறக்க முடியவில்லை"
 
-#: ../tool/seahorse-tool.c:471
+#: ../tool/mate-seahorse-tool.c:471
 msgid "Keys were found but not imported."
 msgstr "விசைகள் கண்டு பிடிக்கப்பட்டன ஆனால் இறக்குமதி செய்யப்படவில்லை."
 
-#: ../tool/seahorse-tool.c:494
+#: ../tool/mate-seahorse-tool.c:494
 #, c-format
 msgid "Imported key"
 msgstr "இறக்குமதி செய்த விசை"
 
-#: ../tool/seahorse-tool.c:496
+#: ../tool/mate-seahorse-tool.c:496
 #, c-format
 msgid "Imported %d key"
 msgid_plural "Imported %d keys"
@@ -294,12 +294,12 @@ msgstr[0] "%d விசை இறக்குமதி செய்யப்ப�
 msgstr[1] "%d விசைகள் இறக்குமதி செய்யப்பட்டன"
 
 #. File to decrypt to
-#: ../tool/seahorse-tool.c:518
+#: ../tool/mate-seahorse-tool.c:518
 #, c-format
 msgid "Choose Decrypted File Name for '%s'"
 msgstr "'%s க்கு மறை நீக்கிய கோப்பு பெயரை தேர்வு செய்"
 
-#: ../tool/seahorse-tool.c:575
+#: ../tool/mate-seahorse-tool.c:575
 #, c-format
 msgid "Choose Original File for '%s'"
 msgstr "'%s க்கு அசல் மூல கோப்பை தேர்வு செய்"
@@ -309,135 +309,135 @@ msgstr "'%s க்கு அசல் மூல கோப்பை தேர்�
 #. * The last thing we want to do is cascade a big pile of error
 #. * dialogs at the user.
 #.
-#: ../tool/seahorse-tool.c:648
+#: ../tool/mate-seahorse-tool.c:648
 #, c-format
 msgid "No valid signatures found"
 msgstr "செல்லுபடியாகும் கையொப்பம் ஏதும் காணவில்லை"
 
-#: ../tool/seahorse-tool.c:697
+#: ../tool/mate-seahorse-tool.c:697
 msgid "File Encryption Tool"
 msgstr "கோப்பு மறையாக்க கருவி"
 
-#: ../tool/seahorse-tool.c:713
+#: ../tool/mate-seahorse-tool.c:713
 msgid "Encrypting"
 msgstr "மறையாக்குகிறது"
 
-#: ../tool/seahorse-tool.c:714
+#: ../tool/mate-seahorse-tool.c:714
 #, c-format
 msgid "Couldn't encrypt file: %s"
 msgstr "%s: கோப்பை மறையாக்க முடியவில்லை"
 
-#: ../tool/seahorse-tool.c:722
+#: ../tool/mate-seahorse-tool.c:722
 msgid "Signing"
 msgstr "கையொப்பமிடுகிறது"
 
-#: ../tool/seahorse-tool.c:723
+#: ../tool/mate-seahorse-tool.c:723
 #, c-format
 msgid "Couldn't sign file: %s"
 msgstr "%s: கோப்பை கையொப்பமிட முடியவில்லை"
 
-#: ../tool/seahorse-tool.c:728
+#: ../tool/mate-seahorse-tool.c:728
 msgid "Importing"
 msgstr "இறக்குமதி செய்கிறது"
 
-#: ../tool/seahorse-tool.c:729
+#: ../tool/mate-seahorse-tool.c:729
 #, c-format
 msgid "Couldn't import keys from file: %s"
 msgstr "%s: கோப்பிலிருந்து விசைகளை இறக்குமதி செய்ய முடியவில்லை"
 
-#: ../tool/seahorse-tool.c:735
+#: ../tool/mate-seahorse-tool.c:735
 msgid "Decrypting"
 msgstr "மறைநீக்குகிறது"
 
-#: ../tool/seahorse-tool.c:736
+#: ../tool/mate-seahorse-tool.c:736
 #, c-format
 msgid "Couldn't decrypt file: %s"
 msgstr "%s: கோப்பை மறைநீக்க முடியவில்லை"
 
-#: ../tool/seahorse-tool.c:741
+#: ../tool/mate-seahorse-tool.c:741
 msgid "Verifying"
 msgstr "சரிபார்க்கிறது"
 
-#: ../tool/seahorse-tool.c:742
+#: ../tool/mate-seahorse-tool.c:742
 #, c-format
 msgid "Couldn't verify file: %s"
 msgstr "%s: கோப்பை சரிபார்க்க முடியவில்லை"
 
-#: ../tool/seahorse-tool-files.c:120
+#: ../tool/mate-seahorse-tool-files.c:120
 msgid "Ace (.ace)"
 msgstr "Ace (.ace)"
 
-#: ../tool/seahorse-tool-files.c:121
+#: ../tool/mate-seahorse-tool-files.c:121
 msgid "Ar (.ar)"
 msgstr "Ar (.ar)"
 
-#: ../tool/seahorse-tool-files.c:122
+#: ../tool/mate-seahorse-tool-files.c:122
 msgid "Arj (.arj)"
 msgstr "Arj (.arj)"
 
-#: ../tool/seahorse-tool-files.c:129
+#: ../tool/mate-seahorse-tool-files.c:129
 msgid "Ear (.ear)"
 msgstr "Ear (.ear)"
 
-#: ../tool/seahorse-tool-files.c:130
+#: ../tool/mate-seahorse-tool-files.c:130
 msgid "Self-extracting zip (.exe)"
 msgstr "தானியங்கி பிரித்தெடுக்கும் ஜிப் (.exe)"
 
-#: ../tool/seahorse-tool-files.c:132
+#: ../tool/mate-seahorse-tool-files.c:132
 msgid "Jar (.jar)"
 msgstr "Jar (.jar)"
 
-#: ../tool/seahorse-tool-files.c:133
+#: ../tool/mate-seahorse-tool-files.c:133
 msgid "Lha (.lzh)"
 msgstr "Lha (.lzh)"
 
-#: ../tool/seahorse-tool-files.c:135
+#: ../tool/mate-seahorse-tool-files.c:135
 msgid "Rar (.rar)"
 msgstr "Rar (.rar)"
 
-#: ../tool/seahorse-tool-files.c:137
+#: ../tool/mate-seahorse-tool-files.c:137
 msgid "Tar uncompressed (.tar)"
 msgstr "டார் குறுக்கப்படாமல் (.tar)"
 
-#: ../tool/seahorse-tool-files.c:138
+#: ../tool/mate-seahorse-tool-files.c:138
 msgid "Tar compressed with bzip (.tar.bz)"
 msgstr "டார் bzip ஆல் குறுக்கப்பட்ட (.tar.bz)"
 
-#: ../tool/seahorse-tool-files.c:139
+#: ../tool/mate-seahorse-tool-files.c:139
 msgid "Tar compressed with bzip2 (.tar.bz2)"
 msgstr "டார் bzip2 ஆல் குறுக்கப்பட்ட (.tar.bz2)"
 
-#: ../tool/seahorse-tool-files.c:140
+#: ../tool/mate-seahorse-tool-files.c:140
 msgid "Tar compressed with gzip (.tar.gz)"
 msgstr "டார் gzip ஆல் குறுக்கப்பட்ட (.tar.gz)"
 
-#: ../tool/seahorse-tool-files.c:141
+#: ../tool/mate-seahorse-tool-files.c:141
 msgid "Tar compressed with lzop (.tar.lzo)"
 msgstr "டார் lzop ஆல் குறுக்கப்பட்ட (.tar.lzo)"
 
-#: ../tool/seahorse-tool-files.c:142
+#: ../tool/mate-seahorse-tool-files.c:142
 msgid "Tar compressed with compress (.tar.Z)"
 msgstr "டார் compress ஆல் குறுக்கப்பட்ட (.tar.Z)"
 
-#: ../tool/seahorse-tool-files.c:144
+#: ../tool/mate-seahorse-tool-files.c:144
 msgid "War (.war)"
 msgstr "வார் (.war)"
 
-#: ../tool/seahorse-tool-files.c:145
+#: ../tool/mate-seahorse-tool-files.c:145
 msgid "Zip (.zip)"
 msgstr "ஜிப் (.zip)"
 
-#: ../tool/seahorse-tool-files.c:146
+#: ../tool/mate-seahorse-tool-files.c:146
 msgid "Zoo (.zoo)"
 msgstr "Zoo (.zoo)"
 
-#: ../tool/seahorse-tool-files.c:147
+#: ../tool/mate-seahorse-tool-files.c:147
 msgid "7-Zip (.7z)"
 msgstr "7-ஜிப் (.7z)"
 
 #. TRANSLATOR: This string will become
 #. * "You have selected %d files and %d folders"
-#: ../tool/seahorse-tool-files.c:327
+#: ../tool/mate-seahorse-tool-files.c:327
 #, c-format
 msgid "You have selected %d file "
 msgid_plural "You have selected %d files "
@@ -446,7 +446,7 @@ msgstr[1] "நீங்கள் %d கோப்புகளை தேர்ந�
 
 #. TRANSLATOR: This string will become
 #. * "You have selected %d files and %d folders"
-#: ../tool/seahorse-tool-files.c:332
+#: ../tool/mate-seahorse-tool-files.c:332
 #, c-format
 msgid "and %d folder"
 msgid_plural "and %d folders"
@@ -455,34 +455,34 @@ msgstr[1] "மற்றும் %d அடைவுகள்"
 
 #. TRANSLATOR: "%s%s" are "You have selected %d files and %d folders"
 #. * Swap order with "%2$s%1$s" if needed
-#: ../tool/seahorse-tool-files.c:337
+#: ../tool/mate-seahorse-tool-files.c:337
 #, c-format
 msgid "<b>%s%s</b>"
 msgstr "<b>%s%s</b>"
 
-#: ../tool/seahorse-tool-files.c:345
+#: ../tool/mate-seahorse-tool-files.c:345
 #, c-format
 msgid "You have selected %d file"
 msgid_plural "You have selected %d files"
 msgstr[0] "நீங்கள் %d கோப்பை தேர்ந்தெடுத்துள்ளீர்கள் "
 msgstr[1] "நீங்கள் %d கோப்புகளை தேர்ந்தெடுத்துள்ளீர்கள் "
 
-#: ../tool/seahorse-tool-files.c:350
+#: ../tool/mate-seahorse-tool-files.c:350
 #, c-format
 msgid "You have selected %d folder"
 msgid_plural "You have selected %d folders"
 msgstr[0] "நீங்கள் %d அடைவை தேர்ந்தெடுத்துள்ளீர்கள் "
 msgstr[1] "நீங்கள் %d அடைவுகளை தேர்ந்தெடுத்துள்ளீர்கள் "
 
-#: ../tool/seahorse-tool-files.c:868
+#: ../tool/mate-seahorse-tool-files.c:868
 msgid "Preparing..."
 msgstr "தயார் செய்கிறது..."
 
-#: ../tool/seahorse-tool-files.c:877 ../tool/seahorse-tool-files.c:900
+#: ../tool/mate-seahorse-tool-files.c:877 ../tool/mate-seahorse-tool-files.c:900
 msgid "Couldn't list files"
 msgstr "கோப்புகளை பட்டியலிட முடியவில்லை."
 
-#: ../tool/seahorse-tool-files.c:887 ../tool/seahorse-util.c:647
+#: ../tool/mate-seahorse-tool-files.c:887 ../tool/seahorse-util.c:647
 msgid "Couldn't package files"
 msgstr "கோப்புகளை பொதியாக்க முடியவில்லை"
 

@@ -7,11 +7,11 @@ caja-ext/seahorse-caja.c
 tool/seahorse-notification.c
 [type: gettext/glade]tool/seahorse-notify.xml
 tool/seahorse-passphrase.c
-tool/seahorse-pgp-encrypted.desktop.in.in
-tool/seahorse-pgp-keys.desktop.in.in
-tool/seahorse-pgp-signature.desktop.in.in
+tool/mate-seahorse-pgp-encrypted.desktop.in.in
+tool/mate-seahorse-pgp-keys.desktop.in.in
+tool/mate-seahorse-pgp-signature.desktop.in.in
 [type: gettext/glade]tool/seahorse-progress.xml
-tool/seahorse-tool.c
-tool/seahorse-tool-files.c
+tool/mate-seahorse-tool.c
+tool/mate-seahorse-tool-files.c
 tool/seahorse-util.c
 tool/seahorse-widget.c

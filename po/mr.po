@@ -206,82 +206,82 @@ msgstr "स्वाक्षरी तपासा"
 msgid "Progress Title"
 msgstr "प्रगती शिर्षक"
 
-#: ../tool/seahorse-tool.c:61
+#: ../tool/mate-seahorse-tool.c:61
 msgid "Import keys from the file"
 msgstr "फाइल पासून किल्ली प्राप्त करा"
 
-#: ../tool/seahorse-tool.c:63
+#: ../tool/mate-seahorse-tool.c:63
 msgid "Encrypt file"
 msgstr "फाइल ऐंक्रीप्ट करा"
 
-#: ../tool/seahorse-tool.c:65
+#: ../tool/mate-seahorse-tool.c:65
 msgid "Sign file with default key"
 msgstr "मुलभूत किल्लीसह फाइल स्वाक्षरी करा"
 
-#: ../tool/seahorse-tool.c:67
+#: ../tool/mate-seahorse-tool.c:67
 msgid "Encrypt and sign file with default key"
 msgstr "मुलभूत किल्लीसह फाइल ऐंक्रीप्ट व स्वाक्षरी करा"
 
-#: ../tool/seahorse-tool.c:69
+#: ../tool/mate-seahorse-tool.c:69
 msgid "Decrypt encrypted file"
 msgstr "ऐंक्रीप्टेड फाइल डीक्रीप्ट करा"
 
-#: ../tool/seahorse-tool.c:71
+#: ../tool/mate-seahorse-tool.c:71
 msgid "Verify signature file"
 msgstr "स्वाक्षरी फाइल तपासा"
 
-#: ../tool/seahorse-tool.c:73
+#: ../tool/mate-seahorse-tool.c:73
 msgid "Read list of URIs on standard in"
 msgstr "मानक इनपुट करीता URIची यादी वाचा"
 
-#: ../tool/seahorse-tool.c:75
+#: ../tool/mate-seahorse-tool.c:75
 msgid "file..."
 msgstr "फाइल..."
 
-#: ../tool/seahorse-tool.c:169
+#: ../tool/mate-seahorse-tool.c:169
 msgid "Choose Recipients"
 msgstr "श्रोता निवडा"
 
-#: ../tool/seahorse-tool.c:234 ../tool/seahorse-tool.c:347
+#: ../tool/mate-seahorse-tool.c:234 ../tool/mate-seahorse-tool.c:347
 msgid "Couldn't load keys"
 msgstr "किल्ली दाखल करू शकले नाही"
 
-#: ../tool/seahorse-tool.c:252
+#: ../tool/mate-seahorse-tool.c:252
 #, c-format
 msgid "Choose Encrypted File Name for '%s'"
 msgstr "'%s' करीता ऐंक्रीप्टेड फाइल नाव निवडा"
 
-#: ../tool/seahorse-tool.c:325
+#: ../tool/mate-seahorse-tool.c:325
 msgid "Choose Signer"
 msgstr "स्वाक्षरीकर्ता निवडा"
 
-#: ../tool/seahorse-tool.c:367
+#: ../tool/mate-seahorse-tool.c:367
 #, c-format
 msgid "Choose Signature File Name for '%s'"
 msgstr "'%s' करीता ऐंक्रीप्टेड फाइल नाव निवडा"
 
-#: ../tool/seahorse-tool.c:407
+#: ../tool/mate-seahorse-tool.c:407
 msgid "Import is complete"
 msgstr "प्राप्य पूर्ण आहे"
 
-#: ../tool/seahorse-tool.c:440
+#: ../tool/mate-seahorse-tool.c:440
 msgid "Importing keys ..."
 msgstr "किल्ली प्राप्त करीत आहे ..."
 
-#: ../tool/seahorse-tool.c:470
+#: ../tool/mate-seahorse-tool.c:470
 msgid "Import Failed"
 msgstr "आयात अपयशी"
 
-#: ../tool/seahorse-tool.c:471
+#: ../tool/mate-seahorse-tool.c:471
 msgid "Keys were found but not imported."
 msgstr "किल्ली आढळलेत पण प्राप्त करू शकले नाही."
 
-#: ../tool/seahorse-tool.c:494
+#: ../tool/mate-seahorse-tool.c:494
 #, c-format
 msgid "Imported key"
 msgstr "किल्ली प्राप्त केली"
 
-#: ../tool/seahorse-tool.c:496
+#: ../tool/mate-seahorse-tool.c:496
 #, c-format
 msgid "Imported %d key"
 msgid_plural "Imported %d keys"
@@ -289,12 +289,12 @@ msgstr[0] "प्राप्य %d किल्ली"
 msgstr[1] "प्राप्य %d किल्ली"
 
 #. File to decrypt to
-#: ../tool/seahorse-tool.c:518
+#: ../tool/mate-seahorse-tool.c:518
 #, c-format
 msgid "Choose Decrypted File Name for '%s'"
 msgstr "'%s' करीता डीक्रीप्टेड फाइल नाव निवडा"
 
-#: ../tool/seahorse-tool.c:575
+#: ../tool/mate-seahorse-tool.c:575
 #, c-format
 msgid "Choose Original File for '%s'"
 msgstr "'%s' करीता मूळ फाइल निवडा"
@@ -304,135 +304,135 @@ msgstr "'%s' करीता मूळ फाइल निवडा"
 #. * The last thing we want to do is cascade a big pile of error
 #. * dialogs at the user.
 #.
-#: ../tool/seahorse-tool.c:648
+#: ../tool/mate-seahorse-tool.c:648
 #, c-format
 msgid "No valid signatures found"
 msgstr "वैध स्वाक्षरी आढळली नाही"
 
-#: ../tool/seahorse-tool.c:697
+#: ../tool/mate-seahorse-tool.c:697
 msgid "File Encryption Tool"
 msgstr "फाइल ऐंक्रीप्शन साधन"
 
-#: ../tool/seahorse-tool.c:713
+#: ../tool/mate-seahorse-tool.c:713
 msgid "Encrypting"
 msgstr "ऐंक्रीप्ट करीत आहे"
 
-#: ../tool/seahorse-tool.c:714
+#: ../tool/mate-seahorse-tool.c:714
 #, c-format
 msgid "Couldn't encrypt file: %s"
 msgstr "फाइल ऐंक्रीप्ट करू शकले नाही: %s"
 
-#: ../tool/seahorse-tool.c:722
+#: ../tool/mate-seahorse-tool.c:722
 msgid "Signing"
 msgstr "स्वाक्षरी"
 
-#: ../tool/seahorse-tool.c:723
+#: ../tool/mate-seahorse-tool.c:723
 #, c-format
 msgid "Couldn't sign file: %s"
 msgstr "फाइल स्वाक्षरी करू शकले नाही: %s"
 
-#: ../tool/seahorse-tool.c:728
+#: ../tool/mate-seahorse-tool.c:728
 msgid "Importing"
 msgstr "प्राप्त करीत आहे"
 
-#: ../tool/seahorse-tool.c:729
+#: ../tool/mate-seahorse-tool.c:729
 #, c-format
 msgid "Couldn't import keys from file: %s"
 msgstr "फाइल पासून किल्ली प्राप्त करू शकले नाही: %s"
 
-#: ../tool/seahorse-tool.c:735
+#: ../tool/mate-seahorse-tool.c:735
 msgid "Decrypting"
 msgstr "डीक्रीप्ट करीत आहे"
 
-#: ../tool/seahorse-tool.c:736
+#: ../tool/mate-seahorse-tool.c:736
 #, c-format
 msgid "Couldn't decrypt file: %s"
 msgstr "फाइल डीक्रीप्ट करू शकले नाही: %s"
 
-#: ../tool/seahorse-tool.c:741
+#: ../tool/mate-seahorse-tool.c:741
 msgid "Verifying"
 msgstr "तापस करीत आहे"
 
-#: ../tool/seahorse-tool.c:742
+#: ../tool/mate-seahorse-tool.c:742
 #, c-format
 msgid "Couldn't verify file: %s"
 msgstr "फाइलचे तपास करू शकले नाही: %s"
 
-#: ../tool/seahorse-tool-files.c:120
+#: ../tool/mate-seahorse-tool-files.c:120
 msgid "Ace (.ace)"
 msgstr "Ace (.ace)"
 
-#: ../tool/seahorse-tool-files.c:121
+#: ../tool/mate-seahorse-tool-files.c:121
 msgid "Ar (.ar)"
 msgstr "एआर (.एआर)"
 
-#: ../tool/seahorse-tool-files.c:122
+#: ../tool/mate-seahorse-tool-files.c:122
 msgid "Arj (.arj)"
 msgstr "एआरजे (.एआरजे)"
 
-#: ../tool/seahorse-tool-files.c:129
+#: ../tool/mate-seahorse-tool-files.c:129
 msgid "Ear (.ear)"
 msgstr "ईएआर (.ईएआर)"
 
-#: ../tool/seahorse-tool-files.c:130
+#: ../tool/mate-seahorse-tool-files.c:130
 msgid "Self-extracting zip (.exe)"
 msgstr "स्व-प्राप्ती झीप (.exe)"
 
-#: ../tool/seahorse-tool-files.c:132
+#: ../tool/mate-seahorse-tool-files.c:132
 msgid "Jar (.jar)"
 msgstr "जेएआर (.जेएआर)"
 
-#: ../tool/seahorse-tool-files.c:133
+#: ../tool/mate-seahorse-tool-files.c:133
 msgid "Lha (.lzh)"
 msgstr "एलएचए (.एलएचए)"
 
-#: ../tool/seahorse-tool-files.c:135
+#: ../tool/mate-seahorse-tool-files.c:135
 msgid "Rar (.rar)"
 msgstr "आरएआर (.आरएआर)"
 
-#: ../tool/seahorse-tool-files.c:137
+#: ../tool/mate-seahorse-tool-files.c:137
 msgid "Tar uncompressed (.tar)"
 msgstr "टार असंक्षिप्त (.टार)"
 
-#: ../tool/seahorse-tool-files.c:138
+#: ../tool/mate-seahorse-tool-files.c:138
 msgid "Tar compressed with bzip (.tar.bz)"
 msgstr "टार संक्षिप्त बीझीपद्वारे (.टार.बीझे)"
 
-#: ../tool/seahorse-tool-files.c:139
+#: ../tool/mate-seahorse-tool-files.c:139
 msgid "Tar compressed with bzip2 (.tar.bz2)"
 msgstr "bzip2 वापरून आकुंचीत केलेली टार (.tar.bz2)"
 
-#: ../tool/seahorse-tool-files.c:140
+#: ../tool/mate-seahorse-tool-files.c:140
 msgid "Tar compressed with gzip (.tar.gz)"
 msgstr "gzip वापरून आकुंचीत केलेली टार (.tar.gz)"
 
-#: ../tool/seahorse-tool-files.c:141
+#: ../tool/mate-seahorse-tool-files.c:141
 msgid "Tar compressed with lzop (.tar.lzo)"
 msgstr "lzop वापरून आकुंचीत केलेली टार (.tar.lzo)"
 
-#: ../tool/seahorse-tool-files.c:142
+#: ../tool/mate-seahorse-tool-files.c:142
 msgid "Tar compressed with compress (.tar.Z)"
 msgstr "compress वापरून आकुंचीत केलेली टार (.tar.Z)"
 
-#: ../tool/seahorse-tool-files.c:144
+#: ../tool/mate-seahorse-tool-files.c:144
 msgid "War (.war)"
 msgstr "वार (.war)"
 
-#: ../tool/seahorse-tool-files.c:145
+#: ../tool/mate-seahorse-tool-files.c:145
 msgid "Zip (.zip)"
 msgstr "झिप(.झिप)"
 
-#: ../tool/seahorse-tool-files.c:146
+#: ../tool/mate-seahorse-tool-files.c:146
 msgid "Zoo (.zoo)"
 msgstr "झू (.झू)"
 
-#: ../tool/seahorse-tool-files.c:147
+#: ../tool/mate-seahorse-tool-files.c:147
 msgid "7-Zip (.7z)"
 msgstr "7-झिप (.7झे)"
 
 #. TRANSLATOR: This string will become
 #. * "You have selected %d files and %d folders"
-#: ../tool/seahorse-tool-files.c:327
+#: ../tool/mate-seahorse-tool-files.c:327
 #, c-format
 msgid "You have selected %d file "
 msgid_plural "You have selected %d files "
@@ -441,7 +441,7 @@ msgstr[1] "तुम्ही %d फाइल निवडले आहे"
 
 #. TRANSLATOR: This string will become
 #. * "You have selected %d files and %d folders"
-#: ../tool/seahorse-tool-files.c:332
+#: ../tool/mate-seahorse-tool-files.c:332
 #, c-format
 msgid "and %d folder"
 msgid_plural "and %d folders"
@@ -450,34 +450,34 @@ msgstr[1] "व %d संचयीका"
 
 #. TRANSLATOR: "%s%s" are "You have selected %d files and %d folders"
 #. * Swap order with "%2$s%1$s" if needed
-#: ../tool/seahorse-tool-files.c:337
+#: ../tool/mate-seahorse-tool-files.c:337
 #, c-format
 msgid "<b>%s%s</b>"
 msgstr "<b>%s%s</b>"
 
-#: ../tool/seahorse-tool-files.c:345
+#: ../tool/mate-seahorse-tool-files.c:345
 #, fuzzy, c-format
 msgid "You have selected %d file"
 msgid_plural "You have selected %d files"
 msgstr[0] "तुम्ही %d फाइल निवडले आहे"
 msgstr[1] "तुम्ही %d फाइल निवडले आहे"
 
-#: ../tool/seahorse-tool-files.c:350
+#: ../tool/mate-seahorse-tool-files.c:350
 #, c-format
 msgid "You have selected %d folder"
 msgid_plural "You have selected %d folders"
 msgstr[0] "तुम्ही %d संचयीका निवडले"
 msgstr[1] "तुम्ही %d संचयीका निवडले"
 
-#: ../tool/seahorse-tool-files.c:868
+#: ../tool/mate-seahorse-tool-files.c:868
 msgid "Preparing..."
 msgstr "तयार करित आहे..."
 
-#: ../tool/seahorse-tool-files.c:877 ../tool/seahorse-tool-files.c:900
+#: ../tool/mate-seahorse-tool-files.c:877 ../tool/mate-seahorse-tool-files.c:900
 msgid "Couldn't list files"
 msgstr "फाइल यादी दर्शवू शकले नाही"
 
-#: ../tool/seahorse-tool-files.c:887 ../tool/seahorse-util.c:647
+#: ../tool/mate-seahorse-tool-files.c:887 ../tool/seahorse-util.c:647
 msgid "Couldn't package files"
 msgstr "फाइलचे संकुल बनवू शकले नाही"
 

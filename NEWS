@@ -1,5 +1,6 @@
-seahorse-caja 3.11.92
+seahorse-caja 1.18.0
  * Initial port for caja.
+ * Rename seahorse-tool to mate-seahorse-tool
 
 seahorse-nautilus 3.11.92
  * Warn when signatures are valid but untrusted [#708640]

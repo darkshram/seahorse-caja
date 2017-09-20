@@ -41,7 +41,7 @@ crypt_callback (CajaMenuItem *item, gpointer user_data)
     files = g_object_get_data (G_OBJECT (item), "files");
     g_assert (files != NULL);
 
-    cmd = g_string_new ("seahorse-tool");
+    cmd = g_string_new ("mate-seahorse-tool");
     g_string_append_printf (cmd, " --encrypt");
 
     for (scan = files; scan; scan = scan->next) {
@@ -66,7 +66,7 @@ sign_callback (CajaMenuItem *item, gpointer user_data)
     char *uri, *t;
     GString *cmd;
 
-    cmd = g_string_new ("seahorse-tool");
+    cmd = g_string_new ("mate-seahorse-tool");
     g_string_append_printf (cmd, " --sign");
     files = g_object_get_data (G_OBJECT (item), "files");
     g_assert (files != NULL);

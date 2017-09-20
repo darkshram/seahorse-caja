@@ -209,82 +209,82 @@ msgstr "ಸಹಿಯನ್ನು ಪರಿಶೀಲಿಸು"
 msgid "Progress Title"
 msgstr "ಪ್ರಗತಿ ಶೀರ್ಷಿಕೆ"
 
-#: ../tool/seahorse-tool.c:61
+#: ../tool/mate-seahorse-tool.c:61
 msgid "Import keys from the file"
 msgstr "ಕಡತದಿಂದ ಕೀಲಿಗಳನ್ನು ಆಮದು ಮಾಡಿಕೊ"
 
-#: ../tool/seahorse-tool.c:63
+#: ../tool/mate-seahorse-tool.c:63
 msgid "Encrypt file"
 msgstr "ಕಡತವನ್ನು ಗೂಢಲಿಪೀಕರಿಸು"
 
-#: ../tool/seahorse-tool.c:65
+#: ../tool/mate-seahorse-tool.c:65
 msgid "Sign file with default key"
 msgstr "ಕಡತವನ್ನು ಪೂರ್ವನಿಯೋಜಿತ ಕೀಲಿಯೊಂದಿಗೆ ಸಹಿ ಮಾಡು"
 
-#: ../tool/seahorse-tool.c:67
+#: ../tool/mate-seahorse-tool.c:67
 msgid "Encrypt and sign file with default key"
 msgstr "ಕಡತವನ್ನು ಪೂರ್ವನಿಯೋಜಿತ ಕೀಲಿಯೊಂದಿಗೆ ಸಹಿ ಹಾಗು ಗೂಢಲಿಪೀಕರಣಗೊಳಿಸು"
 
-#: ../tool/seahorse-tool.c:69
+#: ../tool/mate-seahorse-tool.c:69
 msgid "Decrypt encrypted file"
 msgstr "ಗೂಢಲಿಪೀಕರಣಗೊಂಡಂತಹ ಕಡತವನ್ನು ಡಿಕ್ರಿಪ್ಟ್‍ ಮಾಡು"
 
-#: ../tool/seahorse-tool.c:71
+#: ../tool/mate-seahorse-tool.c:71
 msgid "Verify signature file"
 msgstr "ಸಹಿ ಕಡತವನ್ನು ಪರಿಶೀಲಿಸು"
 
-#: ../tool/seahorse-tool.c:73
+#: ../tool/mate-seahorse-tool.c:73
 msgid "Read list of URIs on standard in"
 msgstr "ಸ್ಟಾಂಡರ್ಡಿನಲ್ಲಿರುವ ಯುಆರ್ಐಗಳ ಪಟ್ಟಿಯನ್ನು ಓದು"
 
-#: ../tool/seahorse-tool.c:75
+#: ../tool/mate-seahorse-tool.c:75
 msgid "file..."
 msgstr "ಕಡತ..."
 
-#: ../tool/seahorse-tool.c:169
+#: ../tool/mate-seahorse-tool.c:169
 msgid "Choose Recipients"
 msgstr "ಪಡೆಯುವವರ ಹೆಸರನ್ನು ಆರಿಸಿ"
 
-#: ../tool/seahorse-tool.c:234 ../tool/seahorse-tool.c:347
+#: ../tool/mate-seahorse-tool.c:234 ../tool/mate-seahorse-tool.c:347
 msgid "Couldn't load keys"
 msgstr "ಕೀಲಿಗಳನ್ನು ಲೋಡ್‌ಮಾಡಲಾಗಲಿಲ್ಲ"
 
-#: ../tool/seahorse-tool.c:252
+#: ../tool/mate-seahorse-tool.c:252
 #, c-format
 msgid "Choose Encrypted File Name for '%s'"
 msgstr "'%s' ಗೆ ಗೂಢಲಿಪೀಕರಣಗೊಂಡ ಕಡತ ಹೆಸರು"
 
-#: ../tool/seahorse-tool.c:325
+#: ../tool/mate-seahorse-tool.c:325
 msgid "Choose Signer"
 msgstr "ಸೈನರನ್ನು ಆರಿಸಿ"
 
-#: ../tool/seahorse-tool.c:367
+#: ../tool/mate-seahorse-tool.c:367
 #, c-format
 msgid "Choose Signature File Name for '%s'"
 msgstr "'%s' ಕ್ಕಾಗಿ ಸಹಿ ಕಡತದ ಹೆಸರನ್ನು ಆರಿಸು"
 
-#: ../tool/seahorse-tool.c:407
+#: ../tool/mate-seahorse-tool.c:407
 msgid "Import is complete"
 msgstr "ಆಮದು ಪೂರ್ಣಗೊಂಡಿದೆ"
 
-#: ../tool/seahorse-tool.c:440
+#: ../tool/mate-seahorse-tool.c:440
 msgid "Importing keys ..."
 msgstr "ಕೀಲಿಗಳನ್ನು ಆಮದು ಮಾಡಿಕೊಳ್ಳಲಾಗುತ್ತಿದೆ ..."
 
-#: ../tool/seahorse-tool.c:470
+#: ../tool/mate-seahorse-tool.c:470
 msgid "Import Failed"
 msgstr "ಆಮದು ವಿಫಲಗೊಂಡಿದೆ"
 
-#: ../tool/seahorse-tool.c:471
+#: ../tool/mate-seahorse-tool.c:471
 msgid "Keys were found but not imported."
 msgstr "ಕೀಲಿಗಳು ಕಂಡು ಬಂದಿದೆ ಆದರೆ ಆಮದು ಮಾಡಿಕೊಳ್ಳಲಾಗಿಲ್ಲ."
 
-#: ../tool/seahorse-tool.c:494
+#: ../tool/mate-seahorse-tool.c:494
 #, c-format
 msgid "Imported key"
 msgstr "ಆಮದು ಮಾಡಿಕೊಳ್ಳಲಾದ ಕೀಲಿಗಳು"
 
-#: ../tool/seahorse-tool.c:496
+#: ../tool/mate-seahorse-tool.c:496
 #, c-format
 msgid "Imported %d key"
 msgid_plural "Imported %d keys"
@@ -292,12 +292,12 @@ msgstr[0] "%d ಕೀಲಿಯನ್ನು ಆಮದು ಮಾಡಿಕೊ"
 msgstr[1] "%d ಕೀಲಿಗಳನ್ನು ಆಮದು ಮಾಡಿಕೊ"
 
 #. File to decrypt to
-#: ../tool/seahorse-tool.c:518
+#: ../tool/mate-seahorse-tool.c:518
 #, c-format
 msgid "Choose Decrypted File Name for '%s'"
 msgstr "'%s' ಗಾಗಿ ಡಿಕ್ರಿಪ್ಟ್‍ ಆದಂತಹ ಕಡತದ ಹೆಸರನ್ನು ಆರಿಸು"
 
-#: ../tool/seahorse-tool.c:575
+#: ../tool/mate-seahorse-tool.c:575
 #, c-format
 msgid "Choose Original File for '%s'"
 msgstr "'%s' ಗಾಗಿ ಮೂಲ ಕಡತವನ್ನು ಆರಿಸಿ"
@@ -307,135 +307,135 @@ msgstr "'%s' ಗಾಗಿ ಮೂಲ ಕಡತವನ್ನು ಆರಿಸಿ"
 #. * The last thing we want to do is cascade a big pile of error
 #. * dialogs at the user.
 #.
-#: ../tool/seahorse-tool.c:648
+#: ../tool/mate-seahorse-tool.c:648
 #, c-format
 msgid "No valid signatures found"
 msgstr "ಯಾವುದೆ ಮಾನ್ಯವಾದ ಸಹಿ ಕಂಡು ಬಂದಿಲ್ಲ"
 
-#: ../tool/seahorse-tool.c:697
+#: ../tool/mate-seahorse-tool.c:697
 msgid "File Encryption Tool"
 msgstr "ಕಡತ ಗೂಢಲಿಪೀಕರಣ ಉಪಕರಣ"
 
-#: ../tool/seahorse-tool.c:713
+#: ../tool/mate-seahorse-tool.c:713
 msgid "Encrypting"
 msgstr "ಗೂಢಲಿಪೀಕರಿಸಲಾಗುತ್ತಿದೆ"
 
-#: ../tool/seahorse-tool.c:714
+#: ../tool/mate-seahorse-tool.c:714
 #, c-format
 msgid "Couldn't encrypt file: %s"
 msgstr "ಕಡತವನ್ನು ಗೂಢಲಿಪೀಕರಿಸಲಾಗಿಲ್ಲ: %s"
 
-#: ../tool/seahorse-tool.c:722
+#: ../tool/mate-seahorse-tool.c:722
 msgid "Signing"
 msgstr "ಸಹಿಮಾಡುವಿಕೆ"
 
-#: ../tool/seahorse-tool.c:723
+#: ../tool/mate-seahorse-tool.c:723
 #, c-format
 msgid "Couldn't sign file: %s"
 msgstr "ಕಡತವನ್ನು ಸಹಿ ಮಾಡಲಾಗಿಲ್ಲ: %s"
 
-#: ../tool/seahorse-tool.c:728
+#: ../tool/mate-seahorse-tool.c:728
 msgid "Importing"
 msgstr "ಆಮದು ಮಾಡಿಕೊಳ್ಳಲಾಗುತ್ತಿದೆ"
 
-#: ../tool/seahorse-tool.c:729
+#: ../tool/mate-seahorse-tool.c:729
 #, c-format
 msgid "Couldn't import keys from file: %s"
 msgstr "ಕೀಲಿಗಳನ್ನು ಕಡತದಿಂದ ಆಮದು ಮಾಡಿಕೊಳ್ಳಲಾಗಿಲ್ಲ: %s"
 
-#: ../tool/seahorse-tool.c:735
+#: ../tool/mate-seahorse-tool.c:735
 msgid "Decrypting"
 msgstr "ಡೀಕ್ರಿಪ್ಟ್‌ ಮಾಡುವಿಕೆ"
 
-#: ../tool/seahorse-tool.c:736
+#: ../tool/mate-seahorse-tool.c:736
 #, c-format
 msgid "Couldn't decrypt file: %s"
 msgstr "ಕಡತವನ್ನು ಡಿಕ್ರಿಪ್ಟ್ ಮಾಡಲಾಗಿಲ್ಲ: %s"
 
-#: ../tool/seahorse-tool.c:741
+#: ../tool/mate-seahorse-tool.c:741
 msgid "Verifying"
 msgstr "ಪರಿಶೀಲಿಸಲಾಗುತ್ತಿದೆ"
 
-#: ../tool/seahorse-tool.c:742
+#: ../tool/mate-seahorse-tool.c:742
 #, c-format
 msgid "Couldn't verify file: %s"
 msgstr "ಕಡತವನ್ನು ಪರಿಶೀಲಿಸಲಾಗಿಲ್ಲ: %s"
 
-#: ../tool/seahorse-tool-files.c:120
+#: ../tool/mate-seahorse-tool-files.c:120
 msgid "Ace (.ace)"
 msgstr "Ace (.ace)"
 
-#: ../tool/seahorse-tool-files.c:121
+#: ../tool/mate-seahorse-tool-files.c:121
 msgid "Ar (.ar)"
 msgstr "Ar (.ar)"
 
-#: ../tool/seahorse-tool-files.c:122
+#: ../tool/mate-seahorse-tool-files.c:122
 msgid "Arj (.arj)"
 msgstr "Arj (.arj)"
 
-#: ../tool/seahorse-tool-files.c:129
+#: ../tool/mate-seahorse-tool-files.c:129
 msgid "Ear (.ear)"
 msgstr "Ear (.ear)"
 
-#: ../tool/seahorse-tool-files.c:130
+#: ../tool/mate-seahorse-tool-files.c:130
 msgid "Self-extracting zip (.exe)"
 msgstr "ಸ್ವತಃ ಹೊರತೆಗೆಯಲ್ಪಡುವ ಝಿಪ್ (.exe)"
 
-#: ../tool/seahorse-tool-files.c:132
+#: ../tool/mate-seahorse-tool-files.c:132
 msgid "Jar (.jar)"
 msgstr "Jar (.jar)"
 
-#: ../tool/seahorse-tool-files.c:133
+#: ../tool/mate-seahorse-tool-files.c:133
 msgid "Lha (.lzh)"
 msgstr "Lha (.lzh)"
 
-#: ../tool/seahorse-tool-files.c:135
+#: ../tool/mate-seahorse-tool-files.c:135
 msgid "Rar (.rar)"
 msgstr "Rar (.rar)"
 
-#: ../tool/seahorse-tool-files.c:137
+#: ../tool/mate-seahorse-tool-files.c:137
 msgid "Tar uncompressed (.tar)"
 msgstr "ಟಾರ್ ಸಂಕುಚನಗೊಳ್ಳದ (.tar)"
 
-#: ../tool/seahorse-tool-files.c:138
+#: ../tool/mate-seahorse-tool-files.c:138
 msgid "Tar compressed with bzip (.tar.bz)"
 msgstr "bzipನೊಂದಿಗೆ ಸಂಕುಚಿತಗೊಳಿಸಲಾದ Tar (.tar.bz2)"
 
-#: ../tool/seahorse-tool-files.c:139
+#: ../tool/mate-seahorse-tool-files.c:139
 msgid "Tar compressed with bzip2 (.tar.bz2)"
 msgstr "bzip2ನೊಂದಿಗೆ ಸಂಕುಚಿತಗೊಳಿಸಲಾದ Tar (.tar.bz)"
 
-#: ../tool/seahorse-tool-files.c:140
+#: ../tool/mate-seahorse-tool-files.c:140
 msgid "Tar compressed with gzip (.tar.gz)"
 msgstr "gzip ನೊಂದಿಗೆ ಸಂಕುಚಿತಗೊಳಿಸಲಾದ Tar (.tar.gz)"
 
-#: ../tool/seahorse-tool-files.c:141
+#: ../tool/mate-seahorse-tool-files.c:141
 msgid "Tar compressed with lzop (.tar.lzo)"
 msgstr "lzopಯೊಂದಿಗೆ ಸಂಕುಚಿತಗೊಳಿಸಲಾದ Tar (.tar.lzo)"
 
-#: ../tool/seahorse-tool-files.c:142
+#: ../tool/mate-seahorse-tool-files.c:142
 msgid "Tar compressed with compress (.tar.Z)"
 msgstr "compress ನೊಂದಿಗೆ ಸಂಕುಚಿತಗೊಳಿಸಲಾದ Tar (.tar.Z)"
 
-#: ../tool/seahorse-tool-files.c:144
+#: ../tool/mate-seahorse-tool-files.c:144
 msgid "War (.war)"
 msgstr "War (.war)"
 
-#: ../tool/seahorse-tool-files.c:145
+#: ../tool/mate-seahorse-tool-files.c:145
 msgid "Zip (.zip)"
 msgstr "Zip (.zip)"
 
-#: ../tool/seahorse-tool-files.c:146
+#: ../tool/mate-seahorse-tool-files.c:146
 msgid "Zoo (.zoo)"
 msgstr "Zoo (.zoo)"
 
-#: ../tool/seahorse-tool-files.c:147
+#: ../tool/mate-seahorse-tool-files.c:147
 msgid "7-Zip (.7z)"
 msgstr "7-Zip (.7z)"
 
 #. TRANSLATOR: This string will become
 #. * "You have selected %d files and %d folders"
-#: ../tool/seahorse-tool-files.c:327
+#: ../tool/mate-seahorse-tool-files.c:327
 #, c-format
 msgid "You have selected %d file "
 msgid_plural "You have selected %d files "
@@ -444,7 +444,7 @@ msgstr[1] "ನೀವು %d ಕಡತಗಳನ್ನು ಆರಿಸಿದ್ದ�
 
 #. TRANSLATOR: This string will become
 #. * "You have selected %d files and %d folders"
-#: ../tool/seahorse-tool-files.c:332
+#: ../tool/mate-seahorse-tool-files.c:332
 #, c-format
 msgid "and %d folder"
 msgid_plural "and %d folders"
@@ -453,34 +453,34 @@ msgstr[1] "ಹಾಗು %d ಕಡತಕೋಶುಗಳು"
 
 #. TRANSLATOR: "%s%s" are "You have selected %d files and %d folders"
 #. * Swap order with "%2$s%1$s" if needed
-#: ../tool/seahorse-tool-files.c:337
+#: ../tool/mate-seahorse-tool-files.c:337
 #, c-format
 msgid "<b>%s%s</b>"
 msgstr "<b>%s%s</b>"
 
-#: ../tool/seahorse-tool-files.c:345
+#: ../tool/mate-seahorse-tool-files.c:345
 #, fuzzy, c-format
 msgid "You have selected %d file"
 msgid_plural "You have selected %d files"
 msgstr[0] "ನೀವು %d ಕಡತವನ್ನು ಆರಿಸಿದ್ದೀರಿ"
 msgstr[1] "ನೀವು %d ಕಡತಗಳನ್ನು ಆರಿಸಿದ್ದೀರಿ"
 
-#: ../tool/seahorse-tool-files.c:350
+#: ../tool/mate-seahorse-tool-files.c:350
 #, c-format
 msgid "You have selected %d folder"
 msgid_plural "You have selected %d folders"
 msgstr[0] "ನೀವು %d ಕೋಶವನ್ನು ಆಯ್ಕೆ ಮಾಡಿದ್ದೀರಿ"
 msgstr[1] "ನೀವು %d ಕೋಶಗಳನ್ನು ಆಯ್ಕೆ ಮಾಡಿದ್ದೀರಿ"
 
-#: ../tool/seahorse-tool-files.c:868
+#: ../tool/mate-seahorse-tool-files.c:868
 msgid "Preparing..."
 msgstr "ತಯಾರಾಗುತ್ತಿದೆ..."
 
-#: ../tool/seahorse-tool-files.c:877 ../tool/seahorse-tool-files.c:900
+#: ../tool/mate-seahorse-tool-files.c:877 ../tool/mate-seahorse-tool-files.c:900
 msgid "Couldn't list files"
 msgstr "ಕಡತವನ್ನು ಪಟ್ಟಿ ಮಾಡಲಾಗಿಲ್ಲ"
 
-#: ../tool/seahorse-tool-files.c:887 ../tool/seahorse-util.c:647
+#: ../tool/mate-seahorse-tool-files.c:887 ../tool/seahorse-util.c:647
 msgid "Couldn't package files"
 msgstr "ಕಡತಗಳನ್ನು ಪ್ಯಾಕೇಜ್ ಮಾಡಲಾಗಲಿಲ್ಲ"
 

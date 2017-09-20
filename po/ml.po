@@ -210,82 +210,82 @@ msgstr "ഒപ്പ് ഉറപ്പാക്കുക"
 msgid "Progress Title"
 msgstr "പുരോഗതിയ്ക്കുള്ള തലക്കെട്ട്"
 
-#: ../tool/seahorse-tool.c:61
+#: ../tool/mate-seahorse-tool.c:61
 msgid "Import keys from the file"
 msgstr "ഫയലില്‍ നിന്നും കീകള്‍ ഇംപോര്‍ട്ട് ചെയ്യുക"
 
-#: ../tool/seahorse-tool.c:63
+#: ../tool/mate-seahorse-tool.c:63
 msgid "Encrypt file"
 msgstr "ഫയല്‍ എന്‍ക്രിപ്റ്റ് ചെയ്യുക"
 
-#: ../tool/seahorse-tool.c:65
+#: ../tool/mate-seahorse-tool.c:65
 msgid "Sign file with default key"
 msgstr "സ്വതവേയുള്ള കീ ഉപയോഗിച്ചു് ഫയല്‍ ഒപ്പിടുക"
 
-#: ../tool/seahorse-tool.c:67
+#: ../tool/mate-seahorse-tool.c:67
 msgid "Encrypt and sign file with default key"
 msgstr "സ്വതവേയുള്ള കീ ഉപയോഗിച്ചു് ഫയല്‍ എന്‍ക്രിപ്റ്റ് ചെയ്തു് ഒപ്പിടുക"
 
-#: ../tool/seahorse-tool.c:69
+#: ../tool/mate-seahorse-tool.c:69
 msgid "Decrypt encrypted file"
 msgstr "എന്‍ക്രിപ്റ്റ് ചെയ്ത ഫയല്‍ ഡീക്രിപ്റ്റ് ചെയ്യുക"
 
-#: ../tool/seahorse-tool.c:71
+#: ../tool/mate-seahorse-tool.c:71
 msgid "Verify signature file"
 msgstr "ഒപ്പുള്ള ഫയല്‍ ഉറപ്പാക്കുക"
 
-#: ../tool/seahorse-tool.c:73
+#: ../tool/mate-seahorse-tool.c:73
 msgid "Read list of URIs on standard in"
 msgstr "യുആര്‍ഐകളുടെ പട്ടിക ലഭ്യമാക്കുക"
 
-#: ../tool/seahorse-tool.c:75
+#: ../tool/mate-seahorse-tool.c:75
 msgid "file..."
 msgstr "ഫയല്‍"
 
-#: ../tool/seahorse-tool.c:169
+#: ../tool/mate-seahorse-tool.c:169
 msgid "Choose Recipients"
 msgstr "റെയിപ്യന്റ്സിനെ തെരഞ്ഞെടുക്കുക"
 
-#: ../tool/seahorse-tool.c:234 ../tool/seahorse-tool.c:347
+#: ../tool/mate-seahorse-tool.c:234 ../tool/mate-seahorse-tool.c:347
 msgid "Couldn't load keys"
 msgstr "കീകള്‍ ലഭ്യമാക്കുവാന്‍ സാധ്യമായില്ല"
 
-#: ../tool/seahorse-tool.c:252
+#: ../tool/mate-seahorse-tool.c:252
 #, c-format
 msgid "Choose Encrypted File Name for '%s'"
 msgstr "'%s'-നുള്ള എന്‍ക്രിപ്റ്റ് ചെയ്ത ഫയല്‍നാമം തെരഞ്ഞെടുക്കുക"
 
-#: ../tool/seahorse-tool.c:325
+#: ../tool/mate-seahorse-tool.c:325
 msgid "Choose Signer"
 msgstr "സൈനര്‍ തെരഞ്ഞെടുക്കുക"
 
-#: ../tool/seahorse-tool.c:367
+#: ../tool/mate-seahorse-tool.c:367
 #, c-format
 msgid "Choose Signature File Name for '%s'"
 msgstr "'%s'-നുള്ള ഒപ്പുള്ള ഫയല്‍നാമം തെരഞ്ഞെടുക്കുക"
 
-#: ../tool/seahorse-tool.c:407
+#: ../tool/mate-seahorse-tool.c:407
 msgid "Import is complete"
 msgstr "ഇംപോര്‍ട്ട് പൂര്‍ണ്ണമായിരിക്കുന്നു"
 
-#: ../tool/seahorse-tool.c:440
+#: ../tool/mate-seahorse-tool.c:440
 msgid "Importing keys ..."
 msgstr "കീകള്‍ ഇംപോര്‍ട്ട് ചെയ്യുന്നു..."
 
-#: ../tool/seahorse-tool.c:470
+#: ../tool/mate-seahorse-tool.c:470
 msgid "Import Failed"
 msgstr "ഇംപോര്‍ട്ട് പരാജയപ്പെട്ടു"
 
-#: ../tool/seahorse-tool.c:471
+#: ../tool/mate-seahorse-tool.c:471
 msgid "Keys were found but not imported."
 msgstr "കീകള്‍ ലഭ്യമായി പക്ഷേ, ഇംപോര്‍ട്ട് ചെയ്തിട്ടില്ല"
 
-#: ../tool/seahorse-tool.c:494
+#: ../tool/mate-seahorse-tool.c:494
 #, c-format
 msgid "Imported key"
 msgstr "ഇംപോറ്‍ട്ട് ചെയ്ത കീ"
 
-#: ../tool/seahorse-tool.c:496
+#: ../tool/mate-seahorse-tool.c:496
 #, c-format
 msgid "Imported %d key"
 msgid_plural "Imported %d keys"
@@ -293,12 +293,12 @@ msgstr[0] "ഇംപോര്‍ട്ട് ചെയ്ത %d കീ"
 msgstr[1] "ഇംപോര്‍ട്ട് ചെയ്ത %d കീകള്‍"
 
 #. File to decrypt to
-#: ../tool/seahorse-tool.c:518
+#: ../tool/mate-seahorse-tool.c:518
 #, c-format
 msgid "Choose Decrypted File Name for '%s'"
 msgstr "'%s'-നുള്ള ഡീക്രിപ്റ്റ് ചെയ്ത ഫയല്‍നാമം തെരഞ്ഞെടുക്കുക"
 
-#: ../tool/seahorse-tool.c:575
+#: ../tool/mate-seahorse-tool.c:575
 #, c-format
 msgid "Choose Original File for '%s'"
 msgstr "'%s'-നുള്ള യഥാര്‍ത്ഥ ഫയല്‍ തെരഞ്ഞെടുക്കുക"
@@ -308,135 +308,135 @@ msgstr "'%s'-നുള്ള യഥാര്‍ത്ഥ ഫയല്‍ തെ�
 #. * The last thing we want to do is cascade a big pile of error
 #. * dialogs at the user.
 #.
-#: ../tool/seahorse-tool.c:648
+#: ../tool/mate-seahorse-tool.c:648
 #, c-format
 msgid "No valid signatures found"
 msgstr "ശരിയായ ഒപ്പുകള്‍ ലഭ്യമല്ല"
 
-#: ../tool/seahorse-tool.c:697
+#: ../tool/mate-seahorse-tool.c:697
 msgid "File Encryption Tool"
 msgstr "ഫയല്‍ എന്‍ക്രിപ്ഷന്‍ സംവിധാനം"
 
-#: ../tool/seahorse-tool.c:713
+#: ../tool/mate-seahorse-tool.c:713
 msgid "Encrypting"
 msgstr "എന്‍ക്രിപ്റ്റ് ചെയ്യുന്നു"
 
-#: ../tool/seahorse-tool.c:714
+#: ../tool/mate-seahorse-tool.c:714
 #, c-format
 msgid "Couldn't encrypt file: %s"
 msgstr "ഫയല്‍ എന്‍ക്രിപ്റ്റ് ചെയ്യുവാന്‍ സാധിച്ചില്ല: %s"
 
-#: ../tool/seahorse-tool.c:722
+#: ../tool/mate-seahorse-tool.c:722
 msgid "Signing"
 msgstr "ഒപ്പിടുന്നു"
 
-#: ../tool/seahorse-tool.c:723
+#: ../tool/mate-seahorse-tool.c:723
 #, c-format
 msgid "Couldn't sign file: %s"
 msgstr "ഫയല്‍ ഒപ്പിടുവാന്‍ സാധിച്ചില്ല: %s"
 
-#: ../tool/seahorse-tool.c:728
+#: ../tool/mate-seahorse-tool.c:728
 msgid "Importing"
 msgstr "ഇംപോറ്‍ട്ട് ചെയ്യുന്നു"
 
-#: ../tool/seahorse-tool.c:729
+#: ../tool/mate-seahorse-tool.c:729
 #, c-format
 msgid "Couldn't import keys from file: %s"
 msgstr "ഫയലില്‍ നിന്നും കീകള്‍ ഇംപോര്‍ട്ട് ചെയ്യുവാന്‍ സാധ്യമായില്ല: %s"
 
-#: ../tool/seahorse-tool.c:735
+#: ../tool/mate-seahorse-tool.c:735
 msgid "Decrypting"
 msgstr "ഡീക്രിപ്റ്റ് ചെയ്യുന്നു"
 
-#: ../tool/seahorse-tool.c:736
+#: ../tool/mate-seahorse-tool.c:736
 #, c-format
 msgid "Couldn't decrypt file: %s"
 msgstr "ഫയല്‍ ഡീക്രിപ്റ്റ് ചെയ്യുവാന്‍ സാധ്യമായില്ല: %s"
 
-#: ../tool/seahorse-tool.c:741
+#: ../tool/mate-seahorse-tool.c:741
 msgid "Verifying"
 msgstr "ഉറപ്പാക്കുന്നു"
 
-#: ../tool/seahorse-tool.c:742
+#: ../tool/mate-seahorse-tool.c:742
 #, c-format
 msgid "Couldn't verify file: %s"
 msgstr "ഫയല്‍ ഉറപ്പാക്കുവാന്‍ സാധ്യമായില്ല: %s"
 
-#: ../tool/seahorse-tool-files.c:120
+#: ../tool/mate-seahorse-tool-files.c:120
 msgid "Ace (.ace)"
 msgstr "Ace (.ace)"
 
-#: ../tool/seahorse-tool-files.c:121
+#: ../tool/mate-seahorse-tool-files.c:121
 msgid "Ar (.ar)"
 msgstr "Ar (.ar)"
 
-#: ../tool/seahorse-tool-files.c:122
+#: ../tool/mate-seahorse-tool-files.c:122
 msgid "Arj (.arj)"
 msgstr "Arj (.arj)"
 
-#: ../tool/seahorse-tool-files.c:129
+#: ../tool/mate-seahorse-tool-files.c:129
 msgid "Ear (.ear)"
 msgstr "Ear (.ear)"
 
-#: ../tool/seahorse-tool-files.c:130
+#: ../tool/mate-seahorse-tool-files.c:130
 msgid "Self-extracting zip (.exe)"
 msgstr "സ്വയം ലഭ്യമാക്കുന്ന zip (.exe)"
 
-#: ../tool/seahorse-tool-files.c:132
+#: ../tool/mate-seahorse-tool-files.c:132
 msgid "Jar (.jar)"
 msgstr "Jar (.jar)"
 
-#: ../tool/seahorse-tool-files.c:133
+#: ../tool/mate-seahorse-tool-files.c:133
 msgid "Lha (.lzh)"
 msgstr "Lha (.lzh)"
 
-#: ../tool/seahorse-tool-files.c:135
+#: ../tool/mate-seahorse-tool-files.c:135
 msgid "Rar (.rar)"
 msgstr "Rar (.rar)"
 
-#: ../tool/seahorse-tool-files.c:137
+#: ../tool/mate-seahorse-tool-files.c:137
 msgid "Tar uncompressed (.tar)"
 msgstr "Tar അണ്‍കംപ്രസ്സ് ചെയ്യുന്നു (.tar)"
 
-#: ../tool/seahorse-tool-files.c:138
+#: ../tool/mate-seahorse-tool-files.c:138
 msgid "Tar compressed with bzip (.tar.bz)"
 msgstr "bzip ഉപയോഗിച്ചു് tar കംപ്രസ്സ് ചെയ്തിരിക്കുന്നു (.tar.bz)"
 
-#: ../tool/seahorse-tool-files.c:139
+#: ../tool/mate-seahorse-tool-files.c:139
 msgid "Tar compressed with bzip2 (.tar.bz2)"
 msgstr "bzip2 ഉപയോഗിച്ചു് tar കംപ്രസ്സ് ചെയ്തിരിക്കുന്നു (.tar.bz2)"
 
-#: ../tool/seahorse-tool-files.c:140
+#: ../tool/mate-seahorse-tool-files.c:140
 msgid "Tar compressed with gzip (.tar.gz)"
 msgstr "gzip ഉപയോഗിച്ചു് tar കംപ്രസ്സ് ചെയ്തിരിക്കുന്നു (.tar.gz)"
 
-#: ../tool/seahorse-tool-files.c:141
+#: ../tool/mate-seahorse-tool-files.c:141
 msgid "Tar compressed with lzop (.tar.lzo)"
 msgstr "lzop ഉപയോഗിച്ചു് tar കംപ്രസ്സ് ചെയ്തിരിക്കുന്നു (.tar.lzo)"
 
-#: ../tool/seahorse-tool-files.c:142
+#: ../tool/mate-seahorse-tool-files.c:142
 msgid "Tar compressed with compress (.tar.Z)"
 msgstr "compress ഉപയോഗിച്ചു് tar കംപ്രസ്സ് ചെയ്തിരിക്കുന്നു (.tar.Z)"
 
-#: ../tool/seahorse-tool-files.c:144
+#: ../tool/mate-seahorse-tool-files.c:144
 msgid "War (.war)"
 msgstr "War (.war)"
 
-#: ../tool/seahorse-tool-files.c:145
+#: ../tool/mate-seahorse-tool-files.c:145
 msgid "Zip (.zip)"
 msgstr "Zip (.zip)"
 
-#: ../tool/seahorse-tool-files.c:146
+#: ../tool/mate-seahorse-tool-files.c:146
 msgid "Zoo (.zoo)"
 msgstr "Zoo (.zoo)"
 
-#: ../tool/seahorse-tool-files.c:147
+#: ../tool/mate-seahorse-tool-files.c:147
 msgid "7-Zip (.7z)"
 msgstr "7-Zip (.7z)"
 
 #. TRANSLATOR: This string will become
 #. * "You have selected %d files and %d folders"
-#: ../tool/seahorse-tool-files.c:327
+#: ../tool/mate-seahorse-tool-files.c:327
 #, c-format
 msgid "You have selected %d file "
 msgid_plural "You have selected %d files "
@@ -445,7 +445,7 @@ msgstr[1] "നിങ്ങള്‍ %d ഫയലുകള്‍ തെരഞ്�
 
 #. TRANSLATOR: This string will become
 #. * "You have selected %d files and %d folders"
-#: ../tool/seahorse-tool-files.c:332
+#: ../tool/mate-seahorse-tool-files.c:332
 #, c-format
 msgid "and %d folder"
 msgid_plural "and %d folders"
@@ -454,34 +454,34 @@ msgstr[1] "%d ഫോള്‍ഡറുകളും"
 
 #. TRANSLATOR: "%s%s" are "You have selected %d files and %d folders"
 #. * Swap order with "%2$s%1$s" if needed
-#: ../tool/seahorse-tool-files.c:337
+#: ../tool/mate-seahorse-tool-files.c:337
 #, c-format
 msgid "<b>%s%s</b>"
 msgstr "<b>%s%s</b>"
 
-#: ../tool/seahorse-tool-files.c:345
+#: ../tool/mate-seahorse-tool-files.c:345
 #, fuzzy, c-format
 msgid "You have selected %d file"
 msgid_plural "You have selected %d files"
 msgstr[0] "നിങ്ങള്‍ %d ഫയല്‍ തെരഞ്ഞെടുത്തിരിക്കുന്നു"
 msgstr[1] "നിങ്ങള്‍ %d ഫയലുകള്‍ തെരഞ്ഞെടുത്തിരിക്കുന്നു"
 
-#: ../tool/seahorse-tool-files.c:350
+#: ../tool/mate-seahorse-tool-files.c:350
 #, c-format
 msgid "You have selected %d folder"
 msgid_plural "You have selected %d folders"
 msgstr[0] "നിങ്ങള്‍ %d ഫോള്‍ഡര്‍ തെരഞ്ഞെടുത്തിരിക്കുന്നു"
 msgstr[1] "നിങ്ങള്‍ %d ഫോള്‍ഡറുകള്‍ തെരഞ്ഞെടുത്തിരിക്കുന്നു"
 
-#: ../tool/seahorse-tool-files.c:868
+#: ../tool/mate-seahorse-tool-files.c:868
 msgid "Preparing..."
 msgstr "തയ്യാറാക്കുന്നു..."
 
-#: ../tool/seahorse-tool-files.c:877 ../tool/seahorse-tool-files.c:900
+#: ../tool/mate-seahorse-tool-files.c:877 ../tool/mate-seahorse-tool-files.c:900
 msgid "Couldn't list files"
 msgstr "ഫയലുകള്‍ ലഭ്യമാക്കുവാന്‍ സാധിച്ചില്ല"
 
-#: ../tool/seahorse-tool-files.c:887 ../tool/seahorse-util.c:647
+#: ../tool/mate-seahorse-tool-files.c:887 ../tool/seahorse-util.c:647
 msgid "Couldn't package files"
 msgstr "ഫയലുകള്‍ പാക്കേജ് ചെയ്യുവാന്‍ സാധ്യമായില്ല"
 

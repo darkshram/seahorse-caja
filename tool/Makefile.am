@@ -11,7 +11,7 @@ INCLUDES = -I$(top_builddir) \
 	-DLIBCRYPTUI_API_SUBJECT_TO_CHANGE \
 	-DGCR_API_SUBJECT_TO_CHANGE
 
-bin_PROGRAMS = seahorse-tool
+bin_PROGRAMS = mate-seahorse-tool
 
 BUILT_SOURCES = \
 	seahorse-marshal.c seahorse-marshal.h
@@ -23,9 +23,9 @@ seahorse_tool_SOURCES = \
 	seahorse-passphrase.c seahorse-passphrase.h \
 	seahorse-pgp-operation.c seahorse-pgp-operation.h \
 	seahorse-progress.c seahorse-progress.h \
-	seahorse-tool.c seahorse-tool.h \
-	seahorse-tool-files.c \
-	seahorse-tool-progress.c \
+	mate-seahorse-tool.c mate-seahorse-tool.h \
+	mate-seahorse-tool-files.c \
+	mate-seahorse-tool-progress.c \
 	seahorse-util.c seahorse-util.h \
 	seahorse-vfs-data.c seahorse-vfs-data.h \
 	seahorse-widget.c seahorse-widget.h \
@@ -50,12 +50,12 @@ seahorse_tool_LDADD = \
 @INTLTOOL_DESKTOP_RULE@
 desktopdir = $(datadir)/applications
 desktop_in_files = \
-	seahorse-pgp-encrypted.desktop.in \
-	seahorse-pgp-signature.desktop.in \
-	seahorse-pgp-keys.desktop.in
+	mate-seahorse-pgp-encrypted.desktop.in \
+	mate-seahorse-pgp-signature.desktop.in \
+	mate-seahorse-pgp-keys.desktop.in
 desktop_DATA = $(desktop_in_files:.desktop.in=.desktop)
 
-man_MANS = seahorse-tool.1
+man_MANS = mate-seahorse-tool.1
 
 EXTRA_DIST = \
 	$(ui_DATA) \
@@ -63,13 +63,13 @@ EXTRA_DIST = \
 	$(mime_DATA) \
 	$(mimeinfo_DATA) \
 	$(desktop_in_files) \
-	seahorse-pgp-encrypted.desktop.in.in \
-	seahorse-pgp-keys.desktop.in.in \
-	seahorse-pgp-signature.desktop.in.in \
+	mate-seahorse-pgp-encrypted.desktop.in.in \
+	mate-seahorse-pgp-keys.desktop.in.in \
+	mate-seahorse-pgp-signature.desktop.in.in \
 	seahorse-marshal.list
 
 CLEANFILES = *.bak \
 	$(desktop_DATA) \
-	seahorse-pgp-encrypted.desktop.in \
-	seahorse-pgp-keys.desktop.in \
-	seahorse-pgp-signature.desktop.in
+	mate-seahorse-pgp-encrypted.desktop.in \
+	mate-seahorse-pgp-keys.desktop.in \
+	mate-seahorse-pgp-signature.desktop.in

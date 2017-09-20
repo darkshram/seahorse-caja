@@ -79,13 +79,13 @@ PRE_UNINSTALL = :
 POST_UNINSTALL = :
 build_triplet = @build@
 host_triplet = @host@
-bin_PROGRAMS = seahorse-tool$(EXEEXT)
+bin_PROGRAMS = mate-seahorse-tool$(EXEEXT)
 subdir = tool
 DIST_COMMON = $(srcdir)/Makefile.in $(srcdir)/Makefile.am \
 	$(top_srcdir)/mkinstalldirs \
-	$(srcdir)/seahorse-pgp-encrypted.desktop.in.in \
-	$(srcdir)/seahorse-pgp-keys.desktop.in.in \
-	$(srcdir)/seahorse-pgp-signature.desktop.in.in \
+	$(srcdir)/mate-seahorse-pgp-encrypted.desktop.in.in \
+	$(srcdir)/mate-seahorse-pgp-keys.desktop.in.in \
+	$(srcdir)/mate-seahorse-pgp-signature.desktop.in.in \
 	$(top_srcdir)/depcomp
 ACLOCAL_M4 = $(top_srcdir)/aclocal.m4
 am__aclocal_m4_deps = $(top_srcdir)/m4/intltool.m4 \
@@ -96,8 +96,8 @@ am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \
 	$(ACLOCAL_M4)
 mkinstalldirs = $(SHELL) $(top_srcdir)/mkinstalldirs
 CONFIG_HEADER = $(top_builddir)/config.h
-CONFIG_CLEAN_FILES = seahorse-pgp-encrypted.desktop.in \
-	seahorse-pgp-keys.desktop.in seahorse-pgp-signature.desktop.in
+CONFIG_CLEAN_FILES = mate-seahorse-pgp-encrypted.desktop.in \
+	mate-seahorse-pgp-keys.desktop.in mate-seahorse-pgp-signature.desktop.in
 CONFIG_CLEAN_VPATH_FILES =
 am__installdirs = "$(DESTDIR)$(bindir)" "$(DESTDIR)$(man1dir)" \
 	"$(DESTDIR)$(desktopdir)" "$(DESTDIR)$(uidir)"
@@ -106,8 +106,8 @@ am__objects_1 = seahorse-marshal.$(OBJEXT)
 am_seahorse_tool_OBJECTS = seahorse-notification.$(OBJEXT) \
 	seahorse-operation.$(OBJEXT) seahorse-passphrase.$(OBJEXT) \
 	seahorse-pgp-operation.$(OBJEXT) seahorse-progress.$(OBJEXT) \
-	seahorse-tool.$(OBJEXT) seahorse-tool-files.$(OBJEXT) \
-	seahorse-tool-progress.$(OBJEXT) seahorse-util.$(OBJEXT) \
+	mate-seahorse-tool.$(OBJEXT) mate-seahorse-tool-files.$(OBJEXT) \
+	mate-seahorse-tool-progress.$(OBJEXT) seahorse-util.$(OBJEXT) \
 	seahorse-vfs-data.$(OBJEXT) seahorse-widget.$(OBJEXT) \
 	$(am__objects_1)
 seahorse_tool_OBJECTS = $(am_seahorse_tool_OBJECTS)
@@ -401,9 +401,9 @@ seahorse_tool_SOURCES = \
 	seahorse-passphrase.c seahorse-passphrase.h \
 	seahorse-pgp-operation.c seahorse-pgp-operation.h \
 	seahorse-progress.c seahorse-progress.h \
-	seahorse-tool.c seahorse-tool.h \
-	seahorse-tool-files.c \
-	seahorse-tool-progress.c \
+	mate-seahorse-tool.c mate-seahorse-tool.h \
+	mate-seahorse-tool-files.c \
+	mate-seahorse-tool-progress.c \
 	seahorse-util.c seahorse-util.h \
 	seahorse-vfs-data.c seahorse-vfs-data.h \
 	seahorse-widget.c seahorse-widget.h \
@@ -420,28 +420,28 @@ seahorse_tool_LDADD = \
 
 desktopdir = $(datadir)/applications
 desktop_in_files = \
-	seahorse-pgp-encrypted.desktop.in \
-	seahorse-pgp-signature.desktop.in \
-	seahorse-pgp-keys.desktop.in
+	mate-seahorse-pgp-encrypted.desktop.in \
+	mate-seahorse-pgp-signature.desktop.in \
+	mate-seahorse-pgp-keys.desktop.in
 
 desktop_DATA = $(desktop_in_files:.desktop.in=.desktop)
-man_MANS = seahorse-tool.1
+man_MANS = mate-seahorse-tool.1
 EXTRA_DIST = \
 	$(ui_DATA) \
 	$(man_MANS) \
 	$(mime_DATA) \
 	$(mimeinfo_DATA) \
 	$(desktop_in_files) \
-	seahorse-pgp-encrypted.desktop.in.in \
-	seahorse-pgp-keys.desktop.in.in \
-	seahorse-pgp-signature.desktop.in.in \
+	mate-seahorse-pgp-encrypted.desktop.in.in \
+	mate-seahorse-pgp-keys.desktop.in.in \
+	mate-seahorse-pgp-signature.desktop.in.in \
 	seahorse-marshal.list
 
 CLEANFILES = *.bak \
 	$(desktop_DATA) \
-	seahorse-pgp-encrypted.desktop.in \
-	seahorse-pgp-keys.desktop.in \
-	seahorse-pgp-signature.desktop.in
+	mate-seahorse-pgp-encrypted.desktop.in \
+	mate-seahorse-pgp-keys.desktop.in \
+	mate-seahorse-pgp-signature.desktop.in
 
 all: $(BUILT_SOURCES)
 	$(MAKE) $(AM_MAKEFLAGS) all-am
@@ -478,11 +478,11 @@ $(top_srcdir)/configure: @MAINTAINER_MODE_TRUE@ $(am__configure_deps)
 $(ACLOCAL_M4): @MAINTAINER_MODE_TRUE@ $(am__aclocal_m4_deps)
 	cd $(top_builddir) && $(MAKE) $(AM_MAKEFLAGS) am--refresh
 $(am__aclocal_m4_deps):
-seahorse-pgp-encrypted.desktop.in: $(top_builddir)/config.status $(srcdir)/seahorse-pgp-encrypted.desktop.in.in
+mate-seahorse-pgp-encrypted.desktop.in: $(top_builddir)/config.status $(srcdir)/mate-seahorse-pgp-encrypted.desktop.in.in
 	cd $(top_builddir) && $(SHELL) ./config.status $(subdir)/$@
-seahorse-pgp-keys.desktop.in: $(top_builddir)/config.status $(srcdir)/seahorse-pgp-keys.desktop.in.in
+mate-seahorse-pgp-keys.desktop.in: $(top_builddir)/config.status $(srcdir)/mate-seahorse-pgp-keys.desktop.in.in
 	cd $(top_builddir) && $(SHELL) ./config.status $(subdir)/$@
-seahorse-pgp-signature.desktop.in: $(top_builddir)/config.status $(srcdir)/seahorse-pgp-signature.desktop.in.in
+mate-seahorse-pgp-signature.desktop.in: $(top_builddir)/config.status $(srcdir)/mate-seahorse-pgp-signature.desktop.in.in
 	cd $(top_builddir) && $(SHELL) ./config.status $(subdir)/$@
 install-binPROGRAMS: $(bin_PROGRAMS)
 	@$(NORMAL_INSTALL)
@@ -534,8 +534,8 @@ clean-binPROGRAMS:
 	echo " rm -f" $$list; \
 	rm -f $$list
 
-seahorse-tool$(EXEEXT): $(seahorse_tool_OBJECTS) $(seahorse_tool_DEPENDENCIES) $(EXTRA_seahorse_tool_DEPENDENCIES) 
-	@rm -f seahorse-tool$(EXEEXT)
+mate-seahorse-tool$(EXEEXT): $(seahorse_tool_OBJECTS) $(seahorse_tool_DEPENDENCIES) $(EXTRA_seahorse_tool_DEPENDENCIES) 
+	@rm -f mate-seahorse-tool$(EXEEXT)
 	$(AM_V_CCLD)$(LINK) $(seahorse_tool_OBJECTS) $(seahorse_tool_LDADD) $(LIBS)
 
 mostlyclean-compile:
@@ -550,9 +550,9 @@ distclean-compile:
 @AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/seahorse-passphrase.Po@am__quote@
 @AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/seahorse-pgp-operation.Po@am__quote@
 @AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/seahorse-progress.Po@am__quote@
-@AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/seahorse-tool-files.Po@am__quote@
-@AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/seahorse-tool-progress.Po@am__quote@
-@AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/seahorse-tool.Po@am__quote@
+@AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/mate-seahorse-tool-files.Po@am__quote@
+@AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/mate-seahorse-tool-progress.Po@am__quote@
+@AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/mate-seahorse-tool.Po@am__quote@
 @AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/seahorse-util.Po@am__quote@
 @AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/seahorse-vfs-data.Po@am__quote@
 @AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/seahorse-widget.Po@am__quote@

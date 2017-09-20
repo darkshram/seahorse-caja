@@ -279,83 +279,83 @@ msgstr "Провери потпис"
 msgid "Progress Title"
 msgstr "Наслов напретка"
 
-#: ../tool/seahorse-tool.c:61
+#: ../tool/mate-seahorse-tool.c:61
 msgid "Import keys from the file"
 msgstr "Увези кључеве из датотеке"
 
-#: ../tool/seahorse-tool.c:63
+#: ../tool/mate-seahorse-tool.c:63
 msgid "Encrypt file"
 msgstr "Шифруј датотеку"
 
-#: ../tool/seahorse-tool.c:65
+#: ../tool/mate-seahorse-tool.c:65
 msgid "Sign file with default key"
 msgstr "Потпиши датотеку помоћу основног кључа"
 
-#: ../tool/seahorse-tool.c:67
+#: ../tool/mate-seahorse-tool.c:67
 msgid "Encrypt and sign file with default key"
 msgstr "Шифруј и потпиши датотеку помоћу основног кључа"
 
-#: ../tool/seahorse-tool.c:69
+#: ../tool/mate-seahorse-tool.c:69
 msgid "Decrypt encrypted file"
 msgstr "Дешифруј шифровану датотеку"
 
-#: ../tool/seahorse-tool.c:71
+#: ../tool/mate-seahorse-tool.c:71
 msgid "Verify signature file"
 msgstr "Провери датотеку потписа"
 
-#: ../tool/seahorse-tool.c:73
+#: ../tool/mate-seahorse-tool.c:73
 msgid "Read list of URIs on standard in"
 msgstr "Прочитај списак адреса на стандардном улазу"
 
-#: ../tool/seahorse-tool.c:75
+#: ../tool/mate-seahorse-tool.c:75
 msgid "file..."
 msgstr "датотека..."
 
-#: ../tool/seahorse-tool.c:171
+#: ../tool/mate-seahorse-tool.c:171
 msgid "Encryption settings"
 msgstr "Подешавања шифровања"
 
-#: ../tool/seahorse-tool.c:236 ../tool/seahorse-tool.c:350
+#: ../tool/mate-seahorse-tool.c:236 ../tool/mate-seahorse-tool.c:350
 msgid "Couldn't load keys"
 msgstr "Не могу да учитам кључеве"
 
-#: ../tool/seahorse-tool.c:253
+#: ../tool/mate-seahorse-tool.c:253
 #, c-format
 msgid "Choose Encrypted File Name for '%s'"
 msgstr "Изаберите име шифроване датотеке за „%s“"
 
-#: ../tool/seahorse-tool.c:328
+#: ../tool/mate-seahorse-tool.c:328
 msgid "Choose Signer"
 msgstr "Изаберите потписника"
 
-#: ../tool/seahorse-tool.c:370
+#: ../tool/mate-seahorse-tool.c:370
 #, c-format
 msgid "Choose Signature File Name for '%s'"
 msgstr "Изаберите име потписане датотеке за „%s“"
 
-#: ../tool/seahorse-tool.c:410
+#: ../tool/mate-seahorse-tool.c:410
 msgid "Import is complete"
 msgstr "Увоз је завршен"
 
-#: ../tool/seahorse-tool.c:443
+#: ../tool/mate-seahorse-tool.c:443
 msgid "Importing keys ..."
 msgstr "Увозим кључеве ..."
 
-#: ../tool/seahorse-tool.c:473
+#: ../tool/mate-seahorse-tool.c:473
 msgid "Import Failed"
 msgstr "Увоз није успео"
 
-#: ../tool/seahorse-tool.c:474
+#: ../tool/mate-seahorse-tool.c:474
 msgid "Keys were found but not imported."
 msgstr "Кључеви су нађени али нису увежени."
 
 # bug: plural-forms
-#: ../tool/seahorse-tool.c:497
+#: ../tool/mate-seahorse-tool.c:497
 #, c-format
 msgid "Imported key"
 msgstr "Увезох кључ"
 
-#: ../tool/seahorse-tool.c:499
+#: ../tool/mate-seahorse-tool.c:499
 #, c-format
 msgid "Imported %d key"
 msgid_plural "Imported %d keys"
@@ -365,12 +365,12 @@ msgstr[2] "Увезено је %d кључева"
 msgstr[3] "Увезен је један кључ"
 
 #. File to decrypt to
-#: ../tool/seahorse-tool.c:521
+#: ../tool/mate-seahorse-tool.c:521
 #, c-format
 msgid "Choose Decrypted File Name for '%s'"
 msgstr "Изаберите име дешифроване датотеке за „%s“"
 
-#: ../tool/seahorse-tool.c:578
+#: ../tool/mate-seahorse-tool.c:578
 #, c-format
 msgid "Choose Original File for '%s'"
 msgstr "Изаберите изворну датотеку за „%s“"
@@ -380,136 +380,136 @@ msgstr "Изаберите изворну датотеку за „%s“"
 #. * The last thing we want to do is cascade a big pile of error
 #. * dialogs at the user.
 #.
-#: ../tool/seahorse-tool.c:651
+#: ../tool/mate-seahorse-tool.c:651
 #, c-format
 msgid "No valid signatures found"
 msgstr "Не могу да нађем ниједан исправан потпис"
 
-#: ../tool/seahorse-tool.c:698
+#: ../tool/mate-seahorse-tool.c:698
 msgid "File Encryption Tool"
 msgstr "Алат за шифровање датотека"
 
-#: ../tool/seahorse-tool.c:716
+#: ../tool/mate-seahorse-tool.c:716
 msgid "Encrypting"
 msgstr "Дешифрујем"
 
-#: ../tool/seahorse-tool.c:717
+#: ../tool/mate-seahorse-tool.c:717
 #, c-format
 msgid "Couldn't encrypt file: %s"
 msgstr "Не могу да шифрујем датотеку: %s"
 
-#: ../tool/seahorse-tool.c:725
+#: ../tool/mate-seahorse-tool.c:725
 msgid "Signing"
 msgstr "Потписујем"
 
-#: ../tool/seahorse-tool.c:726
+#: ../tool/mate-seahorse-tool.c:726
 #, c-format
 msgid "Couldn't sign file: %s"
 msgstr "Не могу да потпишем датотеку: %s"
 
-#: ../tool/seahorse-tool.c:731
+#: ../tool/mate-seahorse-tool.c:731
 msgid "Importing"
 msgstr "Увозим"
 
-#: ../tool/seahorse-tool.c:732
+#: ../tool/mate-seahorse-tool.c:732
 #, c-format
 msgid "Couldn't import keys from file: %s"
 msgstr "Не могу да увезем кључеве из датотеке: %s"
 
-#: ../tool/seahorse-tool.c:738
+#: ../tool/mate-seahorse-tool.c:738
 msgid "Decrypting"
 msgstr "Дешифрујем"
 
-#: ../tool/seahorse-tool.c:739
+#: ../tool/mate-seahorse-tool.c:739
 #, c-format
 msgid "Couldn't decrypt file: %s"
 msgstr "Не могу да дешифрујем датотеку: %s"
 
-#: ../tool/seahorse-tool.c:744
+#: ../tool/mate-seahorse-tool.c:744
 msgid "Verifying"
 msgstr "Проверавам"
 
-#: ../tool/seahorse-tool.c:745
+#: ../tool/mate-seahorse-tool.c:745
 #, c-format
 msgid "Couldn't verify file: %s"
 msgstr "Не могу да проверим датотеку: %s"
 
-#: ../tool/seahorse-tool-files.c:119
+#: ../tool/mate-seahorse-tool-files.c:119
 msgid "Ace (.ace)"
 msgstr "Аце (.ace)"
 
-#: ../tool/seahorse-tool-files.c:120
+#: ../tool/mate-seahorse-tool-files.c:120
 msgid "Ar (.ar)"
 msgstr "Ар (.ar)"
 
-#: ../tool/seahorse-tool-files.c:121
+#: ../tool/mate-seahorse-tool-files.c:121
 msgid "Arj (.arj)"
 msgstr "Арј (.arj)"
 
-#: ../tool/seahorse-tool-files.c:128
+#: ../tool/mate-seahorse-tool-files.c:128
 msgid "Ear (.ear)"
 msgstr "Еар (.ear)"
 
-#: ../tool/seahorse-tool-files.c:129
+#: ../tool/mate-seahorse-tool-files.c:129
 msgid "Self-extracting zip (.exe)"
 msgstr "Самоотпакујући зип (.exe)"
 
-#: ../tool/seahorse-tool-files.c:131
+#: ../tool/mate-seahorse-tool-files.c:131
 msgid "Jar (.jar)"
 msgstr "Јар (.jar)"
 
-#: ../tool/seahorse-tool-files.c:132
+#: ../tool/mate-seahorse-tool-files.c:132
 msgid "Lha (.lzh)"
 msgstr "Лха (.lzh)"
 
-#: ../tool/seahorse-tool-files.c:134
+#: ../tool/mate-seahorse-tool-files.c:134
 msgid "Rar (.rar)"
 msgstr "Рар (.rar)"
 
-#: ../tool/seahorse-tool-files.c:136
+#: ../tool/mate-seahorse-tool-files.c:136
 msgid "Tar uncompressed (.tar)"
 msgstr "Незапакован Тар (.tar)"
 
-#: ../tool/seahorse-tool-files.c:137
+#: ../tool/mate-seahorse-tool-files.c:137
 msgid "Tar compressed with bzip (.tar.bz)"
 msgstr "Тар запакован бзипом (.tar.bz)"
 
-#: ../tool/seahorse-tool-files.c:138
+#: ../tool/mate-seahorse-tool-files.c:138
 msgid "Tar compressed with bzip2 (.tar.bz2)"
 msgstr "Тар запакован бзипом 2 (.tar.bz2)"
 
-#: ../tool/seahorse-tool-files.c:139
+#: ../tool/mate-seahorse-tool-files.c:139
 msgid "Tar compressed with gzip (.tar.gz)"
 msgstr "Тар запакован гзипом (.tar.gz)"
 
-#: ../tool/seahorse-tool-files.c:140
+#: ../tool/mate-seahorse-tool-files.c:140
 msgid "Tar compressed with lzop (.tar.lzo)"
 msgstr "Тар запакован лзопом (.tar.lzo)"
 
-#: ../tool/seahorse-tool-files.c:141
+#: ../tool/mate-seahorse-tool-files.c:141
 msgid "Tar compressed with compress (.tar.Z)"
 msgstr "Тар запакован компресом (.tar.Z)"
 
-#: ../tool/seahorse-tool-files.c:143
+#: ../tool/mate-seahorse-tool-files.c:143
 msgid "War (.war)"
 msgstr "Вар (.war)"
 
-#: ../tool/seahorse-tool-files.c:144
+#: ../tool/mate-seahorse-tool-files.c:144
 msgid "Zip (.zip)"
 msgstr "Зип (.zip)"
 
-#: ../tool/seahorse-tool-files.c:145
+#: ../tool/mate-seahorse-tool-files.c:145
 msgid "Zoo (.zoo)"
 msgstr "Зоо (.zoo)"
 
-#: ../tool/seahorse-tool-files.c:146
+#: ../tool/mate-seahorse-tool-files.c:146
 msgid "7-Zip (.7z)"
 msgstr "7-Зип (.7z)"
 
 # bug: plural-forms
 #. TRANSLATOR: This string will become
 #. * "You have selected %d files and %d folders"
-#: ../tool/seahorse-tool-files.c:328
+#: ../tool/mate-seahorse-tool-files.c:328
 #, c-format
 msgid "You have selected %d file "
 msgid_plural "You have selected %d files "
@@ -520,7 +520,7 @@ msgstr[3] "Изабрали сте једну датотеку "
 
 #. TRANSLATOR: This string will become
 #. * "You have selected %d files and %d folders"
-#: ../tool/seahorse-tool-files.c:333
+#: ../tool/mate-seahorse-tool-files.c:333
 #, c-format
 msgid "and %d folder"
 msgid_plural "and %d folders"
@@ -531,13 +531,13 @@ msgstr[3] "и једну фасциклу"
 
 #. TRANSLATOR: "%s%s" are "You have selected %d files and %d folders"
 #. * Swap order with "%2$s%1$s" if needed
-#: ../tool/seahorse-tool-files.c:338
+#: ../tool/mate-seahorse-tool-files.c:338
 #, c-format
 msgid "<b>%s%s</b>"
 msgstr "<b>%s%s</b>"
 
 # bug: plural-forms
-#: ../tool/seahorse-tool-files.c:346
+#: ../tool/mate-seahorse-tool-files.c:346
 #, c-format
 msgid "You have selected %d file"
 msgid_plural "You have selected %d files"
@@ -546,7 +546,7 @@ msgstr[1] "Изабрали сте %d датотеке"
 msgstr[2] "Изабрали сте %d датотека"
 msgstr[3] "Изабрали сте једну датотеку"
 
-#: ../tool/seahorse-tool-files.c:351
+#: ../tool/mate-seahorse-tool-files.c:351
 #, c-format
 msgid "You have selected %d folder"
 msgid_plural "You have selected %d folders"
@@ -555,15 +555,15 @@ msgstr[1] "Изабрали сте %d директоријума"
 msgstr[2] "Изабрали сте %d директоријума"
 msgstr[3] "Изабрали сте један директоријум"
 
-#: ../tool/seahorse-tool-files.c:866
+#: ../tool/mate-seahorse-tool-files.c:866
 msgid "Preparing..."
 msgstr "Припремам..."
 
-#: ../tool/seahorse-tool-files.c:875 ../tool/seahorse-tool-files.c:898
+#: ../tool/mate-seahorse-tool-files.c:875 ../tool/mate-seahorse-tool-files.c:898
 msgid "Couldn't list files"
 msgstr "Не могу да излистам датотеке"
 
-#: ../tool/seahorse-tool-files.c:885 ../tool/seahorse-util.c:399
+#: ../tool/mate-seahorse-tool-files.c:885 ../tool/seahorse-util.c:399
 msgid "Couldn't package files"
 msgstr "Не могу да упакујем датотеке"
 

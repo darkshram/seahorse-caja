@@ -297,9 +297,9 @@ Makefile
 data/Makefile
 po/Makefile.in
 tool/Makefile
-tool/seahorse-pgp-encrypted.desktop.in
-tool/seahorse-pgp-keys.desktop.in
-tool/seahorse-pgp-signature.desktop.in
+tool/mate-seahorse-pgp-encrypted.desktop.in
+tool/mate-seahorse-pgp-keys.desktop.in
+tool/mate-seahorse-pgp-signature.desktop.in
 caja-ext/Makefile
 ])
 

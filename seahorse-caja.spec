@@ -6,17 +6,19 @@ License:        GPLv2+
 URL:            https://github.com/darkshram/seahorse-caja/
 Source0:        https://github.com/darkshram/seahorse-caja/archive/%{version}/seahorse-caja-%{version}.tar.xz
 
-BuildRequires:  gtk3-devel
 BuildRequires:  desktop-file-utils
-BuildRequires:  gcr-devel
 BuildRequires:  gnupg2
-BuildRequires:  gpgme-devel >= 1.0
-BuildRequires:  caja-devel >= 1.17.0
-BuildRequires:  libgnome-keyring-devel
-BuildRequires:  dbus-glib-devel
-BuildRequires:  libcryptui-devel
-BuildRequires:  libnotify-devel
 BuildRequires:  intltool
+BuildRequires:  pkgconfig(cryptui-0.0)
+BuildRequires:  pkgconfig(dbus-glib-1)
+BuildRequires:  pkgconfig(gck-1)
+BuildRequires:  pkgconfig(gcr-3)
+BuildRequires:  pkgconfig(gcr-base-3)
+BuildRequires:  pkgconfig(gcr-ui-3)
+BuildRequires:  pkgconfig(gnome-keyring-1)
+BuildRequires:  pkgconfig(gtk+-3.0)
+BuildRequires:  pkgconfig(libcaja-extension) >= 1.17.0
+BuildRequires:  pkgconfig(libnotify)
 
 Obsoletes: seahorse-plugins < 3.0
 

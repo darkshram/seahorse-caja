@@ -1,0 +1,4 @@
+[org.mate.seahorse.caja]
+package-extension = /desktop/pgp/package_extension
+separate-files = /desktop/pgp/multi_seperate
+armor-mode = /desktop/pgp/ascii_armor

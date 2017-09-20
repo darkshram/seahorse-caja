@@ -1,0 +1,600 @@
+# Czech translation of seahorse-plugins.
+# Copyright (C) 1996, 2003, 2008 the author(s) of seahorse-plugins.
+# Copyright (C) 2004, 2005 Miloslav Trmac <mitr@volny.cz>.
+# This file is distributed under the same license as the seahorse-plugins package.
+#
+# Petr Domansky <doman@atlas.cz>, 2000.
+# Michal Bukovjan <bukm@centrum.cz>, 2003.
+# Miloslav Trmac <mitr@volny.cz>, 2003, 2004, 2005.
+# Vitezslav Kotrla <vitko@post.cz>, 2008.
+# Lucas Lommer <llommer@svn.gnome.org>, 2008, 2010, 2011.
+# Petr Kovar <pknbe@volny.cz>, 2008, 2010.
+# Marek Černocký <marek@manet.cz>, 2010, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: seahorse-plugins\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=seahorse-caja&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2013-11-23 05:06+0000\n"
+"PO-Revision-Date: 2013-12-02 14:31+0100\n"
+"Last-Translator: Marek Černocký <marek@manet.cz>\n"
+"Language-Team: Czech <gnome-cs-list@gnome.org>\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Gtranslator 2.91.6\n"
+
+#: ../data/org.mate.seahorse.caja.gschema.xml.h:1
+msgid "File extension for packages"
+msgstr "Přípona souboru pro balíčky"
+
+#: ../data/org.mate.seahorse.caja.gschema.xml.h:2
+msgid "File extension for packages when handling multiple files."
+msgstr "Přípona souboru pro balíčky, když se pracuje s více soubory."
+
+#: ../data/org.mate.seahorse.caja.gschema.xml.h:3
+msgid "Handle multiple files separately"
+msgstr "Pracovat s každým souborem zvlášť"
+
+#: ../data/org.mate.seahorse.caja.gschema.xml.h:4
+msgid ""
+"When handling multiple files, don't package them but process separately."
+msgstr ""
+"Když se pracuje s více soubory, nebalit je, ale zpracovat každý zvlášť."
+
+#: ../data/org.mate.seahorse.caja.gschema.xml.h:5
+msgid "Use armor mode when encrypting"
+msgstr "Během šifrování používat ochranný režim"
+
+#: ../data/org.mate.seahorse.caja.gschema.xml.h:6
+msgid "Use PGP ASCII armor mode when encrypting or signing files."
+msgstr ""
+"Během šifrování nebo podepisování souborů používat ochranný režim PGP ASCII."
+
+#: ../data/org.mate.seahorse.caja.window.gschema.xml.h:1
+msgid "Width of the window"
+msgstr "Šířka okna"
+
+#: ../data/org.mate.seahorse.caja.window.gschema.xml.h:2
+msgid "Width (in pixels) of the window."
+msgstr "Šířka okna (v pixelech)."
+
+#: ../data/org.mate.seahorse.caja.window.gschema.xml.h:3
+msgid "Height of the window"
+msgstr "Výška okna"
+
+#: ../data/org.mate.seahorse.caja.window.gschema.xml.h:4
+msgid "Height (in pixels) of the window."
+msgstr "Výšky okna (v pixelech)."
+
+#: ../caja-ext/seahorse-caja.c:158
+msgid "Encrypt..."
+msgstr "Zašifrovat…"
+
+#: ../caja-ext/seahorse-caja.c:159
+msgid "Encrypt (and optionally sign) the selected file"
+msgid_plural "Encrypt the selected files"
+msgstr[0] "Zašifrovat (a volitelně podepsat) vybraný soubor"
+msgstr[1] "Zašifrovat vybrané soubory"
+msgstr[2] "Zašifrovat vybraný archiv"
+
+#: ../caja-ext/seahorse-caja.c:165
+msgid "Sign"
+msgstr "Podepsat"
+
+#: ../caja-ext/seahorse-caja.c:166
+msgid "Sign the selected file"
+msgid_plural "Sign the selected files"
+msgstr[0] "Podepsat vybraný soubor"
+msgstr[1] "Podepsat vybrané soubory"
+msgstr[2] "Podepsat vybraných souborů"
+
+#: ../tool/seahorse-multi-encrypt.xml.h:1
+msgid "Encrypt Multiple Files"
+msgstr "Zašifrovat více souborů"
+
+#: ../tool/seahorse-multi-encrypt.xml.h:2
+msgid "<b>You have selected multiple files or folders</b>"
+msgstr "<b>Bylo vybráno více souborů nebo složek</b>"
+
+#: ../tool/seahorse-multi-encrypt.xml.h:3
+msgid "encrypted-package"
+msgstr "šifrovaný balíček"
+
+#: ../tool/seahorse-multi-encrypt.xml.h:4
+msgid "Encrypt each file separately"
+msgstr "Zašifrovat každý soubor zvlášť"
+
+#: ../tool/seahorse-multi-encrypt.xml.h:5
+msgid "Encrypt packed together in a package"
+msgstr "Zašifrovat sbalené do balíčku"
+
+#: ../tool/seahorse-multi-encrypt.xml.h:6
+msgid "Packaging:"
+msgstr "Balení:"
+
+#: ../tool/seahorse-multi-encrypt.xml.h:7
+msgid "Package Name:"
+msgstr "Název balíčku:"
+
+#: ../tool/seahorse-multi-encrypt.xml.h:8
+msgid ""
+"Because the files are located remotely, each file will be encrypted "
+"separately."
+msgstr ""
+"Protože jsou soubory umístěny vzdáleně, bude každý soubor zašifrován "
+"samostatně."
+
+#: ../tool/seahorse-notification.c:572
+msgid "Key Imported"
+msgid_plural "Keys Imported"
+msgstr[0] "Importovaný klíč"
+msgstr[1] "Importované klíče"
+msgstr[2] "Importovat"
+
+#: ../tool/seahorse-notification.c:576
+#, c-format
+msgid "Imported %i key"
+msgid_plural "Imported %i keys"
+msgstr[0] "Importován %i klíč"
+msgstr[1] "Importováno %i klíčů"
+msgstr[2] "Importováno %i klíčů"
+
+#: ../tool/seahorse-notification.c:578
+#, c-format
+msgid "Imported a key for"
+msgid_plural "Imported keys for"
+msgstr[0] "Importován klíč pro"
+msgstr[1] "Importovány klíče pro"
+msgstr[2] "Importován klíč"
+
+#. TRANSLATORS: <key id='xxx'> is a custom markup tag, do not translate.
+#: ../tool/seahorse-notification.c:606
+#, c-format
+msgid "Signed by <i><key id='%s'/> <b>expired</b></i> on %s."
+msgstr "Podepsáno: <i><key id='%s'/> <b>vypršel</b></i> dne %s."
+
+#: ../tool/seahorse-notification.c:607
+msgid "Invalid Signature"
+msgstr "Neplatný podpis"
+
+#: ../tool/seahorse-notification.c:613
+#, c-format
+msgid "Signed by <i><key id='%s'/></i> on %s <b>Expired</b>."
+msgstr ""
+"Podepsáno klíčem <i><key id='%s'/></i> dne %s <b>Platnost klíče vypršela</b>."
+
+#: ../tool/seahorse-notification.c:614
+msgid "Expired Signature"
+msgstr "Podpis s vypršenou platností"
+
+#: ../tool/seahorse-notification.c:620
+#, c-format
+msgid "Signed by <i><key id='%s'/> <b>Revoked</b></i> on %s."
+msgstr "Podepsáno klíčem <i><key id='%s'/> <b>Klíč odvolán</b></i> dne %s."
+
+#: ../tool/seahorse-notification.c:621
+msgid "Revoked Signature"
+msgstr "Odvolaný podpis"
+
+#: ../tool/seahorse-notification.c:628
+msgid "Good Signature"
+msgstr "Správný podpis"
+
+#: ../tool/seahorse-notification.c:629
+#, c-format
+msgid "Signed by <i><key id='%s'/></i> on %s."
+msgstr "Podepsáno klíčem <i><key id='%s'/></i> dne %s."
+
+#: ../tool/seahorse-notification.c:631
+msgid "Untrusted Valid Signature"
+msgstr "Nedůvěryhodný platný podpis"
+
+#: ../tool/seahorse-notification.c:632
+#, c-format
+msgid "Valid but <b>untrusted</b> signature by <i><key id='%s'/></i> on %s."
+msgstr ""
+"Podepsáno platným, ale <b>nedůvěryhodným</b> klíčem <i><key id='%s'/></i> "
+"dne %s."
+
+#: ../tool/seahorse-notification.c:638
+msgid "Signing key not in keyring."
+msgstr "Podpisový klíč v klíčence chybí."
+
+#: ../tool/seahorse-notification.c:639
+msgid "Unknown Signature"
+msgstr "Neznámý podpis"
+
+#: ../tool/seahorse-notification.c:643
+msgid "Bad or forged signature. The signed data was modified."
+msgstr "Špatný nebo padělaný podpis. Podepsaná data byla změněna."
+
+#: ../tool/seahorse-notification.c:644
+msgid "Bad Signature"
+msgstr "Špatný podpis"
+
+#: ../tool/seahorse-notification.c:652
+msgid "Couldn't verify signature."
+msgstr "Nebylo možno ověřit podpis."
+
+#: ../tool/seahorse-notify.xml.h:1
+msgid "Notification Messages"
+msgstr "Upozornění"
+
+#: ../tool/seahorse-passphrase.c:114
+#, c-format
+msgid "Wrong passphrase."
+msgstr "Špatné heslo."
+
+#: ../tool/seahorse-passphrase.c:118
+#, c-format
+msgid "Enter new passphrase for '%s'"
+msgstr "Zadejte nové heslo pro „%s“"
+
+#: ../tool/seahorse-passphrase.c:120
+#, c-format
+msgid "Enter passphrase for '%s'"
+msgstr "Zadejte heslo pro „%s“"
+
+#: ../tool/seahorse-passphrase.c:123
+msgid "Enter new passphrase"
+msgstr "Zadejte nové heslo"
+
+#: ../tool/seahorse-passphrase.c:125
+msgid "Enter passphrase"
+msgstr "Zadejte heslo"
+
+#: ../tool/seahorse-passphrase.c:130
+msgid "Passphrase"
+msgstr "Heslo"
+
+#: ../tool/seahorse-passphrase.c:138
+msgid "Ok"
+msgstr "Budiž"
+
+#: ../tool/seahorse-passphrase.c:139
+msgid "Cancel"
+msgstr "Zrušit"
+
+#: ../tool/seahorse-pgp-encrypted.desktop.in.in.h:1
+msgid "Decrypt File"
+msgstr "Dešifrovat soubor"
+
+#: ../tool/seahorse-pgp-keys.desktop.in.in.h:1
+msgid "Import Key"
+msgstr "Importovat klíč"
+
+#: ../tool/seahorse-pgp-signature.desktop.in.in.h:1
+msgid "Verify Signature"
+msgstr "Ověřit podpis"
+
+#: ../tool/seahorse-progress.xml.h:1
+msgid "Progress Title"
+msgstr "Nadpis průběhu"
+
+#: ../tool/seahorse-tool.c:61
+msgid "Import keys from the file"
+msgstr "Importovat klíče ze souboru"
+
+#: ../tool/seahorse-tool.c:63
+msgid "Encrypt file"
+msgstr "Zašifrovat soubor"
+
+#: ../tool/seahorse-tool.c:65
+msgid "Sign file with default key"
+msgstr "Podepsat soubor výchozím klíčem"
+
+#: ../tool/seahorse-tool.c:67
+msgid "Encrypt and sign file with default key"
+msgstr "Zašifrovat a podepsat soubor pomocí výchozího klíče"
+
+#: ../tool/seahorse-tool.c:69
+msgid "Decrypt encrypted file"
+msgstr "Dešifrovat šifrovaný soubor"
+
+#: ../tool/seahorse-tool.c:71
+msgid "Verify signature file"
+msgstr "Ověřit soubor podpisu"
+
+#: ../tool/seahorse-tool.c:73
+msgid "Read list of URIs on standard in"
+msgstr "Číst seznam URI ze standardního vstupu"
+
+#: ../tool/seahorse-tool.c:75
+msgid "file..."
+msgstr "soubor…"
+
+#: ../tool/seahorse-tool.c:171
+msgid "Encryption settings"
+msgstr "Nastavení šifrování"
+
+#: ../tool/seahorse-tool.c:236 ../tool/seahorse-tool.c:350
+msgid "Couldn't load keys"
+msgstr "Nebylo možno načíst klíče"
+
+#: ../tool/seahorse-tool.c:253
+#, c-format
+msgid "Choose Encrypted File Name for '%s'"
+msgstr "Zvolte název zašifrovaného souboru pro „%s“"
+
+#: ../tool/seahorse-tool.c:328
+msgid "Choose Signer"
+msgstr "Zvolte podpisový klíč"
+
+#: ../tool/seahorse-tool.c:370
+#, c-format
+msgid "Choose Signature File Name for '%s'"
+msgstr "Zvolte název souboru s podpisem pro „%s“"
+
+#: ../tool/seahorse-tool.c:410
+msgid "Import is complete"
+msgstr "Import byl dokončen"
+
+#: ../tool/seahorse-tool.c:443
+msgid "Importing keys ..."
+msgstr "Importují se klíče…"
+
+#: ../tool/seahorse-tool.c:473
+msgid "Import Failed"
+msgstr "Import selhal"
+
+#: ../tool/seahorse-tool.c:474
+msgid "Keys were found but not imported."
+msgstr "Klíče nalezeny, ale nebyly importovány."
+
+#: ../tool/seahorse-tool.c:497
+#, c-format
+msgid "Imported key"
+msgstr "Importován klíč"
+
+#: ../tool/seahorse-tool.c:499
+#, c-format
+msgid "Imported %d key"
+msgid_plural "Imported %d keys"
+msgstr[0] "Importován %d klíč"
+msgstr[1] "Importovány %d klíče"
+msgstr[2] "Importováno %d klíčů"
+
+#. File to decrypt to
+#: ../tool/seahorse-tool.c:521
+#, c-format
+msgid "Choose Decrypted File Name for '%s'"
+msgstr "Zvolte název dešifrovaného souboru pro „%s“"
+
+#: ../tool/seahorse-tool.c:578
+#, c-format
+msgid "Choose Original File for '%s'"
+msgstr "Zvolte původní soubor pro „%s“"
+
+#.
+#. * TODO: What should happen with multiple files at this point.
+#. * The last thing we want to do is cascade a big pile of error
+#. * dialogs at the user.
+#.
+#: ../tool/seahorse-tool.c:651
+#, c-format
+msgid "No valid signatures found"
+msgstr "Nebyl nalezen žádný platný podpis"
+
+#: ../tool/seahorse-tool.c:698
+msgid "File Encryption Tool"
+msgstr "Nástroj pro šifrování souborů"
+
+#: ../tool/seahorse-tool.c:716
+msgid "Encrypting"
+msgstr "Šifrování"
+
+#: ../tool/seahorse-tool.c:717
+#, c-format
+msgid "Couldn't encrypt file: %s"
+msgstr "Nebylo možno zašifrovat soubor: %s"
+
+#: ../tool/seahorse-tool.c:725
+msgid "Signing"
+msgstr "Podepsání"
+
+#: ../tool/seahorse-tool.c:726
+#, c-format
+msgid "Couldn't sign file: %s"
+msgstr "Nebylo možno podepsat soubor: %s"
+
+#: ../tool/seahorse-tool.c:731
+msgid "Importing"
+msgstr "Import"
+
+#: ../tool/seahorse-tool.c:732
+#, c-format
+msgid "Couldn't import keys from file: %s"
+msgstr "Nebylo možno importovat klíče ze souboru: %s"
+
+#: ../tool/seahorse-tool.c:738
+msgid "Decrypting"
+msgstr "Dešifrování"
+
+#: ../tool/seahorse-tool.c:739
+#, c-format
+msgid "Couldn't decrypt file: %s"
+msgstr "Nebylo možno dešifrovat soubor: %s"
+
+#: ../tool/seahorse-tool.c:744
+msgid "Verifying"
+msgstr "Ověření"
+
+#: ../tool/seahorse-tool.c:745
+#, c-format
+msgid "Couldn't verify file: %s"
+msgstr "Nebylo možno ověřit soubor: %s"
+
+#: ../tool/seahorse-tool-files.c:119
+msgid "Ace (.ace)"
+msgstr "Ace (.ace)"
+
+#: ../tool/seahorse-tool-files.c:120
+msgid "Ar (.ar)"
+msgstr "Ar (.ar)"
+
+#: ../tool/seahorse-tool-files.c:121
+msgid "Arj (.arj)"
+msgstr "ARJ (.arj)"
+
+#: ../tool/seahorse-tool-files.c:128
+msgid "Ear (.ear)"
+msgstr "Ear (.ear)"
+
+#: ../tool/seahorse-tool-files.c:129
+msgid "Self-extracting zip (.exe)"
+msgstr "Samorozbalovací zip (.exe)"
+
+#: ../tool/seahorse-tool-files.c:131
+msgid "Jar (.jar)"
+msgstr "Jar (.jar)"
+
+#: ../tool/seahorse-tool-files.c:132
+msgid "Lha (.lzh)"
+msgstr "LHA (.lzh)"
+
+#: ../tool/seahorse-tool-files.c:134
+msgid "Rar (.rar)"
+msgstr "RAR (.rar)"
+
+#: ../tool/seahorse-tool-files.c:136
+msgid "Tar uncompressed (.tar)"
+msgstr "Nekomprimovaný Tar (.tar)"
+
+#: ../tool/seahorse-tool-files.c:137
+msgid "Tar compressed with bzip (.tar.bz)"
+msgstr "Tar s kompresí bzip (.tar.bz)"
+
+#: ../tool/seahorse-tool-files.c:138
+msgid "Tar compressed with bzip2 (.tar.bz2)"
+msgstr "Tar s kompresí bzip2 (.tar.bz2)"
+
+#: ../tool/seahorse-tool-files.c:139
+msgid "Tar compressed with gzip (.tar.gz)"
+msgstr "Tar s kompresí gzip (.tar.gz)"
+
+#: ../tool/seahorse-tool-files.c:140
+msgid "Tar compressed with lzop (.tar.lzo)"
+msgstr "Tar s kompresí lzop (.tar.lzo)"
+
+#: ../tool/seahorse-tool-files.c:141
+msgid "Tar compressed with compress (.tar.Z)"
+msgstr "Tar s kompresí compress (.tar.Z)"
+
+#: ../tool/seahorse-tool-files.c:143
+msgid "War (.war)"
+msgstr "War (.war)"
+
+#: ../tool/seahorse-tool-files.c:144
+msgid "Zip (.zip)"
+msgstr "Zip (.zip)"
+
+#: ../tool/seahorse-tool-files.c:145
+msgid "Zoo (.zoo)"
+msgstr "Zoo (.zoo)"
+
+#: ../tool/seahorse-tool-files.c:146
+msgid "7-Zip (.7z)"
+msgstr "7-Zip (.7z)"
+
+#. TRANSLATOR: This string will become
+#. * "You have selected %d files and %d folders"
+#: ../tool/seahorse-tool-files.c:328
+#, c-format
+msgid "You have selected %d file "
+msgid_plural "You have selected %d files "
+msgstr[0] "Vybral jste %d soubor "
+msgstr[1] "Vybral jste %d souborů "
+msgstr[2] "Vybrali jste %d souborů "
+
+#. TRANSLATOR: This string will become
+#. * "You have selected %d files and %d folders"
+#: ../tool/seahorse-tool-files.c:333
+#, c-format
+msgid "and %d folder"
+msgid_plural "and %d folders"
+msgstr[0] "a %d složka"
+msgstr[1] "a %d složky"
+msgstr[2] "a %d složek"
+
+#. TRANSLATOR: "%s%s" are "You have selected %d files and %d folders"
+#. * Swap order with "%2$s%1$s" if needed
+#: ../tool/seahorse-tool-files.c:338
+#, c-format
+msgid "<b>%s%s</b>"
+msgstr "<b>%s%s</b>"
+
+#: ../tool/seahorse-tool-files.c:346
+#, c-format
+msgid "You have selected %d file"
+msgid_plural "You have selected %d files"
+msgstr[0] "Vybrali jste %d soubor "
+msgstr[1] "Vybrali jste %d soubory"
+msgstr[2] "Vybrali jste %d souborů "
+
+#: ../tool/seahorse-tool-files.c:351
+#, c-format
+msgid "You have selected %d folder"
+msgid_plural "You have selected %d folders"
+msgstr[0] "Vybrali jste %d složku"
+msgstr[1] "Vybrali jste %d složky"
+msgstr[2] "Vybrali jste %d složek"
+
+#: ../tool/seahorse-tool-files.c:866
+msgid "Preparing..."
+msgstr "Příprava…"
+
+#: ../tool/seahorse-tool-files.c:875 ../tool/seahorse-tool-files.c:898
+msgid "Couldn't list files"
+msgstr "Nebylo možno vypsat soubory"
+
+#: ../tool/seahorse-tool-files.c:885 ../tool/seahorse-util.c:399
+msgid "Couldn't package files"
+msgstr "Nebylo možno zabalit soubory"
+
+#: ../tool/seahorse-util.c:173
+msgid "Decryption failed. You probably do not have the decryption key."
+msgstr "Dešifrování selhalo. Pravděpodobně nemáte dešifrovací klíč."
+
+#: ../tool/seahorse-util.c:200
+msgid "%Y-%m-%d"
+msgstr "%d.%m.%Y"
+
+#: ../tool/seahorse-util.c:394
+msgid "Couldn't run file-roller"
+msgstr "Nebylo možno spustit file-roller"
+
+#: ../tool/seahorse-util.c:400
+msgid "The file-roller process did not complete successfully"
+msgstr "Proces file-roller neskončil úspěšně"
+
+#. Filter for PGP keys. We also include *.asc, as in many
+#. cases that extension is associated with text/plain
+#: ../tool/seahorse-util.c:436
+msgid "All key files"
+msgstr "Všechny soubory klíčů"
+
+#: ../tool/seahorse-util.c:443 ../tool/seahorse-util.c:483
+msgid "All files"
+msgstr "Všechny soubory"
+
+#: ../tool/seahorse-util.c:476
+msgid "Archive files"
+msgstr "Soubory archivů"
+
+#: ../tool/seahorse-util.c:505
+msgid ""
+"<b>A file already exists with this name.</b>\n"
+"\n"
+"Do you want to replace it with a new file?"
+msgstr ""
+"<b>Již existuje soubor s tímto názvem.</b>\n"
+"\n"
+"Chcete jej nahradit novým souborem?"
+
+#: ../tool/seahorse-util.c:508
+msgid "_Replace"
+msgstr "Na_hradit"

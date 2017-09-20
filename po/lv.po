@@ -1,0 +1,601 @@
+# translation of lv.po to Latvian
+# translation of seahorse.HEAD-0-300+62x-my.po to
+# translation of seahorse.HEAD-0-300+62x-7xx.po to
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Raivis Dejus <orvils@gmail.com>, 2007.
+# Nauris Kanasnieks <nauris.kanasnieks@gmail.com>, 2007.
+# Janis Laimins <janis.laimins@gmail.com>, 2007.
+# seahorse <normunds.jakubanecs@gmail.com>, 2007.
+# Peteris Krisjanis <pecisk@gmail.com>, 2010.
+# Rudolfs <rudolfs.mazurs@gmail.com>, 2011.
+# Rūdofls Mazurs <rudolfs.mazurs@gmail.com>, 2011, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: lv\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=seahorse-caja&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2013-08-16 17:26+0000\n"
+"PO-Revision-Date: 2013-09-21 23:43+0300\n"
+"Last-Translator: Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>\n"
+"Language-Team: Latvian <lata-l10n@googlegroups.com>\n"
+"Language: lv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
+"2);\n"
+"X-Generator: Lokalize 1.5\n"
+
+#: ../data/org.mate.seahorse.caja.gschema.xml.h:1
+msgid "File extension for packages"
+msgstr "Datņu paplašinājums pakotnēm"
+
+#: ../data/org.mate.seahorse.caja.gschema.xml.h:2
+msgid "File extension for packages when handling mulitple files."
+msgstr "Datņu paplašinājums pakotnēm, kad apstrādā vairākas datnes."
+
+#: ../data/org.mate.seahorse.caja.gschema.xml.h:3
+#| msgid "Encrypt each file separately"
+msgid "Handle multiple files separately"
+msgstr "Apstrādāt vairākas datnes atsevišķi"
+
+#: ../data/org.mate.seahorse.caja.gschema.xml.h:4
+msgid ""
+"When handling multiple files, don't package them but process separately."
+msgstr ""
+"Kad apstrādā vairākas datnes, nevis tās pakot, bet apstrādāt atsevišķi."
+
+#: ../data/org.mate.seahorse.caja.gschema.xml.h:5
+msgid "Use armor mode when encrypting"
+msgstr "Šifrējot lietot bruņu režīmu"
+
+#: ../data/org.mate.seahorse.caja.gschema.xml.h:6
+msgid "Use PGP ASCII armor mode when encrypting or signing files."
+msgstr "Šifrējot vai parakstot datnes, lietot PGP ASCII bruņu režīmu."
+
+#: ../data/org.mate.seahorse.caja.window.gschema.xml.h:1
+msgid "Width of the window"
+msgstr "Loga platums"
+
+#: ../data/org.mate.seahorse.caja.window.gschema.xml.h:2
+msgid "Width (in pixels) of the window."
+msgstr "Loga platums pikseļos."
+
+#: ../data/org.mate.seahorse.caja.window.gschema.xml.h:3
+msgid "Height of the window"
+msgstr "Loga augstums"
+
+#: ../data/org.mate.seahorse.caja.window.gschema.xml.h:4
+msgid "Height (in pixels) of the window."
+msgstr "Loga augstums pikseļos."
+
+#: ../caja-ext/seahorse-caja.c:158
+msgid "Encrypt..."
+msgstr "Šifrēt..."
+
+#: ../caja-ext/seahorse-caja.c:159
+msgid "Encrypt (and optionally sign) the selected file"
+msgid_plural "Encrypt the selected files"
+msgstr[0] "Šifrēt (un neobligāti parakstīt) izvēlēto failu"
+msgstr[1] "Šifrēt izvēlētos failus"
+msgstr[2] "Šifrēt izvēlētos failus"
+
+#: ../caja-ext/seahorse-caja.c:165
+msgid "Sign"
+msgstr "Parakstīt"
+
+#: ../caja-ext/seahorse-caja.c:166
+msgid "Sign the selected file"
+msgid_plural "Sign the selected files"
+msgstr[0] "Parakstīt izvēlēto failu"
+msgstr[1] "Parakstīt izvēlētos failus"
+msgstr[2] "Parakstīt izvēlētos failus"
+
+#: ../tool/seahorse-multi-encrypt.xml.h:1
+msgid "Encrypt Multiple Files"
+msgstr "Vairāku failu šifrēšana"
+
+#: ../tool/seahorse-multi-encrypt.xml.h:2
+msgid "<b>You have selected multiple files or folders</b>"
+msgstr "<b>Jūs esat izvēlējušies vairākus failus vai mapes</b>"
+
+#: ../tool/seahorse-multi-encrypt.xml.h:3
+msgid "encrypted-package"
+msgstr "encrypted-package"
+
+#: ../tool/seahorse-multi-encrypt.xml.h:4
+msgid "Encrypt each file separately"
+msgstr "Šifrēt katru failu atsevišķi"
+
+#: ../tool/seahorse-multi-encrypt.xml.h:5
+msgid "Encrypt packed together in a package"
+msgstr "Šifrēt saarhivēt kopā vienā pakotnē"
+
+#: ../tool/seahorse-multi-encrypt.xml.h:6
+msgid "Packaging:"
+msgstr "Pakošana:"
+
+#: ../tool/seahorse-multi-encrypt.xml.h:7
+msgid "Package Name:"
+msgstr "Pakotnes nosaukums:"
+
+#: ../tool/seahorse-multi-encrypt.xml.h:8
+msgid ""
+"Because the files are located remotely, each file will be encrypted "
+"separately."
+msgstr "Faili tiks šifrēti atsevišķi, jo tie atrodas attālināti."
+
+#: ../tool/seahorse-notification.c:572
+msgid "Key Imported"
+msgid_plural "Keys Imported"
+msgstr[0] "Atslēga importēta"
+msgstr[1] "Atslēgas importētas"
+msgstr[2] "Atslēgas importētas"
+
+#: ../tool/seahorse-notification.c:576
+#, c-format
+msgid "Imported %i key"
+msgid_plural "Imported %i keys"
+msgstr[0] "Importēta %i atslēga"
+msgstr[1] "Importētas %i atslēgas"
+msgstr[2] "Importēts %i atslēgu"
+
+#: ../tool/seahorse-notification.c:578
+#, c-format
+msgid "Imported a key for"
+msgid_plural "Imported keys for"
+msgstr[0] "Importēta atslēga"
+msgstr[1] "Importētas atslēgas"
+msgstr[2] "Importētas atslēgas"
+
+#. TRANSLATORS: <key id='xxx'> is a custom markup tag, do not translate.
+#: ../tool/seahorse-notification.c:606
+#, c-format
+msgid "Signed by <i><key id='%s'/> <b>expired</b></i> on %s."
+msgstr "Parakstījis <i><key id='%s'/> <b>izbeidzies</b></i> %s."
+
+#: ../tool/seahorse-notification.c:607
+msgid "Invalid Signature"
+msgstr "Nederīgs paraksts"
+
+#: ../tool/seahorse-notification.c:613
+#, c-format
+msgid "Signed by <i><key id='%s'/></i> on %s <b>Expired</b>."
+msgstr "Parakstījis <i><key id='%s'/></i> %s <b> izbeidzies</b>."
+
+#: ../tool/seahorse-notification.c:614
+msgid "Expired Signature"
+msgstr "Paraksts ar iztecējušu derīguma termiņu"
+
+#: ../tool/seahorse-notification.c:620
+#, c-format
+msgid "Signed by <i><key id='%s'/> <b>Revoked</b></i> on %s."
+msgstr "Parakstījis <i><key id='%s'/> <b>atsaukts</b></i> %s."
+
+#: ../tool/seahorse-notification.c:621
+msgid "Revoked Signature"
+msgstr "Atsaukts paraksts"
+
+#. TRANSLATORS: <key id='xxx'> is a custom markup tag, do not translate.
+#: ../tool/seahorse-notification.c:627
+#, c-format
+msgid "Signed by <i><key id='%s'/></i> on %s."
+msgstr "Parakstījis <i><key id='%s'/></i> %s."
+
+#: ../tool/seahorse-notification.c:628
+msgid "Good Signature"
+msgstr "Labs paraksts"
+
+#: ../tool/seahorse-notification.c:633
+msgid "Signing key not in keyring."
+msgstr "Parakstīšanas atslēga neatrodas saišķī."
+
+#: ../tool/seahorse-notification.c:634
+msgid "Unknown Signature"
+msgstr "Nezināms paraksts"
+
+#: ../tool/seahorse-notification.c:638
+msgid "Bad or forged signature. The signed data was modified."
+msgstr "Slikts vai viltots paraksts. Parakstītie dati tika modificēti."
+
+#: ../tool/seahorse-notification.c:639
+msgid "Bad Signature"
+msgstr "Slikts paraksts"
+
+#: ../tool/seahorse-notification.c:647
+msgid "Couldn't verify signature."
+msgstr "Neizdevās pārbaudīt parakstu."
+
+#: ../tool/seahorse-notify.xml.h:1
+msgid "Notification Messages"
+msgstr "Paziņojumi"
+
+#: ../tool/seahorse-passphrase.c:114
+#, c-format
+msgid "Wrong passphrase."
+msgstr "Nepareiza parole."
+
+#: ../tool/seahorse-passphrase.c:118
+#, c-format
+msgid "Enter new passphrase for '%s'"
+msgstr "Ievadiet '%s' jaunu paroli"
+
+#: ../tool/seahorse-passphrase.c:120
+#, c-format
+msgid "Enter passphrase for '%s'"
+msgstr "Ievadiet '%s paroli'"
+
+#: ../tool/seahorse-passphrase.c:123
+msgid "Enter new passphrase"
+msgstr "Ievadiet jauno paroli"
+
+#: ../tool/seahorse-passphrase.c:125
+msgid "Enter passphrase"
+msgstr "Ievadiet paroli"
+
+#: ../tool/seahorse-passphrase.c:130
+msgid "Passphrase"
+msgstr "Parole"
+
+#: ../tool/seahorse-passphrase.c:138
+msgid "Ok"
+msgstr "Labi"
+
+#: ../tool/seahorse-passphrase.c:139
+msgid "Cancel"
+msgstr "Atcelt"
+
+#: ../tool/seahorse-pgp-encrypted.desktop.in.in.h:1
+msgid "Decrypt File"
+msgstr "Atšifrēt failu"
+
+#: ../tool/seahorse-pgp-keys.desktop.in.in.h:1
+msgid "Import Key"
+msgstr "Importēt atslēgu"
+
+#: ../tool/seahorse-pgp-signature.desktop.in.in.h:1
+msgid "Verify Signature"
+msgstr "Pārbaudīt parakstu"
+
+#: ../tool/seahorse-progress.xml.h:1
+msgid "Progress Title"
+msgstr "Progresa virsraksts"
+
+#: ../tool/seahorse-tool.c:61
+msgid "Import keys from the file"
+msgstr "Importēt atslēgas no faila"
+
+#: ../tool/seahorse-tool.c:63
+msgid "Encrypt file"
+msgstr "Šifrēt failu"
+
+#: ../tool/seahorse-tool.c:65
+msgid "Sign file with default key"
+msgstr "Parakstīt failu ar noklusēto atslēgu"
+
+#: ../tool/seahorse-tool.c:67
+msgid "Encrypt and sign file with default key"
+msgstr "Šifrēt un parakstīt failu ar noklusēto atslēgu"
+
+#: ../tool/seahorse-tool.c:69
+msgid "Decrypt encrypted file"
+msgstr "Atšifrēt šifrēto failu"
+
+#: ../tool/seahorse-tool.c:71
+msgid "Verify signature file"
+msgstr "Pārbaudīt paraksta failu"
+
+#: ../tool/seahorse-tool.c:73
+msgid "Read list of URIs on standard in"
+msgstr "Lasīt URI sarakstu no standarta uz"
+
+#: ../tool/seahorse-tool.c:75
+msgid "file..."
+msgstr "fails..."
+
+#: ../tool/seahorse-tool.c:171
+#| msgid "Encrypting"
+msgid "Encryption settings"
+msgstr "Šifrēšanas iestatījumi"
+
+#: ../tool/seahorse-tool.c:236 ../tool/seahorse-tool.c:350
+msgid "Couldn't load keys"
+msgstr "Neizdevās ielādēt atslēgas"
+
+#: ../tool/seahorse-tool.c:253
+#, c-format
+msgid "Choose Encrypted File Name for '%s'"
+msgstr "Izvēlēties šifrētā faila nosaukumu '%s'"
+
+#: ../tool/seahorse-tool.c:328
+msgid "Choose Signer"
+msgstr "Izvēlieties parakstītāju"
+
+#: ../tool/seahorse-tool.c:370
+#, c-format
+msgid "Choose Signature File Name for '%s'"
+msgstr "Izvēlēties paraksta faila nosaukumu '%s'"
+
+#: ../tool/seahorse-tool.c:410
+msgid "Import is complete"
+msgstr "Importēšana ir pabeigta"
+
+#: ../tool/seahorse-tool.c:443
+msgid "Importing keys ..."
+msgstr "Importē atslēgas ..."
+
+#: ../tool/seahorse-tool.c:473
+msgid "Import Failed"
+msgstr "Importēšana neizdevās"
+
+#: ../tool/seahorse-tool.c:474
+msgid "Keys were found but not imported."
+msgstr "Atslēgas tika atrastas, bet netika importētas."
+
+#: ../tool/seahorse-tool.c:497
+#, c-format
+msgid "Imported key"
+msgstr "Importētā atslēga"
+
+#: ../tool/seahorse-tool.c:499
+#, c-format
+msgid "Imported %d key"
+msgid_plural "Imported %d keys"
+msgstr[0] "Importēta %d atslēga"
+msgstr[1] "Importētas %d atslēgas"
+msgstr[2] "Importētas %d atslēgas"
+
+#. File to decrypt to
+#: ../tool/seahorse-tool.c:521
+#, c-format
+msgid "Choose Decrypted File Name for '%s'"
+msgstr "Izvēlēties atšifrēta faila nosaukumu '%s'"
+
+#: ../tool/seahorse-tool.c:578
+#, c-format
+msgid "Choose Original File for '%s'"
+msgstr "Izvēlēties oriģinālo failu '%s'"
+
+#.
+#. * TODO: What should happen with multiple files at this point.
+#. * The last thing we want to do is cascade a big pile of error
+#. * dialogs at the user.
+#.
+#: ../tool/seahorse-tool.c:651
+#, c-format
+msgid "No valid signatures found"
+msgstr "Nav atrasti derīgi paraksti"
+
+#: ../tool/seahorse-tool.c:698
+msgid "File Encryption Tool"
+msgstr "Failu šifrēšanas rīks"
+
+#: ../tool/seahorse-tool.c:716
+msgid "Encrypting"
+msgstr "Šifrē"
+
+#: ../tool/seahorse-tool.c:717
+#, c-format
+msgid "Couldn't encrypt file: %s"
+msgstr "Neizdevās šifrēt failu: '%s'"
+
+#: ../tool/seahorse-tool.c:725
+msgid "Signing"
+msgstr "Paraksta"
+
+#: ../tool/seahorse-tool.c:726
+#, c-format
+msgid "Couldn't sign file: %s"
+msgstr "Neizdevās parakstīt failu: '%s'"
+
+#: ../tool/seahorse-tool.c:731
+msgid "Importing"
+msgstr "Importē"
+
+#: ../tool/seahorse-tool.c:732
+#, c-format
+msgid "Couldn't import keys from file: %s"
+msgstr "Neizdevās importēt atslēgas no faila: %s"
+
+#: ../tool/seahorse-tool.c:738
+msgid "Decrypting"
+msgstr "Atšifrē"
+
+#: ../tool/seahorse-tool.c:739
+#, c-format
+msgid "Couldn't decrypt file: %s"
+msgstr "Neizdevās atšifrēt failu: %s"
+
+#: ../tool/seahorse-tool.c:744
+msgid "Verifying"
+msgstr "Pārbauda"
+
+#: ../tool/seahorse-tool.c:745
+#, c-format
+msgid "Couldn't verify file: %s"
+msgstr "Neizdevās pārbaudīt failu: '%s'"
+
+#: ../tool/seahorse-tool-files.c:119
+msgid "Ace (.ace)"
+msgstr "Ace (.ace)"
+
+#: ../tool/seahorse-tool-files.c:120
+msgid "Ar (.ar)"
+msgstr "Ar (.arj)"
+
+#: ../tool/seahorse-tool-files.c:121
+msgid "Arj (.arj)"
+msgstr "Arj (.arj)"
+
+#: ../tool/seahorse-tool-files.c:128
+msgid "Ear (.ear)"
+msgstr "Ear (.ear)"
+
+#: ../tool/seahorse-tool-files.c:129
+msgid "Self-extracting zip (.exe)"
+msgstr "Pašatspiedošs zip (.exe)"
+
+#: ../tool/seahorse-tool-files.c:131
+msgid "Jar (.jar)"
+msgstr "Jar (.jar)"
+
+#: ../tool/seahorse-tool-files.c:132
+msgid "Lha (.lzh)"
+msgstr "Lha (.lzh)"
+
+#: ../tool/seahorse-tool-files.c:134
+msgid "Rar (.rar)"
+msgstr "Rar (.rar)"
+
+#: ../tool/seahorse-tool-files.c:136
+msgid "Tar uncompressed (.tar)"
+msgstr "Tar nesaspiests (.tar)"
+
+#: ../tool/seahorse-tool-files.c:137
+msgid "Tar compressed with bzip (.tar.bz)"
+msgstr "Tar saspiests ar bzip (.tar.bz)"
+
+#: ../tool/seahorse-tool-files.c:138
+msgid "Tar compressed with bzip2 (.tar.bz2)"
+msgstr "Tar saspiests ar bzip2 (.tar.bz2)"
+
+#: ../tool/seahorse-tool-files.c:139
+msgid "Tar compressed with gzip (.tar.gz)"
+msgstr "Tar saspiests ar gzip (.tar.gz)"
+
+#: ../tool/seahorse-tool-files.c:140
+msgid "Tar compressed with lzop (.tar.lzo)"
+msgstr "Tar saspiests ar lzop (.tar.lzo)"
+
+#: ../tool/seahorse-tool-files.c:141
+msgid "Tar compressed with compress (.tar.Z)"
+msgstr "Tar saspiests ar compress (.tar.Z)"
+
+#: ../tool/seahorse-tool-files.c:143
+msgid "War (.war)"
+msgstr "War (.war)"
+
+#: ../tool/seahorse-tool-files.c:144
+msgid "Zip (.zip)"
+msgstr "Zip (.zip)"
+
+#: ../tool/seahorse-tool-files.c:145
+msgid "Zoo (.zoo)"
+msgstr "Zoo (.zoo)"
+
+#: ../tool/seahorse-tool-files.c:146
+msgid "7-Zip (.7z)"
+msgstr "7-Zip (.7z)"
+
+#. TRANSLATOR: This string will become
+#. * "You have selected %d files and %d folders"
+#: ../tool/seahorse-tool-files.c:328
+#, c-format
+msgid "You have selected %d file "
+msgid_plural "You have selected %d files "
+msgstr[0] "Jūs esat izvēlējies %d failu "
+msgstr[1] "Jūs esat izvēlējies %d failus"
+msgstr[2] "Jūs esat izvēlējies %d failus"
+
+#. TRANSLATOR: This string will become
+#. * "You have selected %d files and %d folders"
+#: ../tool/seahorse-tool-files.c:333
+#, c-format
+msgid "and %d folder"
+msgid_plural "and %d folders"
+msgstr[0] "un %d mapi"
+msgstr[1] "un %d mapes"
+msgstr[2] "un %d mapes"
+
+#. TRANSLATOR: "%s%s" are "You have selected %d files and %d folders"
+#. * Swap order with "%2$s%1$s" if needed
+#: ../tool/seahorse-tool-files.c:338
+#, c-format
+msgid "<b>%s%s</b>"
+msgstr "<b>%s%s</b>"
+
+#: ../tool/seahorse-tool-files.c:346
+#, c-format
+msgid "You have selected %d file"
+msgid_plural "You have selected %d files"
+msgstr[0] "Jūs esat izvēlējies %d failu"
+msgstr[1] "Jūs esat izvēlējies %d failus"
+msgstr[2] "Jūs esat izvēlējies %d failu"
+
+#: ../tool/seahorse-tool-files.c:351
+#, c-format
+msgid "You have selected %d folder"
+msgid_plural "You have selected %d folders"
+msgstr[0] "Jūs esat izvēlējies %d failu"
+msgstr[1] "Jūs esat izvēlējies %d failus"
+msgstr[2] "Jūs esat izvēlējies %d failus"
+
+#: ../tool/seahorse-tool-files.c:866
+msgid "Preparing..."
+msgstr "Sagatavo..."
+
+#: ../tool/seahorse-tool-files.c:875 ../tool/seahorse-tool-files.c:898
+msgid "Couldn't list files"
+msgstr "Neizdevās parādīt failus sarakstā"
+
+#: ../tool/seahorse-tool-files.c:885 ../tool/seahorse-util.c:399
+msgid "Couldn't package files"
+msgstr "Neizdevās sapakot failus"
+
+#: ../tool/seahorse-util.c:173
+msgid "Decryption failed. You probably do not have the decryption key."
+msgstr "Atšifrēšana nesekmīga. Jums, visticamāk, nav atšifrēšanas atslēgas."
+
+#: ../tool/seahorse-util.c:200
+msgid "%Y-%m-%d"
+msgstr "%d.%m.%Y"
+
+#: ../tool/seahorse-util.c:394
+msgid "Couldn't run file-roller"
+msgstr "Neizdevās palaist 'file-roller'"
+
+#: ../tool/seahorse-util.c:400
+msgid "The file-roller process did not complete successfully"
+msgstr "'file-roller' process nebeidzās veiksmīgi"
+
+#. Filter for PGP keys. We also include *.asc, as in many
+#. cases that extension is associated with text/plain
+#: ../tool/seahorse-util.c:436
+msgid "All key files"
+msgstr "Visi atslēgu faili"
+
+#: ../tool/seahorse-util.c:443 ../tool/seahorse-util.c:483
+msgid "All files"
+msgstr "Visi faili"
+
+#: ../tool/seahorse-util.c:476
+msgid "Archive files"
+msgstr "Arhīva faili"
+
+#: ../tool/seahorse-util.c:505
+msgid ""
+"<b>A file already exists with this name.</b>\n"
+"\n"
+"Do you want to replace it with a new file?"
+msgstr ""
+"<b>Fails ar šādu nosaukumu jau pastāv</b>\n"
+"\n"
+"Vai vēlaties aizstāt to ar jaunu failu?"
+
+#: ../tool/seahorse-util.c:508
+msgid "_Replace"
+msgstr "_Aizvietot"
+
+#~ msgid "Password:"
+#~ msgstr "Parole:"
+
+#~ msgid "Confirm:"
+#~ msgstr "Apstiprināt:"
+
+#~ msgid "Choose Recipients"
+#~ msgstr "Izvēlieties adresātus"
+
+#~ msgid "Could not display help: %s"
+#~ msgstr "Neizdevās parādīt palīdzību: %s"

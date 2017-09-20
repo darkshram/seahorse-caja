@@ -1,0 +1,1727 @@
+# Generated automatically. Do not edit.
+
+commit 6102fcc74501085f573a3ae9dfa100078701c8f3
+Author: Stef Walter <stefw@redhat.com>
+Date:   2014-03-16
+
+    Release version 3.11.92
+
+ NEWS         | 6 ++++++
+ configure.ac | 2 +-
+ 2 files changed, 7 insertions(+), 1 deletion(-)
+
+commit 002dac51a5a485dd8ebe047fe726e4f419442840
+Author: Aurimas Černius <aurisc4@gmail.com>
+Date:   2014-03-02
+
+    Updated Lithuanian translation
+
+ po/lt.po | 211 +++++++++++++++++++++++++++++++++------------------------------
+ 1 file changed, 111 insertions(+), 100 deletions(-)
+
+commit 342181cd9312993b75663ae436aaa547f4b78303
+Author: Gabor Kelemen <kelemeng@gnome.hu>
+Date:   2014-02-04
+
+    Updated Hungarian translation
+
+ po/hu.po | 220 +++++++++++++++++++++++++++++++++------------------------------
+ 1 file changed, 117 insertions(+), 103 deletions(-)
+
+commit 438bc521b5abdbe2ba63fd41caf32f9d719829f3
+Author: Benjamin Steinwender <b@stbe.at>
+Date:   2014-02-02
+
+    Updated German translation
+
+ po/de.po | 176 ++++++++++++++++++++++++++++++++++-----------------------------
+ 1 file changed, 95 insertions(+), 81 deletions(-)
+
+commit bdbdaae1ebcef49d74c2c121a8c4822bc150fe44
+Author: Daniel Mustieles <daniel.mustieles@gmail.com>
+Date:   2014-01-23
+
+    Updated FSF's address
+
+ tool/seahorse-libdialogs.h    | 5 +----
+ tool/seahorse-notification.c  | 5 +----
+ tool/seahorse-operation.c     | 5 +----
+ tool/seahorse-operation.h     | 5 +----
+ tool/seahorse-passphrase.c    | 5 +----
+ tool/seahorse-passphrase.h    | 5 +----
+ tool/seahorse-pgp-operation.c | 5 +----
+ tool/seahorse-pgp-operation.h | 5 +----
+ tool/seahorse-progress.c      | 5 +----
+ tool/seahorse-progress.h      | 5 +----
+ tool/seahorse-tool-files.c    | 5 +----
+ tool/seahorse-tool-progress.c | 5 +----
+ tool/seahorse-tool.c          | 5 +----
+ tool/seahorse-tool.h          | 5 +----
+ tool/seahorse-util.c          | 5 +----
+ tool/seahorse-util.h          | 5 +----
+ tool/seahorse-vfs-data.c      | 5 +----
+ tool/seahorse-vfs-data.h      | 5 +----
+ tool/seahorse-widget.c        | 5 +----
+ tool/seahorse-widget.h        | 5 +----
+ 20 files changed, 20 insertions(+), 80 deletions(-)
+
+commit 905ad1f48f373eaaa677b3f327ecc4dde47e2a5d
+Author: Мирослав Николић <miroslavnikolic@rocketmail.com>
+Date:   2014-01-28
+
+    Updated Serbian translation
+
+ po/sr.po       | 40 +++++++++++++++++++++++++---------------
+ po/sr@latin.po | 40 +++++++++++++++++++++++++---------------
+ 2 files changed, 50 insertions(+), 30 deletions(-)
+
+commit a5a56d4a94a189c4a711f6fdeac4156114385eaf
+Author: Piotr Drąg <piotrdrag@gmail.com>
+Date:   2014-01-03
+
+    Updated Polish translation
+
+ po/pl.po | 40 +++++++++++++++++++++++++---------------
+ 1 file changed, 25 insertions(+), 15 deletions(-)
+
+commit b30c131388e5a52f49e2faa31b955662aae17d10
+Author: Andika Triwidada <andika@gmail.com>
+Date:   2014-01-02
+
+    Updated Indonesian translation
+
+ po/id.po | 34 ++++++++++++++++++++++------------
+ 1 file changed, 22 insertions(+), 12 deletions(-)
+
+commit d99bf62c39f55b53b747b0b5ceea33945d35f74a
+Author: Milo Casagrande <milo@ubuntu.com>
+Date:   2013-12-24
+
+    [l10n] Updated Italian translation.
+
+ po/it.po | 39 ++++++++++++++++++++++++---------------
+ 1 file changed, 24 insertions(+), 15 deletions(-)
+
+commit 42cf9629ef57f38cb93412ef0a074e89edb4b73e
+Author: Matej Urbančič <mateju@svn.gnome.org>
+Date:   2013-12-22
+
+    Updated Slovenian translation
+
+ po/sl.po | 9 ++++-----
+ 1 file changed, 4 insertions(+), 5 deletions(-)
+
+commit 93ff111bdbce0a8aa29ebdca605943e7b35763de
+Author: Marek Černocký <marek@manet.cz>
+Date:   2013-12-02
+
+    Updated Czech translation
+
+ po/cs.po | 10 ++++++----
+ 1 file changed, 6 insertions(+), 4 deletions(-)
+
+commit 234de0ab18621cc35cb9f6f3eea3340417b78bb1
+Author: Rafael Ferreira <rafael.f.f1@gmail.com>
+Date:   2013-11-25
+
+    Updated Brazilian Portuguese translation
+
+ po/pt_BR.po | 11 ++++++-----
+ 1 file changed, 6 insertions(+), 5 deletions(-)
+
+commit 612132612ed2bb99f16c53bfffe7f36caea91f20
+Author: Daniel Mustieles <daniel.mustieles@gmail.com>
+Date:   2013-11-25
+
+    Updated Spanish translation
+
+ po/es.po | 9 ++++-----
+ 1 file changed, 4 insertions(+), 5 deletions(-)
+
+commit 5d40010698c29da7318e2d102444429ee227295d
+Author: Michael Catanzaro <mcatanzaro@gnome.org>
+Date:   2013-11-22
+
+    Revert "Revert "Fix typo" due to string freeze break. Will reapply to master after branched."
+    
+    This reverts commit 37eb5ca2573ffb6732938d655dbbb5f692669308.
+    
+    Because master has been branched.
+
+ data/org.gnome.seahorse.nautilus.gschema.xml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 082f4f164a4ed73cb10a171020746b84679c1bde
+Author: Matthias Clasen <mclasen@redhat.com>
+Date:   2013-11-01
+
+    Update seahorse-tool.1
+    
+    The -n option was missing.
+
+ tool/seahorse-tool.1 | 6 ++++++
+ 1 file changed, 6 insertions(+)
+
+commit dbffffbca8d65827c7a131798668d71377af45ac
+Author: Matej Urbančič <mateju@svn.gnome.org>
+Date:   2013-10-20
+
+    Updated Slovenian translation
+
+ po/sl.po | 34 ++++++++++++++++++++++------------
+ 1 file changed, 22 insertions(+), 12 deletions(-)
+
+commit d75a58af114bfe951374185e3df17d3d11357fb6
+Author: Enrico Nicoletto <liverig@gmail.com>
+Date:   2013-10-19
+
+    Fixed Noun in Brazilian Portuguese translation
+
+ po/pt_BR.po | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 05e31d2180b4a217b4afad7266106011b91c26d1
+Author: Enrico Nicoletto <liverig@gmail.com>
+Date:   2013-10-19
+
+    Updated Brazilian Portuguese translation
+
+ po/pt_BR.po | 37 +++++++++++++++++++++++--------------
+ 1 file changed, 23 insertions(+), 14 deletions(-)
+
+commit 1d36fb7151a0489bf0889fb25ad8d6ed49d5b617
+Author: Marek Černocký <marek@manet.cz>
+Date:   2013-10-18
+
+    Updated Czech translation
+
+ po/cs.po | 32 ++++++++++++++++++++------------
+ 1 file changed, 20 insertions(+), 12 deletions(-)
+
+commit a055b4a10c1aa94271603d790ab0a5c174fca7fa
+Author: Daniel Mustieles <daniel.mustieles@gmail.com>
+Date:   2013-10-18
+
+    Updated Spanish translation
+
+ po/es.po | 36 +++++++++++++++++++++++-------------
+ 1 file changed, 23 insertions(+), 13 deletions(-)
+
+commit d440ec13198fb75f75996709bde32e4121ff8c9e
+Author: Jérémy Bobbio <lunar@debian.org>
+Date:   2013-09-23
+
+    Warn when signatures are valid but untrusted
+    
+    When verifying a signature seahorse-tool currently behave just the same if the
+    signing key is trusted or not. Given that the only the uid of the key is given
+    in the notification, this opens the door to some attacks.
+    
+    Display two different messages depending on the validity
+    level of the signing key.
+    
+    https://bugzilla.gnome.org/show_bug.cgi?id=708640
+
+ tool/seahorse-notification.c | 9 +++++++--
+ 1 file changed, 7 insertions(+), 2 deletions(-)
+
+commit 4508a6c99f7ebafa1e6e9ec90e170a91ee958c49
+Author: Stef Walter <stefw@redhat.com>
+Date:   2013-10-17
+
+    Release version 3.10.1
+
+ NEWS         | 3 +++
+ configure.ac | 2 +-
+ 2 files changed, 4 insertions(+), 1 deletion(-)
+
+commit e2496365e167f60b68c801edca8252e7e3b83669
+Author: Marek Černocký <marek@manet.cz>
+Date:   2013-10-03
+
+    Updated Czech translation
+
+ po/cs.po | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit 37eb5ca2573ffb6732938d655dbbb5f692669308
+Author: Andika Triwidada <andika@gmail.com>
+Date:   2013-09-28
+
+    Revert "Fix typo" due to string freeze break. Will reapply to master after branched.
+    
+    This reverts commit eb786447fdc02ad008c2188052e95215d3c8ea73.
+
+ data/org.gnome.seahorse.nautilus.gschema.xml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit a8e7512e6c11b13ad2043761ade6fe06cb6fe6d6
+Author: Marek Černocký <marek@manet.cz>
+Date:   2013-09-27
+
+    Updated Czech translation
+
+ po/cs.po | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit 818984f943d7ff5609a9c5f0bbc86edcc74ef63e
+Author: Andika Triwidada <andika@gmail.com>
+Date:   2013-09-27
+
+    Updated Indonesian translation
+
+ po/id.po | 282 ++++++++++++++++++++++++++++++++++++---------------------------
+ 1 file changed, 160 insertions(+), 122 deletions(-)
+
+commit eb786447fdc02ad008c2188052e95215d3c8ea73
+Author: Andika Triwidada <andika@gmail.com>
+Date:   2013-09-27
+
+    Fix typo
+
+ data/org.gnome.seahorse.nautilus.gschema.xml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 9591c5b4feb41ba049f96be1153925bb294ab27f
+Author: Stef Walter <stefw@redhat.com>
+Date:   2013-09-23
+
+    Release version 3.10.0
+
+ NEWS         | 3 +++
+ configure.ac | 2 +-
+ 2 files changed, 4 insertions(+), 1 deletion(-)
+
+commit 75b17c898463958e696f2c2893219e384b711db7
+Author: Stef Walter <stefw@redhat.com>
+Date:   2013-08-26
+
+    Release version 3.9.90
+
+ Makefile.am  | 4 ++++
+ NEWS         | 5 +++++
+ configure.ac | 2 +-
+ 3 files changed, 10 insertions(+), 1 deletion(-)
+
+commit f740fa5fe6f73da71ae64857fcaef0d2f445f807
+Author: Rūdolfs Mazurs <rudolfsm@src.gnome.org>
+Date:   2013-09-21
+
+    Updated Latvian translatio
+
+ po/lv.po | 289 +++++++++++++++++++++++++++++++++++++--------------------------
+ 1 file changed, 170 insertions(+), 119 deletions(-)
+
+commit 336d01dcc2fa55c1d3a94a2632cdca6c6f2dfc22
+Author: Gabor Kelemen <kelemeng@gnome.hu>
+Date:   2013-09-20
+
+    Updated Hungarian translation
+
+ po/hu.po | 69 +++++++++++++++++++++++++++++++++-------------------------------
+ 1 file changed, 36 insertions(+), 33 deletions(-)
+
+commit 05e76745415c000f2894d09becc87af92cbfd4b0
+Author: Fran Diéguez <fran.dieguez@mabishu.com>
+Date:   2013-09-15
+
+    Updated Galician translations
+
+ po/gl.po | 291 +++++++++++++++++++++++++++++++++++++--------------------------
+ 1 file changed, 170 insertions(+), 121 deletions(-)
+
+commit 9b0620725ad282c0447bf42802f689f7e5801468
+Author: Ville-Pekka Vainio <vpvainio@iki.fi>
+Date:   2013-09-14
+
+    Finnish translation update by Jiri Grönroos
+
+ po/fi.po | 291 +++++++++++++++++++++++++++++++++++++--------------------------
+ 1 file changed, 172 insertions(+), 119 deletions(-)
+
+commit a6881b5e82c3312b867373d79832aa909d507bfb
+Author: Мирослав Николић <miroslavnikolic@rocketmail.com>
+Date:   2013-09-09
+
+    Updated Serbian translation
+
+ po/sr.po       | 60 +++++++++++++++++++++++++++++-----------------------------
+ po/sr@latin.po | 60 +++++++++++++++++++++++++++++-----------------------------
+ 2 files changed, 60 insertions(+), 60 deletions(-)
+
+commit 78bf647de9e54bd14742b998ec69a358d130f3e3
+Author: Milo Casagrande <milo@ubuntu.com>
+Date:   2013-08-26
+
+    [l10n] Updated Italian translation.
+
+ po/it.po | 61 +++++++++++++++++++++++++++++++------------------------------
+ 1 file changed, 31 insertions(+), 30 deletions(-)
+
+commit 9bfb48cdcbc174707ecb111ef5fb68b53f3d31e9
+Author: Rafael Ferreira <rafael.f.f1@gmail.com>
+Date:   2013-08-20
+
+    Updated Brazilian Portuguese translation
+
+ po/pt_BR.po | 65 ++++++++++++++++++++++++++++++++-----------------------------
+ 1 file changed, 34 insertions(+), 31 deletions(-)
+
+commit 47d5aa768bd1d89a791b4a3c74b7081f93fd0eed
+Author: Marek Černocký <marek@manet.cz>
+Date:   2013-08-19
+
+    Updated Czech translation
+
+ po/cs.po | 60 ++++++++++++++++++++++++++++++------------------------------
+ 1 file changed, 30 insertions(+), 30 deletions(-)
+
+commit 28f534f206975a5cb692accc80576a06a1e68698
+Author: Daniel Mustieles <daniel.mustieles@gmail.com>
+Date:   2013-08-19
+
+    Updated Spanish translation
+
+ po/es.po | 68 ++++++++++++++++++++++++++++++++++------------------------------
+ 1 file changed, 36 insertions(+), 32 deletions(-)
+
+commit 0eb84e14f72e16bbc475242c79249e428ba6c13b
+Author: Aurimas Černius <aurisc4@gmail.com>
+Date:   2013-08-18
+
+    Updated Lithuanian translation
+
+ po/lt.po | 100 ++++++++++++++++++++++++++++++++++-----------------------------
+ 1 file changed, 54 insertions(+), 46 deletions(-)
+
+commit 5f2b5277f589b01a0aa01584b91d808d2d21fd6f
+Author: Matej Urbančič <mateju@svn.gnome.org>
+Date:   2013-08-17
+
+    Updated Slovenian translation
+
+ po/sl.po | 63 +++++++++++++++++++++++++++++++++------------------------------
+ 1 file changed, 33 insertions(+), 30 deletions(-)
+
+commit 6e8755f98b75b337d2627940a0e02c019ef8c2d7
+Author: Piotr Drąg <piotrdrag@gmail.com>
+Date:   2013-08-17
+
+    Updated Polish translation
+
+ po/pl.po | 62 +++++++++++++++++++++++++++++++-------------------------------
+ 1 file changed, 31 insertions(+), 31 deletions(-)
+
+commit c41f07cf5785b2d755b85f20bf0546c6ce2ebb02
+Author: Stef Walter <stefw@redhat.com>
+Date:   2013-08-16
+
+    Add correct flag for reaping the progress child
+    
+    This fixes the WARNING about ECHILD that comes from some versions
+    of glib. The WARNING was removed in later versions of glib, but this
+    is also a good fix.
+    
+    https://bugzilla.gnome.org/show_bug.cgi?id=697895
+
+ tool/seahorse-tool-progress.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 742113bb3ae0658dad3fc93da782577ec2b9ec71
+Author: Stef Walter <stefw@redhat.com>
+Date:   2013-08-16
+
+    Require a newer version of libcryptui for symmetric encryption
+
+ configure.ac | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit ae25bf97523f0f51f9167330ebd448b9db6bddf1
+Author: Jérémy Bobbio <lunar@debian.org>
+Date:   2013-06-11
+
+    Add support for symmetric encryption in seahorse-tool
+    
+    This needs a libcryptui recent enough to have
+    cryptui_need_to_get_keys_or_symmetric() and
+    cryptui_prompt_recipients_with_symmetric().
+    
+    https://bugzilla.gnome.org/show_bug.cgi?id=325803
+
+ tool/seahorse-tool.c | 47 +++++++++++++++++++++++++----------------------
+ tool/seahorse-tool.h |  1 +
+ 2 files changed, 26 insertions(+), 22 deletions(-)
+
+commit acbbcc08ef27943276addc21371f8369036cc346
+Author: Dimitris Spingos <dmtrs32@gmail.com>
+Date:   2013-07-15
+
+    Updated Greek translation
+
+ po/el.po | 248 ++++++++++++++++++++++++++++++++++++++-------------------------
+ 1 file changed, 149 insertions(+), 99 deletions(-)
+
+commit 37efbebb0a0cf1a5cee5d09a6311476b78e7f008
+Author: Christian Kirbach <christian.kirbach@gmail.com>
+Date:   2013-07-10
+
+    Updated German translation
+
+ po/de.po | 231 ++++++++++++++++++++++++++++++++++++++-------------------------
+ 1 file changed, 139 insertions(+), 92 deletions(-)
+
+commit 893d70a8f9dc6cddde00a47a72395bae239988e4
+Author: Milo Casagrande <milo@ubuntu.com>
+Date:   2013-03-26
+
+    [l10n] Updated Italian translation.
+
+ po/it.po | 226 +++++++++++++++++++++++++++++++++++++--------------------------
+ 1 file changed, 132 insertions(+), 94 deletions(-)
+
+commit 6819a7dcbe6d81a549a98209f4c8cdc545c252ab
+Author: Stef Walter <stefw@gnome.org>
+Date:   2013-03-25
+
+    Release version 3.8.0
+
+ NEWS         | 3 +++
+ configure.ac | 2 +-
+ 2 files changed, 4 insertions(+), 1 deletion(-)
+
+commit b6a754fa0a3a73b9fbf1c2f8123bf23756d2aadf
+Author: Stef Walter <stefw@gnome.org>
+Date:   2013-03-18
+
+    Release version 3.7.92
+
+ NEWS         | 3 +++
+ configure.ac | 2 +-
+ 2 files changed, 4 insertions(+), 1 deletion(-)
+
+commit 112050ef5064fc035489ca5490a6cbf6aa7f2d64
+Author: Rafael Ferreira <rafael.f.f1@gmail.com>
+Date:   2013-03-12
+
+    Updated Brazilian Portuguese translation
+
+ po/pt_BR.po | 248 ++++++++++++++++++++++++++++++++++++------------------------
+ 1 file changed, 148 insertions(+), 100 deletions(-)
+
+commit 8f87359bf4cdae6bf4f289262f7b15157f3d877c
+Author: Gabor Kelemen <kelemeng@gnome.hu>
+Date:   2013-02-18
+
+    Updated Hungarian translation
+
+ po/hu.po | 231 ++++++++++++++++++++++++++++++++++++++-------------------------
+ 1 file changed, 138 insertions(+), 93 deletions(-)
+
+commit 3db8c693b87ffa7f1d4314c197fb1a607d2649db
+Author: Stef Walter <stefw@gnome.org>
+Date:   2013-02-04
+
+    Release version 3.7.5
+
+ NEWS         | 3 +++
+ configure.ac | 2 +-
+ 2 files changed, 4 insertions(+), 1 deletion(-)
+
+commit 618fdbdd75a3699eac3f1b4ce674bcd67ebec932
+Author: Marek Černocký <marek@manet.cz>
+Date:   2013-01-24
+
+    Updated Czech translation
+
+ po/cs.po | 231 +++++++++++++++++++++++++++++++++++++--------------------------
+ 1 file changed, 135 insertions(+), 96 deletions(-)
+
+commit 71d0225cad632d656e1fd1dc180ee042fe33dcba
+Author: Matej Urbančič <mateju@svn.gnome.org>
+Date:   2013-01-10
+
+    Updated Slovenian translation
+
+ po/sl.po | 9 ++++-----
+ 1 file changed, 4 insertions(+), 5 deletions(-)
+
+commit 49eee94d8cd7561d68c8511c81d523454efc3887
+Author: Мирослав Николић <miroslavnikolic@rocketmail.com>
+Date:   2013-01-08
+
+    Updated Serbian translation
+
+ po/sr.po       | 240 +++++++++++++++++++++++++++++++++------------------------
+ po/sr@latin.po | 240 +++++++++++++++++++++++++++++++++------------------------
+ 2 files changed, 280 insertions(+), 200 deletions(-)
+
+commit 925ebc698dcc0b646f391b3d35d0e9ef9612b65d
+Author: Daniel Mustieles <daniel.mustieles@gmail.com>
+Date:   2012-12-31
+
+    Updated Spanish translation
+
+ po/es.po | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+
+commit 4b963f9f253866304a4d2d53f4fd98afc7965c7d
+Author: Yaron Shahrabani <sh.yaron@gmail.com>
+Date:   2012-12-28
+
+    Updated Hebrew translation.
+
+ po/he.po | 225 ++++++++++++++++++++++++++++++++++++++-------------------------
+ 1 file changed, 135 insertions(+), 90 deletions(-)
+
+commit 2beb4f3e3c4abcc7055aa58255a86cdce8813e10
+Author: Aurimas Černius <aurisc4@gmail.com>
+Date:   2012-12-20
+
+    Updated Lithuanian translation
+
+ po/lt.po | 229 ++++++++++++++++++++++++++++++++++++---------------------------
+ 1 file changed, 131 insertions(+), 98 deletions(-)
+
+commit 29d1bdec06145b55bc26e6144c9ac7973759d4a2
+Author: Matej Urbančič <mateju@svn.gnome.org>
+Date:   2012-12-19
+
+    Added Slovenian translation
+
+ po/sl.po | 244 +++++++++++++++++++++++++++++++++++++--------------------------
+ 1 file changed, 145 insertions(+), 99 deletions(-)
+
+commit 2f5da6af42b6aa46470a1b2470cc87ccf029b122
+Author: Daniel Mustieles <daniel.mustieles@gmail.com>
+Date:   2012-12-04
+
+    Updated Spanish translation
+
+ po/es.po | 9 ++++-----
+ 1 file changed, 4 insertions(+), 5 deletions(-)
+
+commit 6378fe596897c79db52765bbe5521fe19256b56c
+Author: Daniel Mustieles <daniel.mustieles@gmail.com>
+Date:   2012-12-04
+
+    Updated Spanish translation
+
+ po/es.po | 238 ++++++++++++++++++++++++++++++++++++++-------------------------
+ 1 file changed, 144 insertions(+), 94 deletions(-)
+
+commit ca686e81e20ab537d2f87f8b1554e227d182f2bd
+Author: Stef Walter <stefw@gnome.org>
+Date:   2012-10-15
+
+    Release version 3.6.1
+
+ NEWS         | 3 +++
+ configure.ac | 2 +-
+ 2 files changed, 4 insertions(+), 1 deletion(-)
+
+commit 8f48809c0fb6633bb45eac2144c1125f79933053
+Author: Stef Walter <stefw@gnome.org>
+Date:   2012-10-01
+
+    Fix the schema identifier for GSettings window settings
+    
+    https://bugzilla.gnome.org/show_bug.cgi?id=685124
+
+ data/org.gnome.seahorse.nautilus.window.gschema.xml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit c80bf826e927fb9d9e45426e0f1306cf22f8a1d3
+Author: Stef Walter <stefw@gnome.org>
+Date:   2012-09-25
+
+    Release version 3.6.0
+
+ NEWS         | 3 +++
+ configure.ac | 2 +-
+ 2 files changed, 4 insertions(+), 1 deletion(-)
+
+commit 07a93be3a5e2f4d7cdd1d0d2c209af7f20563957
+Author: Stef Walter <stefw@gnome.org>
+Date:   2012-09-18
+
+    Release version 3.5.92
+
+ NEWS         | 3 +++
+ configure.ac | 2 +-
+ 2 files changed, 4 insertions(+), 1 deletion(-)
+
+commit 4cdb4d37ecbd4a0c71414a046372dc79a7de987c
+Author: Piotr Drąg <piotrdrag@gmail.com>
+Date:   2012-09-04
+
+    Updated Polish translation
+
+ po/pl.po | 11 ++++++++---
+ 1 file changed, 8 insertions(+), 3 deletions(-)
+
+commit bdc117a11f93ee152dd73e3b9509283bbf2cb1dd
+Author: Stef Walter <stefw@gnome.org>
+Date:   2012-09-03
+
+    Release version 3.5.91
+
+ NEWS         | 3 +++
+ configure.ac | 2 +-
+ 2 files changed, 4 insertions(+), 1 deletion(-)
+
+commit 4a7e7b0ec5b2899d1eaa53661be59d436fb7bb4e
+Author: Piotr Drąg <piotrdrag@gmail.com>
+Date:   2012-08-22
+
+    Updated Polish translation
+
+ po/pl.po | 223 +++++++++++++++++++++++++++++++++++++--------------------------
+ 1 file changed, 131 insertions(+), 92 deletions(-)
+
+commit 65062a63d0a1c220835de2ecf54b24044276ecb4
+Author: Stef Walter <stefw@gnome.org>
+Date:   2012-07-16
+
+    Release version 3.5.4
+
+ NEWS | 7 +++++++
+ 1 file changed, 7 insertions(+)
+
+commit a76eb15551dff7148d91053f018fa39623d0dc0d
+Author: Piotr Drąg <piotrdrag@gmail.com>
+Date:   2012-06-29
+
+    Updated POTFILES.in
+
+ po/POTFILES.in | 2 ++
+ 1 file changed, 2 insertions(+)
+
+commit fc461e7ebefdffc88ff92730f9919cbddd760253
+Author: Stef Walter <stefw@gnome.org>
+Date:   2012-06-29
+
+    Bump version number
+
+ configure.ac | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit f2044481fa173feba45eb15a55708bd73f58a77e
+Author: Stef Walter <stefw@gnome.org>
+Date:   2012-06-29
+
+    Fix use of uninitialized variable
+
+ tool/seahorse-tool.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 8abff8e3e7592bb85a6e1466afb5e68ca0ca9de4
+Author: Stef Walter <stefw@gnome.org>
+Date:   2012-06-29
+
+    Use GtkComboBoxText correctly
+    
+     * And remove check for old versions of GTK+
+
+ tool/seahorse-multi-encrypt.xml | 2 +-
+ tool/seahorse-tool-files.c      | 8 --------
+ 2 files changed, 1 insertion(+), 9 deletions(-)
+
+commit f923946e3c0b0e70f2bad845d37484e2bcc5f345
+Author: Stef Walter <stefw@gnome.org>
+Date:   2012-06-29
+
+    Don't use has_separator property in dialogs, deprecated
+
+ tool/seahorse-multi-encrypt.xml | 1 -
+ tool/seahorse-notify.xml        | 1 -
+ tool/seahorse-progress.xml      | 1 -
+ 3 files changed, 3 deletions(-)
+
+commit d673c20a6d376300accbec3f0da91b0d581fc465
+Author: Stef Walter <stefw@gnome.org>
+Date:   2012-06-29
+
+    Don't use g_atexit now that its deprecated
+
+ tool/seahorse-libdialogs.h   |  2 ++
+ tool/seahorse-notification.c | 17 ++++++++---------
+ tool/seahorse-tool.c         |  2 ++
+ 3 files changed, 12 insertions(+), 9 deletions(-)
+
+commit e83548cf4f26ddac22940b0cff16f8d38b55f1a3
+Author: Stef Walter <stefw@gnome.org>
+Date:   2012-06-29
+
+    Fix loading of UI files
+    
+     * Path was built incorrectly
+     * Report errors during loading of UI files
+
+ tool/Makefile.am       | 2 +-
+ tool/seahorse-widget.c | 7 ++++++-
+ 2 files changed, 7 insertions(+), 2 deletions(-)
+
+commit ff0c38ae75d14ae1df4c00e0c604cb2bd0a24f93
+Author: Stef Walter <stefw@gnome.org>
+Date:   2012-06-29
+
+    Use GcrPrompt for prompting
+    
+     * Now depends on gcr 3.4.0 or later
+
+ configure.ac                  |   7 +
+ tool/Makefile.am              |   5 +-
+ tool/seahorse-passphrase.c    | 387 +++++++++---------------------------------
+ tool/seahorse-passphrase.h    |   4 -
+ tool/seahorse-secure-buffer.c | 196 ---------------------
+ tool/seahorse-secure-buffer.h |  57 -------
+ tool/seahorse-secure-memory.c | 128 --------------
+ tool/seahorse-secure-memory.h |  39 -----
+ tool/seahorse-tool.c          |   3 -
+ 9 files changed, 87 insertions(+), 739 deletions(-)
+
+commit ecc8717bc14ec239e83f2ac58de96c437f1f31e3
+Author: Stef Walter <stefw@gnome.org>
+Date:   2012-06-29
+
+    Migrate from GConf to GSettings
+
+ .gitignore                                         |   1 +
+ Makefile.am                                        |   1 +
+ configure.ac                                       |   4 +-
+ data/Makefile.am                                   |  15 ++
+ data/org.gnome.seahorse.nautilus.convert           |   4 +
+ data/org.gnome.seahorse.nautilus.gschema.xml       |  19 +++
+ .../org.gnome.seahorse.nautilus.window.gschema.xml |  14 ++
+ tool/Makefile.am                                   |   1 -
+ tool/seahorse-gconf.c                              | 183 ---------------------
+ tool/seahorse-gconf.h                              |  55 -------
+ tool/seahorse-tool-files.c                         |   9 +-
+ tool/seahorse-tool.c                               |  12 +-
+ tool/seahorse-tool.h                               |   2 +
+ tool/seahorse-util.c                               |   1 -
+ tool/seahorse-widget.c                             | 107 +++++-------
+ tool/seahorse-widget.h                             |   1 +
+ 16 files changed, 116 insertions(+), 313 deletions(-)
+
+commit cf90865d3c72a14911812b999d86084d45b90ca8
+Author: Stef Walter <stefw@gnome.org>
+Date:   2012-03-26
+
+    Release 3.4.0
+
+ NEWS         | 3 +++
+ configure.ac | 2 +-
+ 2 files changed, 4 insertions(+), 1 deletion(-)
+
+commit 081e708351504e3fc9b466988163ec522a4e963c
+Author: Stef Walter <stefw@collabora.co.uk>
+Date:   2011-10-24
+
+    Bump version number
+
+ configure.ac | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit c85b7ac8e47e0788524090e4bb201927c764b75c
+Author: Stef Walter <stefw@collabora.co.uk>
+Date:   2011-10-24
+
+    Release version 3.3.1
+
+ NEWS                   |  7 ++++++-
+ configure.ac           |  2 +-
+ seahorse-nautilus.doap | 24 ++++++++++++++++++++++++
+ 3 files changed, 31 insertions(+), 2 deletions(-)
+
+commit 68d503557dfdb01c336dc43d99b38993dcbecaec
+Author: Stef Walter <stefw@collabora.co.uk>
+Date:   2011-10-07
+
+    Remove unused functions, and fix up warnings
+
+ configure.ac                  |   3 +-
+ tool/Makefile.am              |   1 -
+ tool/seahorse-gconf.c         | 117 ----------
+ tool/seahorse-gconf.h         |  33 ---
+ tool/seahorse-gpgmex-op.c     | 123 -----------
+ tool/seahorse-gpgmex-util.c   | 416 -----------------------------------
+ tool/seahorse-gpgmex.h        | 130 -----------
+ tool/seahorse-libdialogs.h    |   7 -
+ tool/seahorse-notification.c  |  20 +-
+ tool/seahorse-operation.c     | 359 -------------------------------
+ tool/seahorse-operation.h     |  60 ------
+ tool/seahorse-passphrase.c    |  12 +-
+ tool/seahorse-pgp-operation.c |   9 +-
+ tool/seahorse-pgp-operation.h |   2 +-
+ tool/seahorse-progress.c      |  58 +----
+ tool/seahorse-progress.h      |   7 -
+ tool/seahorse-tool-files.c    |  29 ++-
+ tool/seahorse-tool-progress.c |   9 +-
+ tool/seahorse-tool.c          |  42 ++--
+ tool/seahorse-tool.h          |   8 +-
+ tool/seahorse-util.c          | 488 +-----------------------------------------
+ tool/seahorse-util.h          |  65 +-----
+ tool/seahorse-vfs-data.c      | 168 +--------------
+ tool/seahorse-vfs-data.h      |  10 +-
+ tool/seahorse-widget.c        |  85 --------
+ tool/seahorse-widget.h        |  16 +-
+ 26 files changed, 82 insertions(+), 2195 deletions(-)
+
+commit 2e1f11f6de02b829c6d25d39eb92ea65d5e11531
+Author: Stef Walter <stef@memberwebs.com>
+Date:   2011-10-07
+
+    Split the nautilus module out of seahorse-plugins
+    
+    Commits prior to this commit will not build. To build
+    old releases of the nautilus plugin use the seahorse-plugins
+    git module.
+
+ .gitignore                    |  43 +++
+ AUTHORS                       |  14 +
+ COPYING                       | 340 ++++++++++++++++++++++++
+ ChangeLog                     |  32 +++
+ INSTALL                       | 365 ++++++++++++++++++++++++++
+ MAINTAINERS                   |   3 +
+ Makefile.am                   |  41 +++
+ NEWS                          |   1 +
+ README                        |   4 +
+ THANKS                        |  27 ++
+ autogen.sh                    |  20 ++
+ configure.ac                  | 304 ++++++++++++++++++++++
+ po/LINGUAS                    |  77 ++++++
+ po/POTFILES.in                |  15 ++
+ po/POTFILES.skip              |   3 +
+ po/ar.po                      | 575 ++++++++++++++++++++++++++++++++++++++++
+ po/as.po                      | 551 +++++++++++++++++++++++++++++++++++++++
+ po/ast.po                     | 536 ++++++++++++++++++++++++++++++++++++++
+ po/az.po                      | 534 ++++++++++++++++++++++++++++++++++++++
+ po/be@latin.po                | 544 ++++++++++++++++++++++++++++++++++++++
+ po/bg.po                      | 532 +++++++++++++++++++++++++++++++++++++
+ po/bn.po                      | 538 ++++++++++++++++++++++++++++++++++++++
+ po/bn_IN.po                   | 536 ++++++++++++++++++++++++++++++++++++++
+ po/br.po                      | 527 +++++++++++++++++++++++++++++++++++++
+ po/ca.po                      | 538 ++++++++++++++++++++++++++++++++++++++
+ po/ca@valencia.po             | 538 ++++++++++++++++++++++++++++++++++++++
+ po/cs.po                      | 551 +++++++++++++++++++++++++++++++++++++++
+ po/da.po                      | 554 +++++++++++++++++++++++++++++++++++++++
+ po/de.po                      | 537 ++++++++++++++++++++++++++++++++++++++
+ po/dz.po                      | 538 ++++++++++++++++++++++++++++++++++++++
+ po/el.po                      | 540 ++++++++++++++++++++++++++++++++++++++
+ po/en@shaw.po                 | 533 +++++++++++++++++++++++++++++++++++++
+ po/en_CA.po                   | 558 +++++++++++++++++++++++++++++++++++++++
+ po/en_GB.po                   | 534 ++++++++++++++++++++++++++++++++++++++
+ po/eo.po                      | 529 +++++++++++++++++++++++++++++++++++++
+ po/es.po                      | 537 ++++++++++++++++++++++++++++++++++++++
+ po/et.po                      | 536 ++++++++++++++++++++++++++++++++++++++
+ po/eu.po                      | 534 ++++++++++++++++++++++++++++++++++++++
+ po/fi.po                      | 534 ++++++++++++++++++++++++++++++++++++++
+ po/fr.po                      | 545 ++++++++++++++++++++++++++++++++++++++
+ po/ga.po                      | 540 ++++++++++++++++++++++++++++++++++++++
+ po/gl.po                      | 535 ++++++++++++++++++++++++++++++++++++++
+ po/gu.po                      | 537 ++++++++++++++++++++++++++++++++++++++
+ po/he.po                      | 530 +++++++++++++++++++++++++++++++++++++
+ po/hi.po                      | 550 +++++++++++++++++++++++++++++++++++++++
+ po/hr.po                      | 557 +++++++++++++++++++++++++++++++++++++++
+ po/hu.po                      | 537 ++++++++++++++++++++++++++++++++++++++
+ po/id.po                      | 525 +++++++++++++++++++++++++++++++++++++
+ po/it.po                      | 539 ++++++++++++++++++++++++++++++++++++++
+ po/ja.po                      | 523 +++++++++++++++++++++++++++++++++++++
+ po/kn.po                      | 534 ++++++++++++++++++++++++++++++++++++++
+ po/ko.po                      | 531 +++++++++++++++++++++++++++++++++++++
+ po/ku.po                      | 527 +++++++++++++++++++++++++++++++++++++
+ po/lt.po                      | 552 +++++++++++++++++++++++++++++++++++++++
+ po/lv.po                      | 550 +++++++++++++++++++++++++++++++++++++++
+ po/mai.po                     | 529 +++++++++++++++++++++++++++++++++++++
+ po/mk.po                      | 549 +++++++++++++++++++++++++++++++++++++++
+ po/ml.po                      | 535 ++++++++++++++++++++++++++++++++++++++
+ po/mr.po                      | 531 +++++++++++++++++++++++++++++++++++++
+ po/ms.po                      | 560 +++++++++++++++++++++++++++++++++++++++
+ po/nb.po                      | 531 +++++++++++++++++++++++++++++++++++++
+ po/ne.po                      | 535 ++++++++++++++++++++++++++++++++++++++
+ po/nl.po                      | 556 +++++++++++++++++++++++++++++++++++++++
+ po/nn.po                      | 532 +++++++++++++++++++++++++++++++++++++
+ po/oc.po                      | 531 +++++++++++++++++++++++++++++++++++++
+ po/or.po                      | 545 ++++++++++++++++++++++++++++++++++++++
+ po/pa.po                      | 535 ++++++++++++++++++++++++++++++++++++++
+ po/pl.po                      | 547 ++++++++++++++++++++++++++++++++++++++
+ po/pt.po                      | 538 ++++++++++++++++++++++++++++++++++++++
+ po/pt_BR.po                   | 541 ++++++++++++++++++++++++++++++++++++++
+ po/ro.po                      | 544 ++++++++++++++++++++++++++++++++++++++
+ po/ru.po                      | 547 ++++++++++++++++++++++++++++++++++++++
+ po/rw.po                      | 579 +++++++++++++++++++++++++++++++++++++++++
+ po/si.po                      | 528 +++++++++++++++++++++++++++++++++++++
+ po/sk.po                      | 547 ++++++++++++++++++++++++++++++++++++++
+ po/sl.po                      | 558 +++++++++++++++++++++++++++++++++++++++
+ po/sq.po                      | 566 ++++++++++++++++++++++++++++++++++++++++
+ po/sr.po                      | 562 +++++++++++++++++++++++++++++++++++++++
+ po/sr@latin.po                | 562 +++++++++++++++++++++++++++++++++++++++
+ po/sv.po                      | 532 +++++++++++++++++++++++++++++++++++++
+ po/ta.po                      | 536 ++++++++++++++++++++++++++++++++++++++
+ po/te.po                      | 535 ++++++++++++++++++++++++++++++++++++++
+ po/th.po                      | 521 +++++++++++++++++++++++++++++++++++++
+ po/tr.po                      | 535 ++++++++++++++++++++++++++++++++++++++
+ po/ug.po                      | 527 +++++++++++++++++++++++++++++++++++++
+ po/uk.po                      | 546 ++++++++++++++++++++++++++++++++++++++
+ po/vi.po                      | 541 ++++++++++++++++++++++++++++++++++++++
+ po/zh_CN.po                   | 522 +++++++++++++++++++++++++++++++++++++
+ po/zh_HK.po                   | 531 +++++++++++++++++++++++++++++++++++++
+ po/zh_TW.po                   | 531 +++++++++++++++++++++++++++++++++++++
+ tool/Makefile.am              |  80 +++---
+ tool/seahorse-algo.c          | 591 ------------------------------------------
+ tool/seahorse-algo.h          |  97 -------
+ tool/seahorse-gpgmex-util.c   |  47 ----
+ tool/seahorse-marshal.list    |   3 -
+ tool/seahorse-notification.c  |   3 -
+ tool/seahorse-passphrase.c    |   4 -
+ tool/seahorse-tool-progress.c |   4 -
+ tool/seahorse-tool.c          |   4 -
+ tool/seahorse-widget.c        |   1 -
+ 100 files changed, 41853 insertions(+), 791 deletions(-)
+
+commit ecefeb4ca4a593e01d53c1cb9bc3b22d5ecb4bd9
+Author: Friedel Wolff <friedel@translate.org.za>
+Date:   2011-08-31
+
+    Use plural form for translatable string.
+    
+    https://bugzilla.gnome.org/show_bug.cgi?id=648896
+
+ tool/seahorse-tool-files.c | 3 +--
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+
+commit 2e30bcd26b9928170c25988a982d3ac58b5d908e
+Author: Patrick Toomey <ptoomey3@mac.com>
+Date:   2011-05-09
+
+    Embed filename when encrypting gpg files.
+    
+    https://bugzilla.gnome.org/show_bug.cgi?id=588432
+
+ tool/seahorse-tool-files.c |  9 +++++++++
+ tool/seahorse-tool.c       | 12 ++++++------
+ tool/seahorse-tool.h       |  7 +++++++
+ 3 files changed, 22 insertions(+), 6 deletions(-)
+
+commit 9ed9907e0bc680b848a9c7b7e6202dca3d43ead5
+Author: Stef Walter <stefw@collabora.co.uk>
+Date:   2011-02-10
+
+    Compatibility with GTK+ 2.22
+
+ tool/seahorse-tool-files.c | 10 +++++++++-
+ 1 file changed, 9 insertions(+), 1 deletion(-)
+
+commit 017f76b335e123e1446e3808a5d9f1a169d18de3
+Merge: ce69c9f 5e41038
+Author: Stef Walter <stefw@collabora.co.uk>
+Date:   2011-02-10
+
+    Merge branch 'no-gpg-agent'
+
+commit ce69c9fc35db80fbca084438663d934b7174638d
+Author: Nirbheek Chauhan <nirbheek.chauhan@gmail.com>
+Date:   2011-01-14
+
+    libseahorse: fix build with libnotify-0.7
+    
+    * notify_notification_new cannot attach itself to widgets with 0.7
+
+ tool/seahorse-notification.c | 10 ++++++++++
+ 1 file changed, 10 insertions(+)
+
+commit 6c58d8aef3cb5121dda75c21996900ce5f8258f3
+Author: Nirbheek Chauhan <nirbheek.chauhan@gmail.com>
+Date:   2011-01-14
+
+    Port to latest gtk+:3
+    
+    * gtk_combo_box_append_text(), gtk_combo_box_get_active_text() were removed
+    * gtk_quit_add() and GtkFunction were removed
+      - gtk_quit_add() shouldn't be needed since uninit is called atexit()
+    * Require gtk+-2.91.1 or gtk+-2.23.0 for this
+
+ tool/seahorse-tool-files.c | 7 +++----
+ 1 file changed, 3 insertions(+), 4 deletions(-)
+
+commit 072f2498b5fef691167ea763c4c2b1eaca265b84
+Author: Stef Walter <stef@memberwebs.com>
+Date:   2010-10-06
+
+    Migrate to GTK3
+    
+    To build with GTK3 use the --with-gtk=3.0 command line argument.
+
+ tool/seahorse-passphrase.c |  5 ++++-
+ tool/seahorse-widget.c     | 51 ++++++++++++++++++++++++++++++----------------
+ tool/seahorse-widget.h     | 18 +++++++++-------
+ 3 files changed, 49 insertions(+), 25 deletions(-)
+
+commit b5586afc3cdfcc635e283273c7521691857186f3
+Author: Stef Walter <stef@memberwebs.com>
+Date:   2010-10-06
+
+    Fix compile warnings
+    
+    Fix compiler warnings in seahorse-operation.c
+
+ tool/seahorse-operation.c | 14 +++++++-------
+ 1 file changed, 7 insertions(+), 7 deletions(-)
+
+commit 21787ab0975f8a7eb742c94e07905cd9f52232cc
+Author: Stefan Walter <stef@ws.local>
+Date:   2010-07-27
+
+    Build and repo fixes.
+    
+     * Fix support for large files by including config.h everywhere properly.
+     * Add proper .gitignore
+
+ tool/seahorse-algo.c        | 2 ++
+ tool/seahorse-gconf.c       | 2 ++
+ tool/seahorse-gpgmex-op.c   | 2 ++
+ tool/seahorse-gpgmex-util.c | 3 ++-
+ tool/seahorse-operation.c   | 4 ++--
+ tool/seahorse-progress.c    | 2 ++
+ tool/seahorse-vfs-data.c    | 2 ++
+ 7 files changed, 14 insertions(+), 3 deletions(-)
+
+commit 46febb742c115a2ec163548c2a1325f279bb8446
+Author: Adam Schreiber <sadam@gnome.org>
+Date:   2010-06-20
+
+    Fix build with -DGSEAL
+
+ tool/seahorse-pgp-operation.c | 1 +
+ tool/seahorse-tool.c          | 7 +++++++
+ tool/seahorse-widget.c        | 1 -
+ 3 files changed, 8 insertions(+), 1 deletion(-)
+
+commit 5e4103867fc639a33a865181c3c28e9a2b74f538
+Author: Stef Walter <stef@memberwebs.com>
+Date:   2010-06-13
+
+    [agent] Remove agent now that there's a gpg-agent in gnome-keyring.
+
+ tool/seahorse-passphrase.c    | 165 ------------------------------------------
+ tool/seahorse-passphrase.h    |   9 ---
+ tool/seahorse-secure-memory.h |   2 +-
+ 3 files changed, 1 insertion(+), 175 deletions(-)
+
+commit 25c33100192968b3874b42701831f541c7baf7f5
+Author: Andre Klapper <a9016009@gmx.de>
+Date:   2010-04-13
+
+    Fix nearly everything to compile with -DGSEAL_ENABLE. See bug 612495.
+
+ tool/seahorse-passphrase.c | 12 ++++++------
+ tool/seahorse-util.c       | 10 ++++++----
+ 2 files changed, 12 insertions(+), 10 deletions(-)
+
+commit 7b355b02724ef1f12c54de8bf50cbe4af81521a1
+Author: Adam Schreiber <sadam@gnome.org>
+Date:   2010-02-13
+
+    Bug 595676 - Bad encoding in gpg check sign notify
+    
+    URI's need to be unescaped before presenting them to the user.
+
+ tool/seahorse-notification.c | 5 +++--
+ tool/seahorse-tool.c         | 6 ++++--
+ 2 files changed, 7 insertions(+), 4 deletions(-)
+
+commit 84bbb56d55dbaff948774609f412af0a83af940c
+Author: Adam Schreiber <sadam@gnome.org>
+Date:   2010-02-11
+
+    Bug 609626 - Password prompt is showed in clear text
+    
+    Set visibility to FALSE on GtkEntries used for passphrase fields.
+
+ tool/seahorse-passphrase.c | 2 ++
+ 1 file changed, 2 insertions(+)
+
+commit 9b86b72c12822b5c3561f7cac39282bdcfc48a22
+Author: Adam Schreiber <sadam@gnome.org>
+Date:   2010-02-07
+
+    Connect cancel clicked signal
+
+ tool/seahorse-progress.c   | 2 ++
+ tool/seahorse-progress.xml | 1 -
+ 2 files changed, 2 insertions(+), 1 deletion(-)
+
+commit a6c3294e4853513e2c24e4cb47a5979bd16386e1
+Author: Adam Schreiber <sadam@gnome.org>
+Date:   2010-01-24
+
+    Use GTK+ GtkEntryBuffer for secure password entry.
+    
+    Remove our own copy of GtkEntry, and use the new GtkEntryBuffer
+    in GTK+ 2.18. Bump requred GTK+ version.  These changes are copied
+    from seahorse an modified slightly.  The author of
+    seahorse-secure-buffer.[ch] is Stef Walter.
+
+ tool/seahorse-passphrase.c    |   31 +-
+ tool/seahorse-secure-buffer.c |  196 +++
+ tool/seahorse-secure-buffer.h |   57 +
+ tool/seahorse-secure-entry.c  | 2987 -----------------------------------------
+ tool/seahorse-secure-entry.h  |  187 ---
+ 5 files changed, 271 insertions(+), 3187 deletions(-)
+
+commit 80ccefc66103048e631043f340fbec2747b1a94f
+Author: Pablo Castellano <pablog.ubuntu@gmail.com>
+Date:   2009-08-23
+
+    seahorse-tool: added return carriage.
+    
+    Added return carriage to the output when you
+    don't specify any argument.
+
+ tool/seahorse-tool.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 4bc591102a5186f9af6570086ee13ada4d7a2e36
+Author: Pablo Castellano <pablog.ubuntu@gmail.com>
+Date:   2009-08-23
+
+    Get rid of libglade.
+    
+    Finish migration from libglade to gtkbuilder.
+
+ tool/Makefile.am           | 4 ++--
+ tool/seahorse-passphrase.c | 1 -
+ 2 files changed, 2 insertions(+), 3 deletions(-)
+
+commit b87186744f5b27ae50446c09e36b8340b14d7646
+Author: Adam Schreiber <sadam@gnome.org>
+Date:   2009-08-19
+
+    Bug 590247 - Migrate from libglade to GtkBuilder
+
+ tool/seahorse-gconf.h             |   2 +
+ tool/seahorse-multi-encrypt.glade | 340 -------------------------------------
+ tool/seahorse-multi-encrypt.xml   | 236 ++++++++++++++++++++++++++
+ tool/seahorse-notify.glade        |  99 -----------
+ tool/seahorse-notify.xml          |  79 +++++++++
+ tool/seahorse-progress.c          |  38 +++--
+ tool/seahorse-progress.glade      | 189 ---------------------
+ tool/seahorse-progress.xml        | 128 ++++++++++++++
+ tool/seahorse-tool-files.c        |  20 +--
+ tool/seahorse-widget.c            | 345 ++++++++++++++------------------------
+ tool/seahorse-widget.h            |  50 +++---
+ 11 files changed, 624 insertions(+), 902 deletions(-)
+
+commit c6b30ba646d0cc6f0a0863e2638ba3f45883690e
+Author: Pablo Castellano <pablog.ubuntu@gmail.com>
+Date:   2009-08-23
+
+    Corrected file permissions.
+    
+    seahorse-tool-progress.c and seahorse-tool.c
+    do not need execute permissions.
+
+ tool/seahorse-tool-progress.c | 0
+ tool/seahorse-tool.c          | 0
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+
+commit 501ce9135056a75b75d40db8c170ff3c33e32ba3
+Author: Pablo Castellano <pablog.ubuntu@gmail.com>
+Date:   2009-08-19
+
+    Added .gitignore files
+
+ nautilus-ext/.gitignore | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+commit 75cae72481c2bf98ed6114dbc9a8368f60013422
+Author: Vincent Untz <vuntz@gnome.org>
+Date:   2009-08-04
+
+    Bug 590723 – Build failure because of missing include
+
+ tool/seahorse-gpgmex-op.c | 2 ++
+ 1 file changed, 2 insertions(+)
+
+commit 7ce323163db01e497163d8fba70174fe7e0554d4
+Author: Kjartan Maraas <kmaraas@gnome.org>
+Date:   2009-07-14
+
+    Fix single glib include
+
+ tool/seahorse-algo.h | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit a8db5cd9f84633c2ab156a5dda81ef69fa9e9ea9
+Author: Stefan Walter <stefw@src.gnome.org>
+Date:   2009-03-03
+
+    Only use 16 characters when generating a key identifier for
+    notifications. Fixes bug #551012
+    
+    svn path=/seahorse-plugins/trunk/; revision=2877
+
+ tool/seahorse-notification.c | 10 +++++++++-
+ 1 file changed, 9 insertions(+), 1 deletion(-)
+
+commit 54b3aa4acc0cdaca127aa5354a6e267630dffc50
+Author: Adam Schreiber <sadam@clemson.edu>
+Date:   2009-02-27
+
+    Fix reference counting to close windows properly
+    
+    2009-02-27  Adam Schreiber  <sadam@clemson.edu>
+    
+        * libseahorse/seahorse-widget.c: Fix reference counting to close
+    windows
+        properly
+    
+    svn path=/seahorse-plugins/trunk/; revision=2854
+
+ tool/seahorse-widget.c | 2 ++
+ 1 file changed, 2 insertions(+)
+
+commit c2199c5f65f66b50dd569ded71f210802dfec3c3
+Author: Adam Schreiber <sadam@clemson.edu>
+Date:   2009-02-17
+
+    Remove deprecated GTK+ symbols
+    
+    2009-02-17  Adam Schreiber  <sadam@clemson.edu>
+    
+        * libseahorse/seahorse-widget.c: Remove deprecated GTK+ symbols
+    
+    svn path=/seahorse-plugins/trunk/; revision=2828
+
+ tool/seahorse-widget.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit 34399de1ae1fa27f26c106097c5139cc389090e3
+Author: Adam Schreiber <sadam@clemson.edu>
+Date:   2009-02-17
+
+    Remove deprecated GTK+ symbols Fixes bug #572183
+    
+    2009-02-17  Adam Schreiber  <sadam@clemson.edu>
+    
+        * plugins/applet/seahorse-applet.c:
+        * libseahorse/seahorse-widget.h: Remove deprecated GTK+ symbols
+        Fixes bug #572183
+    
+    svn path=/seahorse-plugins/trunk/; revision=2827
+
+ tool/seahorse-widget.h | 10 +++++-----
+ 1 file changed, 5 insertions(+), 5 deletions(-)
+
+commit b0ef5789d1dbe51c5ac82ea0d237116f4151fe21
+Author: Adam Schreiber <sadam@clemson.edu>
+Date:   2009-02-01
+
+    Don't prompt for signer if only one private key. Fixes bug #553474
+    
+    2009-02-01  Adam Schreiber  <sadam@clemson.edu>
+    
+        * plugins/nautilus/seahorse-tool.c: Don't prompt for signer if only
+    one
+        private key.  Fixes bug #553474
+    
+    svn path=/seahorse-plugins/trunk/; revision=2724
+
+ tool/seahorse-tool.c | 25 +++++++++++++++++++++++--
+ 1 file changed, 23 insertions(+), 2 deletions(-)
+
+commit 5b9bad721a8074c6bb8ad1f7090872bd0041f99e
+Author: Adam Schreiber <sadam@clemson.edu>
+Date:   2008-12-21
+
+    Fix display of error messages. Fixes bug #565240
+    
+    2008-12-21  Adam Schreiber  <sadam@clemson.edu>
+    
+        * libseahorse/seahorse-util.c: Fix display of error messages.
+        Fixes bug #565240
+    
+    svn path=/seahorse-plugins/trunk/; revision=2690
+
+ tool/seahorse-util.c | 14 ++++++--------
+ 1 file changed, 6 insertions(+), 8 deletions(-)
+
+commit d6fd0d7015f9e6163f37ce8eb4f109b5f4815309
+Author: Adam Schreiber <sadam@clemson.edu>
+Date:   2008-12-09
+
+    Change g_printerror to g_debug. Fixes bug #563781
+    
+    2008-12-09  Adam Schreiber  <sadam@clemson.edu>
+    
+        * plugins/nautilus-ext/seahorse-nautilus-module.c: Change
+    g_printerror to
+        g_debug.  Fixes bug #563781
+    
+    svn path=/seahorse-plugins/trunk/; revision=2645
+
+ nautilus-ext/seahorse-nautilus-module.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit e5be4ffffbb57e54e865792786195da146c4b02b
+Author: Adam Schreiber <sadam@clemson.edu>
+Date:   2008-11-15
+
+    Use ngettext. Fixes bug #554933
+    
+    2008-11-15  Adam Schreiber  <sadam@clemson.edu>
+    
+        * gkr/seahorse-gkr-commands.c:
+        * gkr/seahorse-gkr-commands.vala: Use ngettext. Fixes bug #554933
+    
+    svn path=/seahorse-plugins/trunk/; revision=2617
+
+ tool/seahorse-multi-encrypt.glade | 112 +++++++++++++++++++-------------------
+ tool/seahorse-notify.glade        |   7 ++-
+ 2 files changed, 60 insertions(+), 59 deletions(-)
+
+commit bacb8c73ada2261416fd158594c6ebe2791216e8
+Author: Stefan Walter <stefw@src.gnome.org>
+Date:   2008-09-15
+
+    Better error reporting when a keyboard grab fails. See bug #552321
+    
+    	* libseahorse/seahorse-passphrase.c: Better error reporting when
+    	a keyboard grab fails. See bug #552321
+    
+    svn path=/seahorse-plugins/trunk/; revision=2519
+
+ tool/seahorse-passphrase.c | 14 +++++++++-----
+ 1 file changed, 9 insertions(+), 5 deletions(-)
+
+commit 3bb8da8ee715497548e0afdc6710c45d2056d315
+Author: Stefan Walter <stefw@src.gnome.org>
+Date:   2008-09-15
+
+    Some tweaks to the password prompt window, including allowing minimizing
+    
+    	* libseahorse/seahorse-passphrase.c: Some tweaks to the password
+    	prompt window, including allowing minimizing to release the
+    	keyboard grab.
+    
+    svn path=/seahorse-plugins/trunk/; revision=2517
+
+ tool/seahorse-passphrase.c | 41 ++++++++++++++++++++++++++++++++---------
+ 1 file changed, 32 insertions(+), 9 deletions(-)
+
+commit e5f8ec3e381ef86a6b699187b4a5640c3ca41d87
+Author: Stefan Walter <stefw@src.gnome.org>
+Date:   2008-09-13
+
+    Don't display DBus errors when they are the result of a user cancel. See
+    
+    	* libseahorse/seahorse-util.c:
+    	* plugins/applet/seahorse-applet.c:
+    	* plugins/epiphany/seahorse-extension.c:
+    	* plugins/gedit/seahorse-gedit.c: Don't display DBus errors when
+    	they are the result of a user cancel. See bug #520119
+    
+    svn path=/seahorse-plugins/trunk/; revision=2498
+
+ tool/seahorse-util.c | 7 +++++++
+ 1 file changed, 7 insertions(+)
+
+commit cfba76593dec63d7e3e79b94ccb8f74a20a10201
+Author: Adam Schreiber <sadam@clemson.edu>
+Date:   2008-09-08
+
+    Change install directory so as not to conflict with seahorse
+    
+    2008-09-08  Adam Schreiber  <sadam@clemson.edu>
+    
+        * pixmaps/22x22/Makefile.am:
+        * pixmaps/48x48/Makefile.am:
+        * pixmaps/scalable/Makefile.am:
+        * libseahorse/seahorse-notification.c: Change install directory so
+    as not
+        to conflict with seahorse
+    
+    svn path=/seahorse-plugins/trunk/; revision=2464
+
+ tool/seahorse-notification.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 326e26c0f98ceea70d366f75bbebdf3430e06d33
+Author: Adam Schreiber <sadam@clemson.edu>
+Date:   2008-09-01
+
+    Remove encoding line. Fixes bug #550168
+    
+    2008-09-01  Adam Schreiber  <sadam@clemson.edu>
+    
+        *  plugins/nautilus/seahorse-pgp-keys.desktop.in.in:
+        * plugins/nautilus/seahorse-pgp-preferences.desktop.in:
+        * plugins/nautilus/seahorse-pgp-encrypted.desktop.in.in:
+        * plugins/nautilus/seahorse-pgp-signature.desktop.in.in: Remove
+    encoding
+        line.  Fixes bug #550168
+    
+    svn path=/seahorse-plugins/trunk/; revision=2423
+
+ tool/seahorse-pgp-encrypted.desktop.in.in | 1 -
+ tool/seahorse-pgp-keys.desktop.in.in      | 1 -
+ tool/seahorse-pgp-signature.desktop.in.in | 1 -
+ 3 files changed, 3 deletions(-)
+
+commit eb44326b032cf3b9dab006c85eecbb526c74191b
+Author: Adam Schreiber <sadam@clemson.edu>
+Date:   2008-08-27
+
+    Fix compiler warnings
+    
+    2008-08-27  Adam Schreiber  <sadam@clemson.edu>
+    
+        * plugins/nautilus/seahorse-tool.c:
+        * plugins/gedit/seahorse-gedit.c:
+        * libseahorse/seahorse-util.c:
+        * libseahorse/seahorse-gpg-options.c: Fix compiler warnings
+    
+    svn path=/seahorse-plugins/trunk/; revision=2398
+
+ tool/seahorse-tool.c | 2 +-
+ tool/seahorse-util.c | 4 ++--
+ 2 files changed, 3 insertions(+), 3 deletions(-)
+
+commit 7db5277e133d474a86f359fde6d2d473b52f60c4
+Author: Adam Schreiber <sadam@clemson.edu>
+Date:   2008-08-13
+
+    Icon makover. Patch from Michael Monreal. Part of fixing bug #520114
+    
+    2008-08-13  Adam Schreiber  <sadam@clemson.edu>
+    
+        * pixmaps/22x22/Makefile.am:
+        * pixmaps/48x48/Makefile.am:
+        * pixmaps/scalable/Makefile.am:
+        * libseahorse/seahorse-widget.c:
+        * libseahorse/seahorse-gtkstock.c:
+        * libseahorse/seahorse-gtkstock.h: Icon makover.  Patch from Michael
+    Monreal.
+        Part of fixing bug #520114
+    
+    svn path=/seahorse-plugins/trunk/; revision=2353
+
+ tool/seahorse-widget.c | 6 +-----
+ 1 file changed, 1 insertion(+), 5 deletions(-)
+
+commit 6d8d68bc8b91c4067aa9ed2b12bb47701ca014ce
+Author: Adam Schreiber <sadam@clemson.edu>
+Date:   2008-07-06
+
+    Finish guarding plugins against brand new user without keys.
+    
+    2008-07-05  Adam Schreiber  <sadam@clemson.edu>
+    
+        * plugins/applet/seahorse-applet.c:
+        * plugins/epiphany/seahorse-extension.c:
+        * plugins/gedit/seahorse-gedit.c:
+        * plugins/nautilus/seahorse-tool: Finish guarding plugins against
+    brand new
+        user without keys.
+    
+    svn path=/seahorse-plugins/trunk/; revision=2263
+
+ tool/seahorse-tool.c | 8 +++++++-
+ 1 file changed, 7 insertions(+), 1 deletion(-)
+
+commit e513986208b8400355f37ccb52316e983fe9f9f5
+Author: Adam Schreiber <sadam@clemson.edu>
+Date:   2008-07-06
+
+    Prompt to create key when needed. Fixes bug #538696
+    
+    2008-07-05  Adam Schreiber  <sadam@clemson.edu>
+    
+        * plugins/nautilus/seahorse-tools: Prompt to create key when needed.
+    Fixes
+        bug #538696
+    
+    svn path=/seahorse-plugins/trunk/; revision=2262
+
+ tool/seahorse-tool.c | 98 ++++++++++++++++++++++++++++------------------------
+ 1 file changed, 52 insertions(+), 46 deletions(-)
+
+commit 11707e48715c90e17d9a1f9ba485f9d05b8b9b15
+Author: Stefan Walter <stefw@src.gnome.org>
+Date:   2008-06-30
+
+    Port to GIO from gnome-vfs Fixes bug #509940
+    
+    	* configure.in:
+    	* libseahorse/Makefile.am:
+    	* libseahorse/seahorse-gtkstock.h:
+    	* libseahorse/seahorse-multi-encrypt.glade: (added back)
+    	* libseahorse/seahorse-util.c:
+    	* libseahorse/seahorse-util.h:
+    	* libseahorse/seahorse-vfs-data.c:
+    	* libseahorse/seahorse-vfs-data.h:
+    	* plugins/applet/seahorse-applet.c:
+    	* plugins/nautilus/seahorse-tool.c:
+    	* plugins/nautilus/seahorse-tool-files.c:
+    	* plugins/nautilus/seahorse-tool-progress.c:
+    	* plugins/nautilus-ext/seahorse-nautilus.c: Port to GIO from gnome-vfs
+    	Fixes bug #509940
+    
+    
+    svn path=/seahorse-plugins/trunk/; revision=2253
+
+ nautilus-ext/seahorse-nautilus.c  |   3 -
+ tool/seahorse-multi-encrypt.glade | 340 +++++++++++++++++++++++++++++
+ tool/seahorse-tool-files.c        | 311 +++++++++++++++------------
+ tool/seahorse-tool-progress.c     |  15 +-
+ tool/seahorse-tool.c              |   5 -
+ tool/seahorse-util.c              | 122 +++--------
+ tool/seahorse-util.h              |   2 -
+ tool/seahorse-vfs-data.c          | 435 +++++++++++++++++++-------------------
+ tool/seahorse-vfs-data.h          |  10 +-
+ 9 files changed, 765 insertions(+), 478 deletions(-)
+
+commit eeb817e976814cf3d73eea84809ba02ab5b6dc95
+Author: Adam Schreiber <sadam@clemson.edu>
+Date:   2008-06-25
+
+    sync with seahorse/trunk
+    
+    2008-06-25  Adam Schreiber  <sadam@clemson.edu>
+    
+        * libseahorse/seahorse-secure-memory.c: sync with seahorse/trunk
+    
+    svn path=/seahorse-plugins/trunk/; revision=2246
+
+ tool/seahorse-secure-memory.c | 35 +++++++++++++++++++++++++++--------
+ 1 file changed, 27 insertions(+), 8 deletions(-)
+
+commit 55dcb817cda90a39faff8e3539f77cfc603ed253
+Author: Saleem Abdulrasool <asaleem@src.gnome.org>
+Date:   2008-05-30
+
+    fix building with G_DISABLE_DEPRECATED
+    
+    svn path=/seahorse-plugins/trunk/; revision=2222
+
+ tool/seahorse-tool-progress.c | 6 +++---
+ tool/seahorse-util.c          | 4 ++--
+ 2 files changed, 5 insertions(+), 5 deletions(-)
+
+commit 8ef0fdcedb11dfae691e202999130101d185d0ba
+Author: Adam Schreiber <sadam@clemson.edu>
+Date:   2008-05-17
+
+    Grab keyboard focus Patch from Josselin Mouette. Fixes bug #326611
+    
+    2008-05-17  Adam Schreiber  <sadam@clemson.edu>
+    
+        * agent/seahorse-agent-prompt.c:
+        * libseahorse/seahorse-passphrase.c: Grab keyboard focus
+        Patch from Josselin Mouette.  Fixes bug #326611
+    
+    svn path=/seahorse-plugins/trunk/; revision=2213
+
+ tool/seahorse-passphrase.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 0909b673fc9ac4c646d678d1a288c1af28bc4133
+Author: Adam Schreiber <sadam@clemson.edu>
+Date:   2008-05-05
+
+    Remove dependence on libgnome/ui. Patch from Saleem Abdulrasool. Fixes bug
+    
+    2008-05-04  Adam Schreiber  <sadam@clemson.edu>
+    
+        * plugins/nautilus-ext/Makefile.am:
+        * plugins/nautilus/seahorse-tool-files.c:
+        * plugins/nautilus/seahorse-tool.c:
+        * plugins/nautilus/seahorse-tool-progress.c:
+        * plugins/nautilus/seahorse-pgp-preferences.c:
+        * plugins/applet/seahorse-applet.c:
+        * plugins/gedit/seahorse-gedit-bonobo.c:
+        * plugins/epiphany/seahorse-extension.c:
+        * configure.in:
+        * agent/seahorse-agent-actions.c:
+        * agent/seahorse-agent-prompt.c:
+        * agent/seahorse-agent.c:
+        * agent/seahorse-agent-cache.c:
+        * agent/seahorse-agent-status.c:
+        * agent/seahorse-agent-main.c:
+        * agent/seahorse-agent-io.c:
+        * libseahorse/seahorse-unix-signal.c:
+        * libseahorse/seahorse-vfs-data.h:
+        * libseahorse/seahorse-util.c:
+        * libseahorse/seahorse-widget.c:
+        * libseahorse/seahorse-operation.c:
+        * libseahorse/seahorse-gpg-options.c:
+        * libseahorse/seahorse-prefs-cache.c: Remove dependence on
+    libgnome/ui.
+        Patch from Saleem Abdulrasool. Fixes bug #524018
+    
+    svn path=/seahorse-plugins/trunk/; revision=2205
+
+ nautilus-ext/Makefile.am      |  1 -
+ tool/seahorse-operation.c     |  1 +
+ tool/seahorse-tool-files.c    |  6 +++++-
+ tool/seahorse-tool-progress.c |  5 +++--
+ tool/seahorse-tool.c          | 13 +++++++------
+ tool/seahorse-util.c          |  2 --
+ tool/seahorse-vfs-data.h      |  2 ++
+ tool/seahorse-widget.c        | 27 +++++++++++++++++----------
+ 8 files changed, 35 insertions(+), 22 deletions(-)
+
+commit 61939ab4ead41e6a6066441caaf9a94a9b0fb6ef
+Author: Adam Schreiber <sadam@src.gnome.org>
+Date:   2008-04-23
+
+    Change repository name to be able to work with jhbuild cleanly.  See the
+    example of gnomemm.
+    
+    svn path=/seahorse-plugins/trunk/; revision=2191
+
+ nautilus-ext/Makefile.am                  |   18 +
+ nautilus-ext/seahorse-nautilus-module.c   |   58 +
+ nautilus-ext/seahorse-nautilus.c          |  224 +++
+ nautilus-ext/seahorse-nautilus.h          |   52 +
+ tool/Makefile.am                          |   72 +
+ tool/seahorse-algo.c                      |  589 ++++++
+ tool/seahorse-algo.h                      |   97 +
+ tool/seahorse-gconf.c                     |  298 +++
+ tool/seahorse-gconf.h                     |   86 +
+ tool/seahorse-gpgmex-op.c                 |  119 ++
+ tool/seahorse-gpgmex-util.c               |  462 +++++
+ tool/seahorse-gpgmex.h                    |  130 ++
+ tool/seahorse-libdialogs.h                |   55 +
+ tool/seahorse-marshal.list                |    4 +
+ tool/seahorse-notification.c              |  681 +++++++
+ tool/seahorse-notify.glade                |   98 +
+ tool/seahorse-operation.c                 |  663 +++++++
+ tool/seahorse-operation.h                 |  317 +++
+ tool/seahorse-passphrase.c                |  522 +++++
+ tool/seahorse-passphrase.h                |   55 +
+ tool/seahorse-pgp-encrypted.desktop.in.in |   13 +
+ tool/seahorse-pgp-keys.desktop.in.in      |   13 +
+ tool/seahorse-pgp-operation.c             |  462 +++++
+ tool/seahorse-pgp-operation.h             |   93 +
+ tool/seahorse-pgp-signature.desktop.in.in |   13 +
+ tool/seahorse-progress.c                  |  320 +++
+ tool/seahorse-progress.glade              |  189 ++
+ tool/seahorse-progress.h                  |   48 +
+ tool/seahorse-secure-entry.c              | 2987 +++++++++++++++++++++++++++++
+ tool/seahorse-secure-entry.h              |  187 ++
+ tool/seahorse-secure-memory.c             |  109 ++
+ tool/seahorse-secure-memory.h             |   39 +
+ tool/seahorse-tool-files.c                |  875 +++++++++
+ tool/seahorse-tool-progress.c             |  302 +++
+ tool/seahorse-tool.1                      |  108 ++
+ tool/seahorse-tool.c                      |  743 +++++++
+ tool/seahorse-tool.h                      |   70 +
+ tool/seahorse-util.c                      | 1175 ++++++++++++
+ tool/seahorse-util.h                      |  170 ++
+ tool/seahorse-vfs-data.c                  |  720 +++++++
+ tool/seahorse-vfs-data.h                  |   62 +
+ tool/seahorse-widget.c                    |  562 ++++++
+ tool/seahorse-widget.h                    |  108 ++
+ 43 files changed, 13968 insertions(+)

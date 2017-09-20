@@ -1,0 +1,57 @@
+seahorse-caja 3.11.92
+ * Initial port for caja.
+
+seahorse-nautilus 3.11.92
+ * Warn when signatures are valid but untrusted [#708640]
+ * License update
+ * Documentation fixes
+ * Updated translations
+
+seahorse-nautilus 3.10.1
+ * Updated translations
+
+seahorse-nautilus 3.10.0
+ (no changes since previous release)
+
+seahorse-nautilus 3.9.90
+ * Add correct flag for reaping the progress child [#697895]
+ * Add support for symmetric encryption in seahorse-tool [#325803]
+ * Updated translations
+
+seahorse-nautilus 3.8.0
+ (no changes since previous release)
+
+seahorse-nautilus 3.7.92
+ * Updated translations
+
+seahorse-nautilus 3.7.5
+ * Updated translations
+
+seahorse-nautilus 3.6.1
+ * Fix the GSettings schema
+
+seahorse-nautilus 3.6.0
+ (no changes since previous release)
+
+seahorse-nautilus 3.5.92
+ * Updated translations
+
+seahorse-nautilus 3.5.91
+ * Updated translations
+
+seahorse-nautilus 3.5.4
+ * Update for newer Gtk and Glib
+ * Use Gcr library for prompting of passwords
+ * Migrate from GConf to GSettings
+ * Fix several crashers
+ * Translation fixes
+
+seahorse-nautilus 3.4.0
+ (no changes since previous release)
+
+seahorse-nautilus 3.3.1
+
+ * Initial unstable release split out from seahorse-plugins
+ * Cleanup and refactor code
+
+Versions prior to 3.0.0 were released as part of seahorse-plugins

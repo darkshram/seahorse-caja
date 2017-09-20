@@ -19,3 +19,10 @@ To build you will need:
 * libgnome-keyring-devel
 * libnotify-devel
 
+Then execute:
+
+autoreconf -fi
+./configure
+make
+make install
+

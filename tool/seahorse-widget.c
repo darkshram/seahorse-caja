@@ -103,7 +103,7 @@ seahorse_widget_constructed (GObject *object)
 	/* Load window size for windows that aren't dialogs */
 	window = GTK_WINDOW (seahorse_widget_get_toplevel (self));
 	if (!GTK_IS_DIALOG (window)) {
-		path = g_strdup_printf ("/org.mate.seahorse.caja/windows/%s/", self->name);
+		path = g_strdup_printf ("/org/mate/seahorse/caja/windows/%s/", self->name);
 		self->settings = g_settings_new_with_path ("org.mate.seahorse.caja.window", path);
 		g_free (path);
 

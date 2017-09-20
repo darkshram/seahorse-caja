@@ -1,10 +1,10 @@
 <schemalist>
-	<schema id="org.mate.seahorse.caja" path="/org.mate.seahorse.caja/">
+	<schema id="org.mate.seahorse.caja" path="/org/mate/seahorse/caja/">
 		<key name="package-extension" type="s">
 			<default>'.zip'</default>
 			<summary>File extension for packages</summary>
 			<description>File extension for packages when handling multiple files.</description>
-		</key>
+		</key> 
 		<key name="separate-files" type="b">
 			<default>false</default>
 			<summary>Handle multiple files separately</summary>

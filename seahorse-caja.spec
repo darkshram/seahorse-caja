@@ -50,11 +50,13 @@ find %{buildroot} -type f -name "*.a" -exec rm -f {} ';'
 %find_lang %{name}
 
 %postun
+update-desktop-database &> /dev/null || :
 if [ $1 -eq 0 ] ; then
     glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null || :
 fi
 
 %posttrans
+update-desktop-database &> /dev/null || :
 glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null || :
 
 %files -f %{name}.lang

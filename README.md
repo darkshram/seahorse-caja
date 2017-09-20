@@ -22,7 +22,10 @@ To build you will need:
 Then execute:
 
 autoreconf -fi
+
 ./configure
+
 make
+
 make install
 

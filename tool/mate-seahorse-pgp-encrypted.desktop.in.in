@@ -1,0 +1,7 @@
+[Desktop Entry]
+_Name=Decrypt File
+MimeType=application/pgp-encrypted;
+Exec=mate-seahorse-tool --decrypt
+Type=Application
+Terminal=false
+NoDisplay=true

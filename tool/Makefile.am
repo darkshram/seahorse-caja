@@ -16,7 +16,7 @@ bin_PROGRAMS = mate-seahorse-tool
 BUILT_SOURCES = \
 	seahorse-marshal.c seahorse-marshal.h
 
-seahorse_tool_SOURCES = \
+mate_seahorse_tool_SOURCES = \
 	seahorse-libdialogs.h \
 	seahorse-notification.c \
 	seahorse-operation.c seahorse-operation.h \
@@ -43,7 +43,7 @@ ui_DATA = \
 	seahorse-progress.xml \
 	seahorse-multi-encrypt.xml
 
-seahorse_tool_LDADD = \
+mate_seahorse_tool_LDADD = \
 	$(SEAHORSE_LIBS) \
 	$(LIBCRYPTUI_LIBS)
 

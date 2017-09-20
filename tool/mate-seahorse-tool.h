@@ -16,8 +16,8 @@
  * along with this program; if not, see <http://www.gnu.org/licenses/>.
  */
 
-#ifndef __SEAHORSE_TOOL_H__
-#define __SEAHORSE_TOOL_H__
+#ifndef __MATE_SEAHORSE_TOOL_H__
+#define __MATE_SEAHORSE_TOOL_H__
 
 #include "seahorse-pgp-operation.h"
 
@@ -28,7 +28,7 @@ extern gboolean mode_encrypt_sign;
 extern gboolean mode_decrypt;
 extern gboolean mode_verify;
 
-extern GSettings *seahorse_tool_settings;
+extern GSettings *mate_seahorse_tool_settings;
 
 struct _SeahorseToolMode;
 typedef gboolean (*SeahorseToolCallback) (struct _SeahorseToolMode *mode, const gchar *uri,
@@ -56,22 +56,22 @@ typedef struct _SeahorseToolMode {
 
 } SeahorseToolMode;
 
-int  seahorse_tool_files_process  (SeahorseToolMode *mode, const gchar **uris);
+int  mate_seahorse_tool_files_process  (SeahorseToolMode *mode, const gchar **uris);
 
 /* -----------------------------------------------------------------------------
  * PROGRESS FUNCTIONS
  */
 
-void        seahorse_tool_progress_init    (int argc, char* argv[]);
+void        mate_seahorse_tool_progress_init    (int argc, char* argv[]);
 
-void        seahorse_tool_progress_start   (const gchar *title);
+void        mate_seahorse_tool_progress_start   (const gchar *title);
 
-gboolean    seahorse_tool_progress_check   (void);
+gboolean    mate_seahorse_tool_progress_check   (void);
 
-void        seahorse_tool_progress_block   (gboolean block);
+void        mate_seahorse_tool_progress_block   (gboolean block);
 
-gboolean    seahorse_tool_progress_update  (gdouble fract, const gchar *message);
+gboolean    mate_seahorse_tool_progress_update  (gdouble fract, const gchar *message);
 
-void        seahorse_tool_progress_stop    (void);
+void        mate_seahorse_tool_progress_stop    (void);
 
-#endif /* __SEAHORSE_TOOL_H__ */
+#endif /* __MATE_SEAHORSE_TOOL_H__ */

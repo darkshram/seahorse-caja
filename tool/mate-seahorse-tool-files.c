@@ -251,7 +251,7 @@ step_check_uris (FilesCtx *ctx,
 
     for (k = uris; *k; k++) {
 
-        if (!seahorse_tool_progress_check ()) {
+        if (!mate_seahorse_tool_progress_check ()) {
             ret = FALSE;
             break;
         }
@@ -402,7 +402,7 @@ prepare_dialog (FilesCtx *ctx, guint nfolders, guint nfiles, GFileInfo *info, gc
     /* The local stuff */
     } else {
 
-        sep = g_settings_get_boolean (seahorse_tool_settings, "separate-files");
+        sep = g_settings_get_boolean (mate_seahorse_tool_settings, "separate-files");
 
         /* Setup the package */
         w = GTK_WIDGET (seahorse_widget_get_widget (swidget, "package-name"));
@@ -461,7 +461,7 @@ get_results (SeahorseWidget *swidget)
 
     w = GTK_WIDGET (seahorse_widget_get_widget (swidget, "do-separate"));
     sep = gtk_toggle_button_get_active (GTK_TOGGLE_BUTTON (w));
-    g_settings_set_boolean (seahorse_tool_settings, "separate-files", sep);
+    g_settings_set_boolean (mate_seahorse_tool_settings, "separate-files", sep);
 
     /* no packaging */
     if(!sep) {
@@ -484,7 +484,7 @@ get_results (SeahorseWidget *swidget)
         full_name = g_strdup_printf("%s%s", name, ext);
 
         /* Save the extension */
-        g_settings_set_string (seahorse_tool_settings, "package-extension", ext);
+        g_settings_set_string (mate_seahorse_tool_settings, "package-extension", ext);
 
         return full_name;
     }
@@ -525,7 +525,7 @@ step_process_multiple (FilesCtx *ctx,
         return TRUE;
 
     /* The package extension */
-    if ((ext = g_settings_get_string (seahorse_tool_settings, "package-extension")) == NULL)
+    if ((ext = g_settings_get_string (mate_seahorse_tool_settings, "package-extension")) == NULL)
         ext = g_strdup (".zip"); /* Yes this happens when the schema isn't installed */
 
     /* Figure out a good URI for our package */
@@ -544,7 +544,7 @@ step_process_multiple (FilesCtx *ctx,
     dlg = seahorse_widget_get_toplevel (swidget);
 
     /* Inhibit popping up of progress dialog */
-    seahorse_tool_progress_block (TRUE);
+    mate_seahorse_tool_progress_block (TRUE);
 
     while (!done) {
         switch (gtk_dialog_run (GTK_DIALOG (dlg)))
@@ -565,7 +565,7 @@ step_process_multiple (FilesCtx *ctx,
     }
 
     /* Let progress dialog pop up */
-    seahorse_tool_progress_block (FALSE);
+    mate_seahorse_tool_progress_block (FALSE);
 
     seahorse_widget_destroy (swidget);
 
@@ -624,7 +624,7 @@ visit_enumerator (FilesCtx *ctx, GFile *parent, GFileEnumerator *enumerator, GEr
     GFile *file;
 
     for (;;) {
-	if (!seahorse_tool_progress_check ()) {
+	if (!mate_seahorse_tool_progress_check ()) {
             ret = FALSE;
             break;
 	}
@@ -691,7 +691,7 @@ step_expand_uris (FilesCtx *ctx,
 
     for (l = ctx->finfos; l; l = g_list_next (l)) {
 
-        if (!seahorse_tool_progress_check ()) {
+        if (!mate_seahorse_tool_progress_check ()) {
             ret = FALSE;
             break;
         }
@@ -742,7 +742,7 @@ progress_cb (gpgme_data_t data, goffset pos, FilesCtx *ctx)
     size = size <= 0 ? 1 : size;
 
     /* The cancel check is done elsewhere */
-    seahorse_tool_progress_update ((done / total) + ((size / total) * (portion / size)),
+    mate_seahorse_tool_progress_update ((done / total) + ((size / total) * (portion / size)),
                                    seahorse_util_uri_get_last (g_file_info_get_display_name (ctx->cur->info)));
 }
 
@@ -782,7 +782,7 @@ step_operation (FilesCtx *ctx,
             goto finally;
 
         /* Inhibit popping up of progress dialog */
-        seahorse_tool_progress_block (TRUE);
+        mate_seahorse_tool_progress_block (TRUE);
 
         /* Embed filename during encryption */
         if (mode_encrypt)
@@ -799,11 +799,11 @@ step_operation (FilesCtx *ctx,
         }
 
         /* Let progress dialog pop up */
-        seahorse_tool_progress_block (FALSE);
+        mate_seahorse_tool_progress_block (FALSE);
 
         /* Run until the operation completes */
         seahorse_util_wait_until ((!seahorse_operation_is_running (op) ||
-                                   !seahorse_tool_progress_check ()));
+                                   !mate_seahorse_tool_progress_check ()));
 
         /* If cancel then reflect that */
         if (seahorse_operation_is_running (op)) {
@@ -832,7 +832,7 @@ step_operation (FilesCtx *ctx,
         data = NULL;
     }
 
-    seahorse_tool_progress_update (1.0, "");
+    mate_seahorse_tool_progress_update (1.0, "");
     ret = TRUE;
 
 finally:
@@ -849,7 +849,7 @@ finally:
  */
 
 int
-seahorse_tool_files_process (SeahorseToolMode *mode, const gchar **uris)
+mate_seahorse_tool_files_process (SeahorseToolMode *mode, const gchar **uris)
 {
     const gchar *errdesc = NULL;
     GError *err = NULL;
@@ -859,8 +859,8 @@ seahorse_tool_files_process (SeahorseToolMode *mode, const gchar **uris)
     memset (&ctx, 0, sizeof (ctx));
 
     /* Start progress bar */
-    seahorse_tool_progress_start (mode->title);
-    if (!seahorse_tool_progress_update (-1, _("Preparing...")))
+    mate_seahorse_tool_progress_start (mode->title);
+    if (!mate_seahorse_tool_progress_update (-1, _("Preparing...")))
         goto finally;
 
     /*
@@ -884,7 +884,7 @@ seahorse_tool_files_process (SeahorseToolMode *mode, const gchar **uris)
         }
     }
 
-    if (!seahorse_tool_progress_check ())
+    if (!mate_seahorse_tool_progress_check ())
         goto finally;
 
     /*
@@ -896,7 +896,7 @@ seahorse_tool_files_process (SeahorseToolMode *mode, const gchar **uris)
         goto finally;
     }
 
-    if (!seahorse_tool_progress_update (0.0, NULL))
+    if (!mate_seahorse_tool_progress_update (0.0, NULL))
         goto finally;
 
     /*
@@ -907,12 +907,12 @@ seahorse_tool_files_process (SeahorseToolMode *mode, const gchar **uris)
         goto finally;
     }
 
-    seahorse_tool_progress_update (1.0, NULL);
+    mate_seahorse_tool_progress_update (1.0, NULL);
     ret = 0;
 
 finally:
 
-    seahorse_tool_progress_stop ();
+    mate_seahorse_tool_progress_stop ();
 
     if (err) {
         seahorse_util_handle_error (err, errdesc, ctx.cur ?

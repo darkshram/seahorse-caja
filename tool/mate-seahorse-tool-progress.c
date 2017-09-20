@@ -203,7 +203,7 @@ progress_cancel (GPid pid, gint status, gpointer data)
 }
 
 void
-seahorse_tool_progress_start (const gchar *title)
+mate_seahorse_tool_progress_start (const gchar *title)
 {
     GError *err = NULL;
     gboolean ret;
@@ -228,7 +228,7 @@ seahorse_tool_progress_start (const gchar *title)
 }
 
 void
-seahorse_tool_progress_init (int argc, char* argv[])
+mate_seahorse_tool_progress_init (int argc, char* argv[])
 {
     int r;
 
@@ -243,7 +243,7 @@ seahorse_tool_progress_init (int argc, char* argv[])
 }
 
 gboolean
-seahorse_tool_progress_check (void)
+mate_seahorse_tool_progress_check (void)
 {
     /* Process all events necessary for this check */
     while (g_main_context_iteration (NULL, FALSE));
@@ -251,14 +251,14 @@ seahorse_tool_progress_check (void)
 }
 
 void
-seahorse_tool_progress_block (gboolean block)
+mate_seahorse_tool_progress_block (gboolean block)
 {
     if (progress_fd != -1)
         seahorse_util_printf_fd (progress_fd, "%s \n", block ? CMD_BLOCK : CMD_UNBLOCK);
 }
 
 gboolean
-seahorse_tool_progress_update (gdouble fract, const gchar *message)
+mate_seahorse_tool_progress_update (gdouble fract, const gchar *message)
 {
     if (progress_fd != -1) {
         if (!seahorse_util_printf_fd (progress_fd, "%s %0.2f %s\n", CMD_PROGRESS,
@@ -269,11 +269,11 @@ seahorse_tool_progress_update (gdouble fract, const gchar *message)
         }
     }
 
-    return seahorse_tool_progress_check ();
+    return mate_seahorse_tool_progress_check ();
 }
 
 void
-seahorse_tool_progress_stop ()
+mate_seahorse_tool_progress_stop ()
 {
     if (progress_pid != -1) {
         kill (progress_pid, SIGTERM);

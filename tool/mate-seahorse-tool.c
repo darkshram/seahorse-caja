@@ -36,7 +36,7 @@
 #include "seahorse-libdialogs.h"
 #include "seahorse-util.h"
 
-GSettings *seahorse_tool_settings = NULL;
+GSettings *mate_seahorse_tool_settings = NULL;
 
 #define IMPORT_BUFFER_SIZE 50*1<<10 /* 50 kB */
 
@@ -259,7 +259,7 @@ encrypt_sign_start (SeahorseToolMode *mode, const gchar *uri, gpgme_data_t urida
     g_object_set_data_full (G_OBJECT (pop), "cipher-data", cipher,
                             (GDestroyNotify)gpgme_data_release);
 
-    gpgme_set_armor (pop->gctx, g_settings_get_boolean (seahorse_tool_settings, "armor-mode"));
+    gpgme_set_armor (pop->gctx, g_settings_get_boolean (mate_seahorse_tool_settings, "armor-mode"));
     gpgme_set_textmode (pop->gctx, FALSE);
 
     /* Start actual encryption */
@@ -376,7 +376,7 @@ sign_start (SeahorseToolMode *mode, const gchar *uri, gpgme_data_t uridata,
     g_object_set_data_full (G_OBJECT (pop), "cipher-data", cipher,
                             (GDestroyNotify)gpgme_data_release);
 
-    gpgme_set_armor (pop->gctx, g_settings_get_boolean (seahorse_tool_settings, "armor-mode"));
+    gpgme_set_armor (pop->gctx, g_settings_get_boolean (mate_seahorse_tool_settings, "armor-mode"));
     gpgme_set_textmode (pop->gctx, FALSE);
 
     /* Start actual signage */
@@ -590,12 +590,12 @@ verify_start (SeahorseToolMode *mode, const gchar *uri, gpgme_data_t uridata,
         g_free (original);
         original = NULL;
 
-        seahorse_tool_progress_block (TRUE);
+        mate_seahorse_tool_progress_block (TRUE);
 
         if (gtk_dialog_run (GTK_DIALOG (dialog)) == GTK_RESPONSE_ACCEPT)
             original = gtk_file_chooser_get_uri (GTK_FILE_CHOOSER (dialog));
 
-        seahorse_tool_progress_block (FALSE);
+        mate_seahorse_tool_progress_block (FALSE);
 
         gtk_widget_destroy (dialog);
     }
@@ -687,7 +687,7 @@ main (int argc, char **argv)
      * where two processes communicate with each other. One does the
      * operations, the other shows the progress window, handles cancel.
      */
-    seahorse_tool_progress_init (argc, argv);
+    mate_seahorse_tool_progress_init (argc, argv);
 
     octx = g_option_context_new ("");
     g_option_context_add_main_entries (octx, options, GETTEXT_PACKAGE);
@@ -702,7 +702,7 @@ main (int argc, char **argv)
         return 2;
     }
 
-    seahorse_tool_settings = g_settings_new ("org.mate.seahorse.caja");
+    mate_seahorse_tool_settings = g_settings_new ("org.mate.seahorse.caja");
 
     /* The basic settings for the operation */
     memset (&mode, 0, sizeof (mode));
@@ -751,7 +751,7 @@ main (int argc, char **argv)
     /* Must at least have a start cb to do something */
     if (mode.startcb) {
 
-        ret = seahorse_tool_files_process (&mode, (const gchar**)uris);
+        ret = mate_seahorse_tool_files_process (&mode, (const gchar**)uris);
 
         /* Any results necessary */
         if (ret == 0) {
@@ -770,8 +770,8 @@ main (int argc, char **argv)
     if (mode.signer)
         gpgme_key_unref (mode.signer);
 
-    g_object_unref (seahorse_tool_settings);
-    seahorse_tool_settings = NULL;
+    g_object_unref (mate_seahorse_tool_settings);
+    mate_seahorse_tool_settings = NULL;
 
     seahorse_notification_cleanup ();
 

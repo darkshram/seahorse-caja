@@ -1,11 +1,8 @@
 gsettings_SCHEMAS = \
-	org.gnome.seahorse.caja.gschema.xml \
-	org.gnome.seahorse.caja.window.gschema.xml
+	org.mate.seahorse.caja.gschema.xml \
+	org.mate.seahorse.caja.window.gschema.xml
 
 @GSETTINGS_RULES@
-
-convert_DATA = \
-	org.gnome.seahorse.caja.convert
 
 convertdir = \
 	$(datarootdir)/GConf/gsettings

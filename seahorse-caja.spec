@@ -1,5 +1,5 @@
 Name:           seahorse-caja
-Version:        1.18.0
+Version:        %{VERSION}
 Release:        1%{?dist}
 Summary:        PGP encryption and signing for caja
 License:        GPLv2+

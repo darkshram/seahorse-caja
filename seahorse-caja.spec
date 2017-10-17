@@ -51,13 +51,17 @@ find %{buildroot} -type f -name "*.a" -exec rm -f {} ';'
 
 %postun
 update-desktop-database &> /dev/null || :
+%if 0%{?fedora} < 24 || %{?rhel} < 8
 if [ $1 -eq 0 ] ; then
     glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null || :
 fi
+%endif
 
 %posttrans
 update-desktop-database &> /dev/null || :
+%if 0%{?fedora} < 24 || %{?rhel} < 8
 glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null || :
+%endif
 
 %files -f %{name}.lang
 %license COPYING
@@ -70,5 +74,9 @@ glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null || :
 %{_mandir}/man1/mate-seahorse-tool.1*
 
 %changelog
+* Tue Oct 17 2017 Joel Barrios <http://www.alcancelibre.org/> - 1.18.1-1
+- glib-compile-schemas not required in Fedora >= 24 and RHEL >= 8. We keep them
+  because AlcanceLibre.org maintains a Fedora based distro which requires them.
+
 * Wed Sep 20 2017 Joel Barrios <http://www.alcancelibre.org/> - 1.18.0-1
-- initial packaging for ALDOS.
+- initial packaging for ALDOS, based on seahorse-nautilus.

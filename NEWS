@@ -1,6 +1,10 @@
-seahorse-caja 1.18.1
- * Update FSF address.
+seahorse-caja 1.18.2
+ * Update FSF address in COPYING file.
  * Update README.md to clarify this project is based on seahorse-nautilus.
+
+seahorse-caja 1.18.1
+ * Clean some files.
+ * Update autogen.sh (thanks to raveit65).
 
 seahorse-caja 1.18.0
  * Initial port for caja.

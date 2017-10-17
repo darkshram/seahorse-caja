@@ -1,3 +1,7 @@
+seahorse-caja 1.18.1
+ * Update FSF address.
+ * Update README.md to clarify this project is based on seahorse-nautilus.
+
 seahorse-caja 1.18.0
  * Initial port for caja.
  * Rename seahorse-tool to mate-seahorse-tool

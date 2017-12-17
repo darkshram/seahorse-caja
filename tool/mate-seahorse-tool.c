@@ -671,6 +671,7 @@ check_dialogs (gpointer dummy)
 int
 main (int argc, char **argv)
 {
+    GError *err = NULL;
     GOptionContext *octx = NULL;
     SeahorseToolMode mode;
     gchar **uris = NULL;
@@ -692,7 +693,11 @@ main (int argc, char **argv)
     octx = g_option_context_new ("");
     g_option_context_add_main_entries (octx, options, GETTEXT_PACKAGE);
 
-    gtk_init_with_args (&argc, &argv, _("File Encryption Tool"), (GOptionEntry *) options, GETTEXT_PACKAGE, NULL);
+    if (!gtk_init_with_args (&argc, &argv, _("File Encryption Tool"), (GOptionEntry *) options, GETTEXT_PACKAGE, &err)) {
+        fprintf (stderr, "seahorse-tool: %s\n", err->message);
+        g_error_free (err);
+        return 2;
+    }
 
     /* Load up all our arguments */
     uris = read_uri_arguments ();

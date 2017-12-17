@@ -1,7 +1,7 @@
 [Desktop Entry]
 _Name=Import Key
 MimeType=application/pgp-keys;
-Exec=mate-seahorse-tool --import
+Exec=mate-seahorse-tool --import %U
 Type=Application
 Terminal=false
 NoDisplay=true

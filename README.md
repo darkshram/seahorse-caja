@@ -21,7 +21,7 @@ To build you will need:
 
 Then execute:
 
-autoreconf -fi
+NONCONFIGURE=1 ./autogen.sh
 
 ./configure
 

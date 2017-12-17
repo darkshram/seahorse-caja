@@ -1,3 +1,9 @@
+seahorse-caja 1.18.3
+* Support gnupg 2.1 and 2.2.
+* Fix desktop files to use valid field code with Exec key.
+* Remove GtkStock deprecated usage.
+* Minimal version for gtk-3.0 is now 3.10.
+
 seahorse-caja 1.18.2
  * Update FSF address in COPYING file.
  * Update README.md to clarify this project is based on seahorse-nautilus.

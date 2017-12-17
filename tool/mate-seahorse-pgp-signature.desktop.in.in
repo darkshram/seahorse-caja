@@ -1,7 +1,7 @@
 [Desktop Entry]
 _Name=Verify Signature
 MimeType=application/pgp-signature;
-Exec=mate-seahorse-tool --verify
+Exec=mate-seahorse-tool --verify %U
 Type=Application
 Terminal=false
 NoDisplay=true

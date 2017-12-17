@@ -577,8 +577,8 @@ verify_start (SeahorseToolMode *mode, const gchar *uri, gpgme_data_t uridata,
 
         dialog = gtk_file_chooser_dialog_new (t,
                                 NULL, GTK_FILE_CHOOSER_ACTION_OPEN,
-                                _("Cancel"), GTK_RESPONSE_CANCEL,
-                                _("Open"), GTK_RESPONSE_ACCEPT,
+                                _("_Cancel"), GTK_RESPONSE_CANCEL,
+                                _("_Open"), GTK_RESPONSE_ACCEPT,
                                 NULL);
 
         g_free (unesc_uri);

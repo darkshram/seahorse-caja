@@ -1,7 +1,7 @@
 uidir = $(datadir)/seahorse-caja/ui/
 localedir = $(datadir)/locale
 
-libcaja_seahorse_la_CPPFLAGS = -I$(top_builddir) \
+INCLUDES = -I$(top_builddir) \
 	-I$(top_srcdir) \
 	-I$(top_srcdir)/libseahorse \
 	$(SEAHORSE_CFLAGS) \

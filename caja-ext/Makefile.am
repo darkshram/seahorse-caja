@@ -1,5 +1,5 @@
 
-libcaja_seahorse_la_CPPFLAGS = -I$(top_builddir) 	\
+INCLUDES = -I$(top_builddir) 	\
 	-I$(top_srcdir) 			\
 	$(CAJA_CFLAGS) 			\
 	-DGNOMELOCALEDIR=\""$(datadir)/locale"\"

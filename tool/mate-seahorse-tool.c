@@ -694,7 +694,7 @@ main (int argc, char **argv)
     g_option_context_add_main_entries (octx, options, GETTEXT_PACKAGE);
 
     if (!gtk_init_with_args (&argc, &argv, _("File Encryption Tool"), (GOptionEntry *) options, GETTEXT_PACKAGE, &err)) {
-        fprintf (stderr, "seahorse-tool: %s\n", err->message);
+        g_printerr ("seahorse-tool: %s\n", err->message);
         g_error_free (err);
         return 2;
     }

@@ -1,5 +1,5 @@
 AC_PREREQ([2.63])
-AC_INIT([seahorse-caja], [1.18.3],
+AC_INIT([seahorse-caja], [1.18.4],
         [https://github.com/darkshram/seahorse-caja/issues],
         [seahorse-caja])
 
@@ -145,13 +145,6 @@ else
 	CAJA_EXTENSION_DIR="$with_caja_ext_dir"
 fi
 AC_SUBST(CAJA_EXTENSION_DIR)
-
-# -----------------------------------------------------------------------------
-# Keyring
-
-PKG_CHECK_MODULES([GNOME_KEYRING], [gnome-keyring-1])
-SEAHORSE_CFLAGS="$SEAHORSE_CFLAGS $GNOME_KEYRING_CFLAGS"
-SEAHORSE_LIBS="$SEAHORSE_LIBS $GNOME_KEYRING_LIBS"
 
 # -----------------------------------------------------------------------------
 # DBus

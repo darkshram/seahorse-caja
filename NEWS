@@ -1,3 +1,6 @@
+seahorse-caja 1.18.4
+* Remove unused libgnome-keyring dependency.
+
 seahorse-caja 1.18.3
 * Support gnupg 2.1 and 2.2.
 * Fix desktop files to use valid field code with Exec key.

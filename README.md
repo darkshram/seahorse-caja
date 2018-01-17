@@ -16,12 +16,11 @@ To build you will need:
 * gtk3-devel
 * intltool
 * libcryptui-devel
-* libgnome-keyring-devel
 * libnotify-devel
 
 Then execute:
 
-NONCONFIGURE=1 ./autogen.sh
+NOCONFIGURE=1 ./autogen.sh
 
 ./configure
 

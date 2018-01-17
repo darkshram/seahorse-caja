@@ -15,7 +15,6 @@ BuildRequires:  pkgconfig(gck-1)
 BuildRequires:  pkgconfig(gcr-3)
 BuildRequires:  pkgconfig(gcr-base-3)
 BuildRequires:  pkgconfig(gcr-ui-3)
-BuildRequires:  pkgconfig(gnome-keyring-1)
 BuildRequires:  pkgconfig(gtk+-3.0)
 BuildRequires:  pkgconfig(libcaja-extension) >= 1.17.0
 BuildRequires:  pkgconfig(libnotify)

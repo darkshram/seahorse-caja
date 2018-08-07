@@ -3,11 +3,12 @@
 # Q&A, Germán Poo-Caamaño <gpoo@ubiobio.cl>, 2003.
 # Francisco Javier F. Serrador <serrador@cvs.gnome.org>, 2004, 2005, 2006.
 # Seahorse Spanish Translation
-# Copyright (C) 2002, 2003.
+# Copyright (C) 2002, 2003, 2012, 2013, 2018.
 # This file is distributed under the same license as the Seahorse package.
 #
 # Jorge González <jorgegonz@svn.gnome.org>, 2007, 2008, 201, 2011.
 # Daniel Mustieles <daniel.mustieles@gmail.com>, 2012, 2013.
+# Joel Barrios <darkshram@gmail.com>, 2018.
 #
 msgid ""
 msgstr ""
@@ -15,8 +16,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=seahorse-caja&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2013-11-23 05:06+0000\n"
-"PO-Revision-Date: 2013-11-25 16:49+0100\n"
-"Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
+"PO-Revision-Date: 2018-08-06 23:48-0600\n"
+"Last-Translator: Joel Barrios <darkshram@gmail.com>\n"
 "Language-Team: Español <gnome-es-list@gnome.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
@@ -153,7 +154,7 @@ msgstr "Firmada por <i><key id='%s'/> <b>caducó</b></i> en %s."
 
 #: ../tool/seahorse-notification.c:607
 msgid "Invalid Signature"
-msgstr "Firma no válida"
+msgstr "Firma inválida"
 
 #: ../tool/seahorse-notification.c:613
 #, c-format
@@ -210,7 +211,7 @@ msgstr "Firma mala"
 
 #: ../tool/seahorse-notification.c:652
 msgid "Couldn't verify signature."
-msgstr "No se pudo verificar la firma."
+msgstr "Imposible verificar la firma."
 
 #: ../tool/seahorse-notify.xml.h:1
 msgid "Notification Messages"
@@ -305,7 +306,7 @@ msgstr "Configuración del cifrado"
 
 #: ../tool/mate-seahorse-tool.c:236 ../tool/mate-seahorse-tool.c:350
 msgid "Couldn't load keys"
-msgstr "No se pueden cargar las claves"
+msgstr "Imposible cargar las claves"
 
 #: ../tool/mate-seahorse-tool.c:253
 #, c-format
@@ -331,7 +332,7 @@ msgstr "Importando claves…"
 
 #: ../tool/mate-seahorse-tool.c:473
 msgid "Import Failed"
-msgstr "No se pudo importar"
+msgstr "Imposible importar"
 
 #: ../tool/mate-seahorse-tool.c:474
 msgid "Keys were found but not imported."
@@ -368,7 +369,7 @@ msgstr "Elija el archivo original para «%s»"
 #: ../tool/mate-seahorse-tool.c:651
 #, c-format
 msgid "No valid signatures found"
-msgstr "No se encontraron firmas no válidas"
+msgstr "Sin firmas inválidas"
 
 #: ../tool/mate-seahorse-tool.c:698
 msgid "File Encryption Tool"
@@ -381,7 +382,7 @@ msgstr "Cifrando"
 #: ../tool/mate-seahorse-tool.c:717
 #, c-format
 msgid "Couldn't encrypt file: %s"
-msgstr "No se pudo cifrar el archivo: «%s»"
+msgstr "Imposible cifrar el archivo: «%s»"
 
 #: ../tool/mate-seahorse-tool.c:725
 msgid "Signing"
@@ -390,7 +391,7 @@ msgstr "Firmado"
 #: ../tool/mate-seahorse-tool.c:726
 #, c-format
 msgid "Couldn't sign file: %s"
-msgstr "No se pudo firmar el archivo: «%s»"
+msgstr "Imposible firmar el archivo: «%s»"
 
 #: ../tool/mate-seahorse-tool.c:731
 msgid "Importing"
@@ -399,7 +400,7 @@ msgstr "Importación"
 #: ../tool/mate-seahorse-tool.c:732
 #, c-format
 msgid "Couldn't import keys from file: %s"
-msgstr "No se pudieron importar claves del archivo: «%s»"
+msgstr "Imposible importar claves del archivo: «%s»"
 
 #: ../tool/mate-seahorse-tool.c:738
 msgid "Decrypting"
@@ -408,7 +409,7 @@ msgstr "Descifrado"
 #: ../tool/mate-seahorse-tool.c:739
 #, c-format
 msgid "Couldn't decrypt file: %s"
-msgstr "No se pudo descifrar el archivo: «%s»"
+msgstr "Imposible descifrar el archivo: «%s»"
 
 #: ../tool/mate-seahorse-tool.c:744
 msgid "Verifying"
@@ -417,7 +418,7 @@ msgstr "Verificación"
 #: ../tool/mate-seahorse-tool.c:745
 #, c-format
 msgid "Couldn't verify file: %s"
-msgstr "No se pudo verificar el archivo: «%s»"
+msgstr "Imposible verificar el archivo: «%s»"
 
 #: ../tool/mate-seahorse-tool-files.c:119
 msgid "Ace (.ace)"
@@ -536,11 +537,11 @@ msgstr "Preparando…"
 
 #: ../tool/mate-seahorse-tool-files.c:875 ../tool/mate-seahorse-tool-files.c:898
 msgid "Couldn't list files"
-msgstr "No se pudieron listar los archivos"
+msgstr "Imposible listar los archivos"
 
 #: ../tool/mate-seahorse-tool-files.c:885 ../tool/seahorse-util.c:399
 msgid "Couldn't package files"
-msgstr "No se pudieron empaquetar los archivos"
+msgstr "Imposible empaquetar los archivos"
 
 #: ../tool/seahorse-util.c:173
 msgid "Decryption failed. You probably do not have the decryption key."
@@ -552,11 +553,11 @@ msgstr "%d/%m/%Y"
 
 #: ../tool/seahorse-util.c:394
 msgid "Couldn't run file-roller"
-msgstr "No se pudo ejecutar file-roller"
+msgstr "Imposible ejecutar file-roller"
 
 #: ../tool/seahorse-util.c:400
 msgid "The file-roller process did not complete successfully"
-msgstr "El proceso de file-roller no terminó completamente"
+msgstr "El proceso de file-roller fue incompleto"
 
 #. Filter for PGP keys. We also include *.asc, as in many
 #. cases that extension is associated with text/plain
@@ -596,4 +597,4 @@ msgstr "_Reemplazar"
 #~ msgstr "Confirmar:"
 
 #~ msgid "Could not display help: %s"
-#~ msgstr "No se pudo mostrar la ayuda: %s"
+#~ msgstr "Imposible mostrar la ayuda: %s"

@@ -63,7 +63,7 @@ free_file_info (FileInfo *finfo, gpointer unused)
     g_free (finfo);
 }
 
-/* Included from file-roller/src/main.c for file types */
+/* Included from engrampa/src/main.c for file types */
 
 typedef enum {
 	FR_FILE_TYPE_ACE,

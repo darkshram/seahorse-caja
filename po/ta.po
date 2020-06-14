@@ -495,11 +495,11 @@ msgid "%Y-%m-%d"
 msgstr "%Y-%m-%d"
 
 #: ../tool/seahorse-util.c:642
-msgid "Couldn't run file-roller"
+msgid "Couldn't run engrampa"
 msgstr "பைல்ரோலர் ஐ இயக்க முடியவில்லை"
 
 #: ../tool/seahorse-util.c:648
-msgid "The file-roller process did not complete successfully"
+msgid "The engrampa process did not complete successfully"
 msgstr "பைல்ரோலர் செயல் வெற்றிகரமாக முடியவில்லை."
 
 #. Filter for PGP keys. We also include *.asc, as in many

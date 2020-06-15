@@ -490,12 +490,12 @@ msgid "%Y-%m-%d"
 msgstr "%Y-%m-%d"
 
 #: ../tool/seahorse-util.c:642
-msgid "Couldn't run file-roller"
-msgstr "file-roller चालवू शकले नाही"
+msgid "Couldn't run engrampa"
+msgstr "engrampa चालवू शकले नाही"
 
 #: ../tool/seahorse-util.c:648
-msgid "The file-roller process did not complete successfully"
-msgstr "file-roller पध्दती यशस्वीरित्या पूर्ण झाली"
+msgid "The engrampa process did not complete successfully"
+msgstr "engrampa पध्दती यशस्वीरित्या पूर्ण झाली"
 
 #. Filter for PGP keys. We also include *.asc, as in many
 #. cases that extension is associated with text/plain

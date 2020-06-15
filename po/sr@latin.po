@@ -576,11 +576,11 @@ msgid "%Y-%m-%d"
 msgstr "%d.%m.%Y"
 
 #: ../tool/seahorse-util.c:394
-msgid "Couldn't run file-roller"
+msgid "Couldn't run engrampa"
 msgstr "Ne mogu da pokrenem Upravljača arhivama"
 
 #: ../tool/seahorse-util.c:400
-msgid "The file-roller process did not complete successfully"
+msgid "The engrampa process did not complete successfully"
 msgstr "Proces upravljača arhivama nije uspešno završen"
 
 #. Filter for PGP keys. We also include *.asc, as in many

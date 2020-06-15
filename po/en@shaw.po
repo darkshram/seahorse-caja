@@ -492,11 +492,11 @@ msgid "%Y-%m-%d"
 msgstr "%Y-%m-%d"
 
 #: ../tool/seahorse-util.c:642
-msgid "Couldn't run file-roller"
+msgid "Couldn't run engrampa"
 msgstr "𐑒𐑫𐑛𐑯𐑑 𐑮𐑳𐑯 𐑓𐑲𐑤-𐑮𐑴𐑤𐑼"
 
 #: ../tool/seahorse-util.c:648
-msgid "The file-roller process did not complete successfully"
+msgid "The engrampa process did not complete successfully"
 msgstr "𐑞 𐑓𐑲𐑤-𐑮𐑴𐑤𐑼 𐑐𐑮𐑴𐑕𐑧𐑕 𐑛𐑦𐑛 𐑯𐑪𐑑 𐑒𐑩𐑥𐑐𐑤𐑰𐑑 𐑕𐑩𐑒𐑕𐑧𐑕𐑓𐑩𐑤𐑦"
 
 #. Filter for PGP keys. We also include *.asc, as in many

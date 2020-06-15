@@ -1,5 +1,5 @@
 AC_PREREQ([2.63])
-AC_INIT([seahorse-caja], [1.18.4],
+AC_INIT([seahorse-caja], [1.18.5],
         [https://github.com/darkshram/seahorse-caja/issues],
         [seahorse-caja])
 

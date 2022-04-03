@@ -9,18 +9,19 @@ msgstr ""
 "Project-Id-Version: oc\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-10-07 11:29+0200\n"
-"PO-Revision-Date: 2007-12-28 17:14+0100\n"
-"Last-Translator: Yannig Marchegay (Kokoyaya) <yannig@marchegay.org>\n"
+"PO-Revision-Date: 2022-04-03 14:01+0200\n"
+"Last-Translator: Quentin PAGÈS\n"
 "Language-Team: Occitan <ubuntu-l10n-oci@lists.ubuntu.com>\n"
 "Language: oc\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.0.1\n"
 
 #: ../caja-ext/seahorse-caja.c:158
 msgid "Encrypt..."
-msgstr ""
+msgstr "Chifrar…"
 
 #: ../caja-ext/seahorse-caja.c:159
 msgid "Encrypt (and optionally sign) the selected file"
@@ -30,12 +31,12 @@ msgstr[1] ""
 
 #: ../caja-ext/seahorse-caja.c:165
 msgid "Sign"
-msgstr ""
+msgstr "Signar"
 
 #: ../caja-ext/seahorse-caja.c:166
 msgid "Sign the selected file"
 msgid_plural "Sign the selected files"
-msgstr[0] ""
+msgstr[0] "Signar lo fichièr seleccionat"
 msgstr[1] ""
 
 #: ../tool/seahorse-multi-encrypt.xml.h:1
@@ -50,7 +51,7 @@ msgstr ""
 
 #: ../tool/seahorse-multi-encrypt.xml.h:3
 msgid "Encrypt Multiple Files"
-msgstr ""
+msgstr "Chifrar mantun fichièr"
 
 #: ../tool/seahorse-multi-encrypt.xml.h:4
 msgid "Encrypt each file separately"
@@ -62,11 +63,11 @@ msgstr ""
 
 #: ../tool/seahorse-multi-encrypt.xml.h:6
 msgid "Package Name:"
-msgstr ""
+msgstr "Nom del paquet :"
 
 #: ../tool/seahorse-multi-encrypt.xml.h:7
 msgid "Packaging:"
-msgstr ""
+msgstr "Paquet :"
 
 #: ../tool/seahorse-multi-encrypt.xml.h:8
 msgid "encrypted-package"
@@ -101,7 +102,7 @@ msgstr ""
 
 #: ../tool/seahorse-notification.c:624
 msgid "Invalid Signature"
-msgstr ""
+msgstr "Signatura pas valida"
 
 #: ../tool/seahorse-notification.c:630
 #, c-format
@@ -110,7 +111,7 @@ msgstr ""
 
 #: ../tool/seahorse-notification.c:631
 msgid "Expired Signature"
-msgstr ""
+msgstr "La signatura a expirat"
 
 #: ../tool/seahorse-notification.c:637
 #, c-format
@@ -130,16 +131,16 @@ msgstr ""
 
 #: ../tool/seahorse-notification.c:645
 msgid "Good Signature"
-msgstr ""
+msgstr "Bona signatura"
 
 #: ../tool/seahorse-notification.c:650
 msgid "Signing key not in keyring."
-msgstr ""
+msgstr "La clau de signatura pas trobada dins lo trossèl."
 
 # src/dialogs/seahorse-signatures.glade2.h:
 #: ../tool/seahorse-notification.c:651
 msgid "Unknown Signature"
-msgstr ""
+msgstr "Signatura desconeguda"
 
 #: ../tool/seahorse-notification.c:655
 msgid "Bad or forged signature. The signed data was modified."
@@ -147,7 +148,7 @@ msgstr ""
 
 #: ../tool/seahorse-notification.c:656
 msgid "Bad Signature"
-msgstr ""
+msgstr "Marrida signatura"
 
 #: ../tool/seahorse-notification.c:664
 msgid "Couldn't verify signature."
@@ -155,7 +156,7 @@ msgstr ""
 
 #: ../tool/seahorse-notify.xml.h:1
 msgid "Notification Messages"
-msgstr ""
+msgstr "Messatges de notificacion"
 
 #: ../tool/seahorse-passphrase.c:200
 msgid "Passphrase"
@@ -173,29 +174,29 @@ msgstr "Confirmar :"
 #: ../tool/seahorse-passphrase.c:355
 #, c-format
 msgid "Wrong passphrase."
-msgstr ""
+msgstr "Frasa secreta incorrècta."
 
 #: ../tool/seahorse-passphrase.c:359
 #, c-format
 msgid "Enter new passphrase for '%s'"
-msgstr ""
+msgstr "Picatz la novèla frasa secreta per « %s »"
 
 #: ../tool/seahorse-passphrase.c:361
 #, c-format
 msgid "Enter passphrase for '%s'"
-msgstr ""
+msgstr "Picatz la frasa secreta per « %s »"
 
 #: ../tool/seahorse-passphrase.c:364
 msgid "Enter new passphrase"
-msgstr ""
+msgstr "Picatz la novèla frasa secreta"
 
 #: ../tool/seahorse-passphrase.c:366
 msgid "Enter passphrase"
-msgstr ""
+msgstr "Picatz la frasa secreta"
 
 #: ../tool/seahorse-pgp-encrypted.desktop.in.in.h:1
 msgid "Decrypt File"
-msgstr ""
+msgstr "Deschifrar lo fichièr"
 
 #: ../tool/seahorse-pgp-keys.desktop.in.in.h:1
 msgid "Import Key"
@@ -203,7 +204,7 @@ msgstr "Importar una clau"
 
 #: ../tool/seahorse-pgp-signature.desktop.in.in.h:1
 msgid "Verify Signature"
-msgstr ""
+msgstr "Verificar la signatura"
 
 #: ../tool/seahorse-progress.xml.h:1
 msgid "Progress Title"
@@ -215,7 +216,7 @@ msgstr "Importar de clau a partir del fichièr"
 
 #: ../tool/mate-seahorse-tool.c:63
 msgid "Encrypt file"
-msgstr ""
+msgstr "Chifrar lo fichièr"
 
 #: ../tool/mate-seahorse-tool.c:65
 msgid "Sign file with default key"
@@ -223,15 +224,15 @@ msgstr ""
 
 #: ../tool/mate-seahorse-tool.c:67
 msgid "Encrypt and sign file with default key"
-msgstr ""
+msgstr "Chifrar e signar lo fichièr amb la clau per defaut"
 
 #: ../tool/mate-seahorse-tool.c:69
 msgid "Decrypt encrypted file"
-msgstr ""
+msgstr "Deschifrar lo fichièr chifrat"
 
 #: ../tool/mate-seahorse-tool.c:71
 msgid "Verify signature file"
-msgstr ""
+msgstr "Verificar la signatura del fichièr"
 
 #: ../tool/mate-seahorse-tool.c:73
 msgid "Read list of URIs on standard in"
@@ -239,7 +240,7 @@ msgstr ""
 
 #: ../tool/mate-seahorse-tool.c:75
 msgid "file..."
-msgstr ""
+msgstr "fichièr…"
 
 #: ../tool/mate-seahorse-tool.c:169
 msgid "Choose Recipients"
@@ -314,11 +315,11 @@ msgstr ""
 
 #: ../tool/mate-seahorse-tool.c:697
 msgid "File Encryption Tool"
-msgstr ""
+msgstr "Aisina de chiframent de fichièrs"
 
 #: ../tool/mate-seahorse-tool.c:713
 msgid "Encrypting"
-msgstr ""
+msgstr "Chiframent"
 
 #: ../tool/mate-seahorse-tool.c:714
 #, c-format
@@ -327,7 +328,7 @@ msgstr ""
 
 #: ../tool/mate-seahorse-tool.c:722
 msgid "Signing"
-msgstr ""
+msgstr "Signatura"
 
 #: ../tool/mate-seahorse-tool.c:723
 #, c-format
@@ -345,7 +346,7 @@ msgstr ""
 
 #: ../tool/mate-seahorse-tool.c:735
 msgid "Decrypting"
-msgstr ""
+msgstr "Deschiframent"
 
 #: ../tool/mate-seahorse-tool.c:736
 #, c-format
@@ -354,7 +355,7 @@ msgstr ""
 
 #: ../tool/mate-seahorse-tool.c:741
 msgid "Verifying"
-msgstr ""
+msgstr "Verificacion"
 
 #: ../tool/mate-seahorse-tool.c:742
 #, c-format
@@ -395,7 +396,7 @@ msgstr "Rar (.rar)"
 
 #: ../tool/mate-seahorse-tool-files.c:137
 msgid "Tar uncompressed (.tar)"
-msgstr ""
+msgstr "Tar descompressat (.tar)"
 
 #: ../tool/mate-seahorse-tool-files.c:138
 msgid "Tar compressed with bzip (.tar.bz)"
@@ -459,7 +460,7 @@ msgid "<b>%s%s</b>"
 msgstr "<b>%s%s</b>"
 
 #: ../tool/mate-seahorse-tool-files.c:345
-#, fuzzy, c-format
+#, c-format
 msgid "You have selected %d file"
 msgid_plural "You have selected %d files"
 msgstr[0] "Avètz seleccionat %d fichièr"
@@ -487,6 +488,8 @@ msgstr ""
 #: ../tool/seahorse-util.c:173
 msgid "Decryption failed. You probably do not have the decryption key."
 msgstr ""
+"Lo deschiframent a fracassat. Dispausatz probablement pas de la clau de "
+"deschiframent."
 
 #: ../tool/seahorse-util.c:223
 msgid "%Y-%m-%d"
@@ -512,7 +515,7 @@ msgstr "Totes los fichièrs"
 
 #: ../tool/seahorse-util.c:748
 msgid "Archive files"
-msgstr ""
+msgstr "Fichièrs d’archius"
 
 #: ../tool/seahorse-util.c:777
 msgid ""
